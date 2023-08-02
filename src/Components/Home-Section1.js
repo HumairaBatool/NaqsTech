@@ -11,51 +11,51 @@ import img1 from "../img/Group.png";
 import img2 from "../img/Group 1000001863.png";
 function SocialIcons() {
   return (
-    <div className="flex px-12 py-2 bg-[#F48029]">
+    <div className="flex pl-16  py-2 bg-[#F48029]">
       <a
-        href="https://www.facebook.com/"
+        href="https://www.facebook.com/NaqsTechDigital"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon
           icon={faFacebook}
-          className=" px-5 w-6 h-6 text-blue-600"
+          className=" px-1 w-6 h-6 text-black"
         />
       </a>
       <a
-        href="https://www.linkedin.com/"
+        href="https://www.linkedin.com/company/naqstechdigital/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon
           icon={faLinkedin}
-          className="px-2 w-6 h-6 text-blue-800"
+          className="px-1 w-6 h-6 text-black"
         />
       </a>
       <a
-        href="https://www.instagram.com/"
+        href="https://www.instagram.com/naqstechdigital/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon
           icon={faInstagram}
-          className="px-2 w-6 h-6 text-pink-600"
+          className="px-1 w-6 h-6 text-black"
         />
       </a>
       <a
-        href="https://www.pinterest.com/"
+        href="https://www.pinterest.com/NaqsTechDigital/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FontAwesomeIcon
           icon={faPinterest}
-          className=" px-2 w-6 h-6 text-red-600"
+          className=" px-1 w-6 h-6 text-black"
         />
       </a>
-      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FNaqsTechDigital" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon
           icon={faTwitter}
-          className="px-2 w-6 h-6 text-blue-400"
+          className="px-1 w-6 h-6 text-black"
         />
       </a>
     </div>
@@ -71,19 +71,19 @@ function MenuBar() {
       <div className="flex space-x-5 ">
         {/* Navigation links */}
         <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\App.js"
+          href="/"
           className="font-sans text-xl text-white hover:text-[#F48029]"
         >
           HOME
         </a>
         <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\App.js"
+          href="/About-Us.js"
           className="font-sans text-xl text-white hover:text-[#F48029]"
         >
           ABOUT US
         </a>
         <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\App.js"
+          href="C:\Users\Admin\Desktop\React\naqs-tech\src\About-Us.js"
           className="font-sans text-xl text-white hover:text-[#F48029]"
         >
           SERVICES
@@ -95,7 +95,7 @@ function MenuBar() {
           BLOGS
         </a>
         <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\App.js"
+          href="C:\Users\Admin\Desktop\React\naqs-tech\src\Components\Contact-Us.js"
           className=" font-sans text-xl text-white hover:text-[#F48029]"
         >
           CONTACT US
@@ -104,9 +104,10 @@ function MenuBar() {
     </nav>
   );
 }
-function Body1() {
+function Section1() {
   return (
-    <div className="bg-[#F48029] max-auto">
+    <div className="bg-[#F48029] max-auto pb-32">
+    <SocialIcons></SocialIcons>
       <MenuBar></MenuBar>
       <div className="flex max-auto font-poppins text-white px-6">
         <div className="basis-[50%] text-left px-12">
@@ -138,4 +139,4 @@ function Body1() {
   );
 }
 
-export { SocialIcons, Body1 };
+export default Section1;

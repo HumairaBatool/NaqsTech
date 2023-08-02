@@ -18,7 +18,7 @@ function SocialIcons() {
       >
         <FontAwesomeIcon
           icon={faFacebook}
-          className="pr-1 w-6 h-6 text-blue-600"
+          className="pr-1 w-6 h-6 text-white"
         />
       </a>
       <a
@@ -28,7 +28,7 @@ function SocialIcons() {
       >
         <FontAwesomeIcon
           icon={faLinkedin}
-          className="pr-1 w-6 h-6 text-blue-800"
+          className="pr-1 w-6 h-6 text-white"
         />
       </a>
       <a
@@ -38,7 +38,7 @@ function SocialIcons() {
       >
         <FontAwesomeIcon
           icon={faInstagram}
-          className="pr-1  w-6 h-6 text-pink-600"
+          className="pr-1  w-6 h-6 text-white"
         />
       </a>
       <a
@@ -48,20 +48,19 @@ function SocialIcons() {
       >
         <FontAwesomeIcon
           icon={faPinterest}
-          className="pr-1  w-6 h-6 text-red-600"
+          className="pr-1  w-6 h-6 text-white"
         />
       </a>
       <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FNaqsTechDigital" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon
           icon={faTwitter}
-          className="pr-1  w-6 h-6 text-blue-400"
+          className="pr-1  w-6 h-6 text-white"
         />
       </a>
     </div>
   );
 }
-
-function AboutUs() {
+function ContactUs() {
   return (
     <div className="bg-[#F48029] p-12  ">
       <div className=" bg-white  py-3  mx-20  rounded-lg">
@@ -88,7 +87,7 @@ function AboutUs() {
                     fill="white"
                   />
                 </svg>
-                <p className="text-white pl-3">naqstech@gmail.com</p>
+                <p className="text-white pl-3">info@naqstechdigital.com </p>
               </div>
               <br></br>
               <div className="container mx-auto">
@@ -273,4 +272,4 @@ function AboutUs() {
     </div>
   );
 }
-export default AboutUs;
+export default ContactUs;

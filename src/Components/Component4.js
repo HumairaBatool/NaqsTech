@@ -1,15 +1,12 @@
-import React from "react";
+import React from 'react';
 import img1 from "../img/Rectangle 66.png";
 import img2 from "../img/Rectangle 67.png";
 import img3 from "../img/Rectangle 68.png";
 import img4 from "../img/Rectangle 56.png";
-import img5 from "../img/Rectangle 56 (1).png";
-import img6 from "../img/Rectangle 56 (2).png";
 
-function Section3() {
-  return (
-    <div className="bg-white  max-auto pt-20">
-      <div className="bg-[#F48029] max-auto">
+function Component4 (){
+    return(
+<div className="bg-[#F48029] max-auto">
         <div className="flex grid grid-cols-7 text-left max-auto text-white">
           <div className="col-span-4 text-left py-20 px-16">
             <p className="pt-20 pb-6 text-4xl font-bold">
@@ -37,27 +34,26 @@ function Section3() {
                 <img
                   src={img3}
                   alt=""
-                  className=" relative top-[-45px] object-cover w-full h-50%"
+                  className=" relative top-[-50px] object-cover w-full h-50%"
                 />
               </div>
-              <div>
+              <div >
                 <img
                   src={img2}
                   alt=""
-                  className=" pt-20 pr-20 object-cover w-full h-50%"
+                  className=" relative top-[-70px] pt-20 pr-20 object-cover w-full h-50%"
                 />
 
                 <img
                   src={img4}
                   alt=""
-                  className="pb-20 pr-20  pt-4 object-cover w-full h-50%"
+                  className="relative top-[-70px] pb-20 pr-20  pt-4 object-cover w-full h-50%"
                 />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  );
+    );
 }
-export default Section3;
+export default Component4;

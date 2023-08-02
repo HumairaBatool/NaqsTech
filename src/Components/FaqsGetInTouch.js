@@ -1,6 +1,6 @@
 import React from "react";
 
-function Section4() {
+function FaqsGetInTouch() {
   return (
     <div className="px-20 py-6">
       <div className="grid grid-cols-2">
@@ -205,4 +205,4 @@ function Section4() {
     </div>
   );
 }
-export default Section4;
+export default FaqsGetInTouch;
