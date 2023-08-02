@@ -3,12 +3,14 @@
 
 # Blog post needs to be dynamic 
 # font-styele needs to be implemented
+# In about us page upwork icon needed to upload
+# Latest news me space issue
 
 
 
 
 
-
+# Create a dev branch using va cmd & git cmds
 
 
 
