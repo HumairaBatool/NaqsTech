@@ -9,6 +9,7 @@ import FaqsGetInTouch from './FaqsGetInTouch';
 import Slider from './Slider';
 import Section3 from "./Home-Section3";
 import HamzaLatestNews from './Hamza-Latest-News';
+import Footer from "./Footer";
 function Home() {
   return (
     <div>
@@ -22,6 +23,7 @@ function Home() {
       {/*Slider Code */}
       <Section3></Section3>
       <HamzaLatestNews></HamzaLatestNews>
+      <Footer></Footer>
     </div>
   );
 }

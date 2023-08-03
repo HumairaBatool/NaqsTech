@@ -1,28 +1,17 @@
 import React from "react";
 import FaqsGetInTouch from "./FaqsGetInTouch";
 import Slider from "./Slider";
-import LatestNews from "./Latest-News";
+import LatestNews from "./Hamza-Latest-News";
 import HideShowText from "./Hidden-Text-GD";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faLinkedin,
-  faInstagram,
-  faPinterest,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
 import Cards from "./GraphicDesignCards";
 import Reviews from './Reviews';
 import img1 from "../img/Rectangle 72.png";
 import img2 from "../img/Group 1000001863.png";
-import img3 from "../img/Group 1000001828.png";
-import img4 from "../img/Group 1000001830.png";
-import img5 from "../img/Group 1000001826.png";
-import img6 from "../img/Group 1000001827.png";
 import img7 from "../img/Rectangle 73.png";
 import img8 from "../img/Rectangle 74.png";
 //impages for component4
 import img9 from "../img/Our-Portfolio-1-736x1024.webp";
+import Footer from "./Footer";
 
 function Component4() {
   return (
@@ -53,111 +42,16 @@ function Component4() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
 
-function SocialIcons() {
-  return (
-    <div className="flex pl-16  py-2 bg-[#F48029]">
-      <a
-        href="https://www.facebook.com/NaqsTechDigital"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon
-          icon={faFacebook}
-          className=" px-1 w-6 h-6 text-black"
-        />
-      </a>
-      <a
-        href="https://www.linkedin.com/company/naqstechdigital/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon
-          icon={faLinkedin}
-          className="px-1 w-6 h-6 text-black"
-        />
-      </a>
-      <a
-        href="https://www.instagram.com/naqstechdigital/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon
-          icon={faInstagram}
-          className="px-1 w-6 h-6 text-black"
-        />
-      </a>
-      <a
-        href="https://www.pinterest.com/NaqsTechDigital/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon
-          icon={faPinterest}
-          className=" px-1 w-6 h-6 text-black"
-        />
-      </a>
-      <a
-        href="https://twitter.com/i/flow/login?redirect_after_login=%2FNaqsTechDigital"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon icon={faTwitter} className="px-1 w-6 h-6 text-black" />
-      </a>
-    </div>
-  );
-}
-function MenuBar() {
-  return (
-    <nav className="flex items-center justify-between bg-black p-4">
-      <div className="bg-black max-auto px-12 flex max-auto ">
-        <div className="px-5"></div>
-      </div>
-      <div className="flex space-x-5 ">
-        {/* Navigation links */}
-        <a
-          href="/"
-          className="font-sans text-xl text-white hover:text-[#F48029]"
-        >
-          HOME
-        </a>
-        <a
-          href="/About-Us.js"
-          className="font-sans text-xl text-white hover:text-[#F48029]"
-        >
-          ABOUT US
-        </a>
-        <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\About-Us.js"
-          className="font-sans text-xl text-white hover:text-[#F48029]"
-        >
-          SERVICES
-        </a>
-        <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\App.js"
-          className="font-sans text-xl text-white hover:text-[#F48029]"
-        >
-          BLOGS
-        </a>
-        <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\Components\Contact-Us.js"
-          className=" font-sans text-xl text-white hover:text-[#F48029]"
-        >
-          CONTACT US
-        </a>
-      </div>
-    </nav>
-  );
-}
+
 function GraphicDesign() {
   return (
     <div>
       <div className="bg-[#F48029] max-auto pb-20 ">
-        <SocialIcons></SocialIcons>
-        <MenuBar></MenuBar>
         {/*First Section*/}
         <div className="flex max-auto text-white p-20 grid grid-cols-2">
           <div className="text-left ">
@@ -210,7 +104,7 @@ function GraphicDesign() {
 
 <Slider></Slider>
 
-      <div className="text-center bg-[#F48029] px-40">
+      <div className="text-center bg-[#F48029] lg:px-40 sm:px-5">
         <p className="pt-24 pb-6 text-5xl font-extrabold px-40">
           Shape your Visual Story
         </p>
@@ -260,7 +154,8 @@ function GraphicDesign() {
       <Reviews></Reviews>
       <div className="pt-20"> <Component4></Component4></div>
       <LatestNews></LatestNews>
-    </div>
+    <Footer></Footer>
+      </div>
   );
 }
 
