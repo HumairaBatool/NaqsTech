@@ -1,115 +1,19 @@
 import React from "react";
-import LatestNews from "./Latest-News";
+import LatestNews from "./Hamza-Latest-News";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
   faLinkedin,
-  faInstagram,
-  faPinterest,
-  faTwitter,
   faUpwork,
 } from "@fortawesome/free-brands-svg-icons";
 import img1 from "../img/Rectangle 110.png";
 import img2 from "../img/Group 1000001863.png";
+import Footer from "./Footer";
 
-function SocialIcons() {
-  return (
-    <div className="flex pl-16  py-2 bg-[#F48029]">
-      <a
-        href="https://www.facebook.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon
-          icon={faFacebook}
-          className=" px-1 w-6 h-6 text-black"
-        />
-      </a>
-      <a
-        href="https://www.linkedin.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon
-          icon={faLinkedin}
-          className="px-1 w-6 h-6 text-black"
-        />
-      </a>
-      <a
-        href="https://www.instagram.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon
-          icon={faInstagram}
-          className="px-1 w-6 h-6 text-black"
-        />
-      </a>
-      <a
-        href="https://www.pinterest.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FontAwesomeIcon
-          icon={faPinterest}
-          className=" px-1 w-6 h-6 text-black"
-        />
-      </a>
-      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faTwitter} className="px-1 w-6 h-6 text-black" />
-      </a>
-    </div>
-  );
-}
-function MenuBar() {
-  return (
-    <nav className="flex items-center justify-between bg-black p-6">
-      <div className="bg-black max-auto px-12 flex max-auto ">
-        <div className="px-5"></div>
-      </div>
-      <div className="flex space-x-5 ">
-        {/* Navigation links */}
-        <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\App.js"
-          className="font-sans text-xl text-white hover:text-[#F48029]"
-        >
-          HOME
-        </a>
-        <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\App.js"
-          className="font-sans text-xl text-white hover:text-[#F48029]"
-        >
-          ABOUT US
-        </a>
-        <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\App.js"
-          className="font-sans text-xl text-white hover:text-[#F48029]"
-        >
-          SERVICES
-        </a>
-        <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\App.js"
-          className="font-sans text-xl text-white hover:text-[#F48029]"
-        >
-          BLOGS
-        </a>
-        <a
-          href="C:\Users\Admin\Desktop\React\naqs-tech\src\App.js"
-          className=" font-sans text-xl text-white hover:text-[#F48029]"
-        >
-          CONTACT US
-        </a>
-      </div>
-    </nav>
-  );
-}
 function AboutUs() {
   return (
     <div className=" max-auto">
       <div className="bg-[#F48029] pb-5">
-        <SocialIcons></SocialIcons>
-        <MenuBar></MenuBar>
-        <div className="flex max-auto grid grid-cols-2 text-white px-20">
+        <div className="flex max-auto grid lg:grid-cols-2 sm:grid-cols-1 text-white px-20">
           <div className=" text-left pr-12">
             <p className="pt-20 text-4xl font-bold  leading-6">
               We Help Business to Grow{" "}
@@ -276,6 +180,7 @@ function AboutUs() {
       <div>
         <LatestNews></LatestNews>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

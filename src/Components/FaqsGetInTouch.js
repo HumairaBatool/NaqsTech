@@ -3,7 +3,7 @@ import React from "react";
 function FaqsGetInTouch() {
   return (
     <div className="px-20 py-6">
-      <div className="grid grid-cols-2">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1">
         <div>
           <div className="flex items-center pt-5 mr-40">
             <div className="w-20 h-0.5 bg-black my-5 "></div>
