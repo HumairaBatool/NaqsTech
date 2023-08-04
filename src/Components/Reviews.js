@@ -2,15 +2,15 @@ import React from "react";
 import rev1 from '../img/rev1.jpeg';
 import rev2 from '../img/rev2.jpeg';
 import rev3 from '../img/rev3.webp';
-import star1 from '../img/star1.jpeg';
+import star1 from '../img/5stars.webp';
 function Reviews() {
   return (
     <div className="bg-[#FAFAFA] mt-2 pb-16">
       {/* Reviews Section */}
-      <div className="text-[40px] font-[700] p-14 ml-[80px]">Reviews</div>
+      <div className="text-[35px] font-[700] p-14 ml-[80px]">Reviews</div>
       <div className="grid lg:grid-cols-2 sm:gird-cols-1 gap-6 ml-32 mr-32">
         {/* First Review */}
-        <div className="bg-white text-[22px] text-[#737373]  rounded-md hover:shadow-2xl p-8">
+        <div className="bg-white text-[18px] text-[#737373]  rounded-md hover:shadow-2xl p-8">
           {/* Review Text */}
           <p>
             I am incredibly impressed with the SEO services provided by NaqsTech
@@ -33,7 +33,7 @@ function Reviews() {
           </div>
         </div>
         {/* 2nd Review */}
-        <div className="bg-white text-[22px] text-[#737373]  rounded-md hover:shadow-2xl p-8">
+        <div className="bg-white text-[18px] text-[#737373]  rounded-md hover:shadow-2xl p-8">
           {/* Review Text */}
           <p>
             NaqsTech Digital's SEO portfolio speaks volumes about its expertise

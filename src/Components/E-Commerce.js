@@ -17,7 +17,7 @@ function ECommerce() {
     <div className=" max-auto">
       {/*First Section*/}
       <div className="bg-[#F48029] max-auto pb-20 ">
-        <div className="flex max-auto text-white pt-20 px-20 grid lg:grid-cols-2 sm:grid-cols-1">
+        <div className=" max-auto text-white pt-20 px-20 grid lg:grid-cols-2 sm:grid-cols-1">
           <div className="text-left ">
             <p className=" text-5xl font-bold leading-tight">
               Leading E-Commerce Marketing Services in California

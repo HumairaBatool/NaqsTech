@@ -13,7 +13,7 @@ function AboutUs() {
   return (
     <div className=" max-auto">
       <div className="bg-[#F48029] pb-5">
-        <div className="flex max-auto grid lg:grid-cols-2 sm:grid-cols-1 text-white px-20">
+        <div className=" max-auto grid lg:grid-cols-2 sm:grid-cols-1 text-white px-20">
           <div className=" text-left pr-12">
             <p className="pt-20 text-4xl font-bold  leading-6">
               We Help Business to Grow{" "}
@@ -37,7 +37,7 @@ function AboutUs() {
         </div>
       </div>
 
-      <div className="flex max-auto grid grid-cols-3 px-20">
+      <div className=" max-auto grid grid-cols-3 px-20">
         <div>
           <div className="flex pt-20">
             <div className="text-4xl text-black font-bold pr-2">Our</div>
@@ -107,7 +107,7 @@ function AboutUs() {
                   name="name"
                   id="name"
                   placeholder="Full Name"
-                  class="w-100 mt-2 py-3 px-3 py-5 bg-gray-100 text-black py-5 rounded"
+                  class="w-100 mt-2  px-3 py-3 bg-gray-100 text-black rounded"
                 />
               </div>
               <div class="flex flex-col py-5">
@@ -119,7 +119,7 @@ function AboutUs() {
                   name="name"
                   id="name"
                   placeholder="Email"
-                  class="w-100 mt-2 py-3 px-3 py-5 bg-gray-100 text-black py-5 rounded"
+                  class="w-100 mt-2 py-3 px-3  bg-gray-100 text-black  rounded"
                 />
               </div>
             </div>
@@ -133,7 +133,7 @@ function AboutUs() {
                   name="name"
                   id="name"
                   placeholder="Phone Number"
-                  class="w-100 mt-2 py-3 px-3 py-5 bg-gray-100 text-black  rounded"
+                  class="w-100 mt-2 py-3 px-3  bg-gray-100 text-black  rounded"
                 />
               </div>
               <div class="flex flex-col">
@@ -142,7 +142,7 @@ function AboutUs() {
                 </label>
                 <select
                   id="category"
-                  className="w-100 mt-2 py-3 px-3 py-5 bg-gray-100 text-black rounded"
+                  className="w-100 mt-2 py-3 px-3 bg-gray-100 text-black rounded"
                 >
                   <option value="General Inquiry">Select Service</option>
                   <option value="Feedback">SEO</option>

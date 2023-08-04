@@ -10,7 +10,7 @@ function FaqsGetInTouch() {
             <div className="text-3xl font-extrabold pl-5 pt-1">FAQ'S</div>
           </div>
           <div className="py-8 mx-20  ">
-            <div className="py-2 grid grid-cols-6 bg-gray-100 py-8 px-3 rounded font-bold">
+            <div className=" grid grid-cols-6 bg-gray-100 py-8 px-3 rounded font-bold">
               <div className="col-span-5 ">
                 What are digital marketing services?
               </div>
@@ -131,7 +131,7 @@ function FaqsGetInTouch() {
                     name="name"
                     id="name"
                     placeholder="Full Name"
-                    class="w-100 mt-2 py-3 px-3 py-5 bg-gray-100 text-black py-5 rounded"
+                    class="w-100 mt-2 py-3 px-3  bg-gray-100 text-black  rounded"
                   />
                 </div>
                 <div class="flex flex-col py-5">
@@ -143,7 +143,7 @@ function FaqsGetInTouch() {
                     name="name"
                     id="name"
                     placeholder="Email"
-                    class="w-100 mt-2 py-3 px-3 py-5 bg-gray-100 text-black py-5 rounded"
+                    class="w-100 mt-2 py-3 px-3  bg-gray-100 text-black  rounded"
                   />
                 </div>
               </div>
@@ -157,7 +157,7 @@ function FaqsGetInTouch() {
                     name="name"
                     id="name"
                     placeholder="Phone Number"
-                    class="w-100 mt-2 py-3 px-3 py-5 bg-gray-100 text-black  rounded"
+                    class="w-100 mt-2 py-3 px-3  bg-gray-100 text-black  rounded"
                   />
                 </div>
                 <div class="flex flex-col">
@@ -166,7 +166,7 @@ function FaqsGetInTouch() {
                   </label>
                   <select
                     id="category"
-                    className="w-100 mt-2 py-3 px-3 py-5 bg-gray-100 text-black rounded"
+                    className="w-100 mt-2 py-3 px-3  bg-gray-100 text-black rounded"
                   >
                     <option value="General Inquiry">Select Service</option>
                     <option value="Feedback">SEO</option>

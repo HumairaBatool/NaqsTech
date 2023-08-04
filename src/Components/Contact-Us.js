@@ -71,7 +71,7 @@ function ContactUs() {
     <div>
       <div className="bg-[#F48029] px-12 py-16  overflow-hidden">
         <div className=" bg-white  py-3  mx-20  rounded-lg">
-          <div className=" mx-3 rounded-lg flex grid lg:grid-cols-2 sm:grid-cols-1">
+          <div className=" mx-3 rounded-lg  grid lg:grid-cols-2 sm:grid-cols-1">
             <div className="bg-[#F48029] rounded-lg container">
               <div className="   pl-10 pr-12">
                 <p className=" text-white text-3xl font-bold pt-10 pb-8 ">
@@ -207,7 +207,7 @@ function ContactUs() {
                   <p>Select Subject?</p>
                 </div>
                 <div className="flex py-2">
-                  <div className="flex items-center mb-4 px-4">
+                  <div className="flex items-center mb-4 px-2">
                     <input
                       type="checkbox"
                       id="checkbox1"
@@ -235,7 +235,7 @@ function ContactUs() {
                       Web Development
                     </label>
                   </div>
-                  <div className="flex items-center mb-4 px-4">
+                  <div className="flex items-center mb-4 px-2">
                     <input
                       type="checkbox"
                       id="checkbox1"

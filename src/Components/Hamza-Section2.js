@@ -11,7 +11,7 @@ class HamzaSection2 extends Component{
             <div className="grid grid-cols-2 gap-4 ml-14">
                 {/* First Column */}
                 <div>
-                    <div className="grid grid-cols-6  mt-32">
+                    <div className="grid grid-cols-6 mt-24">
                         <div className="w-24 h-0.5 my-4 ml-5 mr-12 bg-[#363636]"></div>
                         <div  style={mystyle} className=" font-simple text-2xl mx-8 col-span-5 mb-4 text-[#363636]">
                         VALUE YOUR MONEY AND TIME

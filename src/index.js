@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -13,7 +12,8 @@ import ContactUs from "./Components/Contact-Us";
 import Blog from './Components/Blog';
 import GraphicDesign from './Components/Graphic-Design';
 import ECommerce from './Components/E-Commerce';
-
+import WebDevelopment from './Components/WebDevelopment';
+import SEO from './Components/SEO';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
@@ -26,6 +26,9 @@ root.render(
     <Route path="/blog" element={<Blog />} />
     <Route path="/graphicdesign" element={<GraphicDesign />} />
     <Route path="/ecommerce" element={<ECommerce />} />
+    <Route path="/webdevelopment" element={<WebDevelopment/>} />
+    <Route path="/seo" element={<SEO />} />
+
 
   </Routes>
 </Router>,

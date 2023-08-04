@@ -7,7 +7,7 @@ import img4 from "../img/Rectangle 56.png";
 function Component4 (){
     return(
 <div className="bg-[#F48029] max-auto">
-        <div className="flex grid grid-cols-7 text-left max-auto text-white">
+        <div className=" grid grid-cols-7 text-left max-auto text-white">
           <div className="col-span-4 text-left py-20 px-16">
             <p className="pt-20 pb-6 text-4xl font-bold">
               Explore the Mastery Of Our Portfolio
