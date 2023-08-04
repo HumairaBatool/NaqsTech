@@ -1,6 +1,4 @@
 import React from "react";
-
-import img1 from "../img/Group.png";
 import img2 from "../img/Group 1000001863.png";
 
 

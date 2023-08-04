@@ -20,9 +20,9 @@ class Blog extends Component {
       <div style={mystyle}>
         <div className="h-12 bg-[#F48029]"></div>
   
-        <div className="flex pt-8 bg-[#F48029]">
+        <div className="flex bg-[#F48029]">
           {/* First Column */}
-          <div className="w-1/3 h-[700px] mt-4 pt-16 ml-20 text-white">
+          <div className="w-1/2 mt-6 h-[700px] ml-20 text-white">
             <h1 className="text-[22px]">Our Latest News</h1>
             <h1 className="text-[40px] font-bold mt-6">Blogs</h1>
             <p className="text-[25px] leading-10 mt-6">
@@ -35,7 +35,7 @@ class Blog extends Component {
 
           {/* Second Column */}
           <div>
-            <img className="flex-grow h-[680px] pb-36 pt-10 ml-36" src={image} alt="Banner" />
+            <img className="flex-grow mr-20 mt-8 w-[550px] h-[520px] pb-10" src={image} alt="Banner" />
           </div>
         </div>
 

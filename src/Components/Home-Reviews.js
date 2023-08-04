@@ -1,12 +1,11 @@
-import React, {Component} from "react";
+import React from "react";
 
 import image from '../img/5stars.webp';
-import image2 from '../img/review1.webp';
-import image3 from '../img/review2.webp';
+import image2 from '../img/rev1.jpeg';
+import image3 from '../img/rev2.jpeg';
 
 
-class HomeReviews extends Component{
-    render(){
+function HomeReviews(){
         const mystyle = {
             fontFamily: "Poppins, sans-serif",
             color: "#363636",
@@ -23,12 +22,12 @@ class HomeReviews extends Component{
                     <div className="flex justify-start mt-6">
                         <div className="w-1/20">
                             {/* Content for the left column */}
-                            <img className="mt-4" src={image2}/>
+                            <img className="mt-4"alt='' src={image2}/>
                         </div>
                         <div className="w-1/16 mt-5 ml-5   ">
                             {/* Content for the right column */}
                             <h1 className="ml-1">Marina.T</h1>
-                           <img className="w-28" src={image}/>   
+                           <img className="w-28"alt=''  src={image}/>   
                         </div>
                     </div> 
                 </div>
@@ -38,18 +37,17 @@ class HomeReviews extends Component{
                     <div className="flex justify-start mt-6">
                         <div className="w-1/20">
                             {/* Content for the left column */}
-                            <img className="mt-4" src={image3}/>
+                            <img className="mt-4"alt=''  src={image3}/>
                         </div>
                         <div className="w-1/16 mt-5 ml-5   ">
                             {/* Content for the right column */}
                             <h1 className="ml-1 text-white">William.M</h1>
-                           <img className="w-28" src={image}/>   
+                           <img className="w-28"alt=''  src={image}/>   
                         </div>
                     </div> 
                 </div>
             </div>
         );
     }
-}
 
 export default HomeReviews;

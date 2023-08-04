@@ -10,7 +10,7 @@ import img8 from '../img/E-Commerce Display Advertising.png';
 
 function Card({ image, title }) {
   return (
-    <div className="bg-[#F48029] rounded-lg w-70 h-80 flex flex-col items-center justify-center">
+    <div className="bg-[#F48029] rounded-lg w-70 h-60 flex flex-col items-center justify-center">
       <img className="lg:px-14 py-5 " src={image} alt={title} />
       <p className="text-white font-semibold text-center pb-5">{title}</p>
     </div>
@@ -55,7 +55,7 @@ function ECommerceCards() {
   ];
 
   return (
-    <div className="grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-y-8 gap-x-4 lg:mx-80 sm:mx-20">
+    <div className="grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-y-8 gap-x-4 lg:mx-60 sm:mx-20">
       {/* Map through the cardsData array to create individual cards */}
       {CardsData.map((card, index) => (
         <Card key={index} title={card.title} image={card.image} />
