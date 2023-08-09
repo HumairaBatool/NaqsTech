@@ -17,8 +17,10 @@ import SEO from './Components/SEO';
 import Footer from './Components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <div className='w-full xs:max-w-full xs:overflow-hidden'>
   <Router>
   
+
   <MenuBar />
   <Routes>
     <Route path="/home" element={<Home />} />
@@ -36,7 +38,7 @@ root.render(
 </Router>,
 
 
-
+</div>
 );
 
 
