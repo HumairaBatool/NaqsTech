@@ -8,7 +8,6 @@ import image3 from '../img/digitals.webp';
 import image4 from '../img/creative.webp';
 import image5 from '../img/e-commerce.webp';
 import image6 from '../img/digitalmarketing.webp';
-import Footer from "./Footer";
 
 class Blog extends Component {
   render() {
@@ -151,7 +150,6 @@ class Blog extends Component {
                     </p>
             </div>
         </div>
-        <Footer></Footer>
       </div>
     );
   }

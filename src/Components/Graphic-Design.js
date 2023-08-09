@@ -1,7 +1,7 @@
 import React from "react";
 import FaqsGetInTouch from "./FaqsGetInTouch";
 import Slider from "./Slider";
-import LatestNews from "./Hamza-Latest-News";
+import LatestNews from "./Latest-News";
 import HideShowText from "./Hidden-Text-GD";
 import Cards from "./GraphicDesignCards";
 import Reviews from './Reviews';
@@ -11,7 +11,6 @@ import img7 from "../img/Rectangle 73.png";
 import img8 from "../img/Rectangle 74.png";
 //impages for component4
 import img9 from "../img/Our-Portfolio-1-736x1024.webp";
-import Footer from "./Footer";
 
 function Component4() {
   return (
@@ -141,7 +140,7 @@ function GraphicDesign() {
         </div>
       </div>
       <div>
-        <div className="text-5xl text-[#363636] text-black font-extrabold leading-relaxed pl-40 pr-40 text-center pt-60">
+        <div className="text-5xl text-black font-extrabold leading-relaxed pl-40 pr-40 text-center pt-60">
           Our Creative Process of Graphic Design Company California
         </div>
 
@@ -154,7 +153,6 @@ function GraphicDesign() {
       <Reviews></Reviews>
       <div className="pt-20"> <Component4></Component4></div>
       <LatestNews></LatestNews>
-    <Footer></Footer>
       </div>
   );
 }

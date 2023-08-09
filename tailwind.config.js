@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'mobile': '320px', // New breakpoint at 320px
+      },
+    },
   },
   plugins: [],
-}
+
+};

@@ -1,8 +1,7 @@
 import React from "react";
 import image from "../img/1seo.svg";
 import Fifth from "./FaqsGetInTouch";
-import LatestNews from "./Hamza-Latest-News";
-import Footer from "./Footer";
+import LatestNews from "./Latest-News";
 
 import image2 from "../img/icon2.webp";
 import image3 from "../img/icon3.webp";
@@ -346,7 +345,6 @@ function SEO() {
       </div>
       {/* Latest News */}
       <LatestNews />
-    <Footer></Footer>
       </div>
   );
 }

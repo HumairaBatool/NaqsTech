@@ -1,5 +1,5 @@
 import React from "react";
-import LatestNews from "./Hamza-Latest-News";
+import LatestNews from "./Latest-News";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
@@ -7,15 +7,14 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import img1 from "../img/Rectangle 110.png";
 import img2 from "../img/Group 1000001863.png";
-import Footer from "./Footer";
 
 function AboutUs() {
   return (
     <div className=" max-auto">
       <div className="bg-[#F48029] pb-5">
-        <div className=" max-auto grid lg:grid-cols-2 sm:grid-cols-1 text-white px-20">
-          <div className=" text-left pr-12">
-            <p className="pt-20 text-4xl font-bold  leading-6">
+        <div className=" max-auto grid lg:grid-cols-2 text-white sm:px-6 xl:px-20">
+          <div className=" text-left pr-12 overflow-hidden">
+            <p className="sm:pt-12 xl:pt-20 text-4xl font-bold  xl:leading-6 leading-10">
               We Help Business to Grow{" "}
             </p>
             <br />
@@ -26,13 +25,13 @@ function AboutUs() {
               updated knowledge, and modern technologies.
             </p>
             <div className="py-12">
-              <button className="py-3 px-5 rounded bg-black p-1 hover:bg-white hover:text-black text-white">
+              <button className=" xl:py-3 px-5 rounded bg-black p-1 hover:bg-white hover:text-black text-white">
                 Get Free Consultation
               </button>
             </div>
           </div>
           <div>
-            <img className="py-20" src={img2} alt="" />
+            <img className="xl:pt-20 sm:pt-12" src={img2} alt="" />
           </div>
         </div>
       </div>
@@ -180,7 +179,6 @@ function AboutUs() {
       <div>
         <LatestNews></LatestNews>
       </div>
-      <Footer></Footer>
     </div>
   );
 }

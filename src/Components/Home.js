@@ -6,10 +6,8 @@ import Section2 from "./Home-Section2";
 import HamzaSection2 from './Hamza-Section2';
 import HomeReviews from './Home-Reviews';
 import FaqsGetInTouch from './FaqsGetInTouch';
-import Slider from './Slider';
 import Section3 from "./Home-Section3";
-import HamzaLatestNews from './Hamza-Latest-News';
-import Footer from "./Footer";
+import HamzaLatestNews from './Latest-News';
 function Home() {
   return (
     <div>
@@ -23,7 +21,6 @@ function Home() {
       {/*Slider Code */}
       <Section3></Section3>
       <HamzaLatestNews></HamzaLatestNews>
-      <Footer></Footer>
     </div>
   );
 }

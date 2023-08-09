@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import news1 from "../img/wp.webp";
 import news2 from "../img/analysis.webp";
 import news3 from "../img/digitals.webp";
