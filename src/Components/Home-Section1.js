@@ -5,8 +5,8 @@ import img2 from "../img/Group 1000001863.png";
 function Section1() {
   return (
     <div className="bg-[#F48029] max-auto pb-32">
-      <div className="flex max-auto font-poppins text-white px-6">
-        <div className="basis-[50%] text-left px-12">
+      <div className="flex max-auto font-poppins text-white px-6 grid lg:grid-cols-2 xs:grid-cols-1">
+        <div className="text-left px-12">
           <p className="pt-12 text-xl ">
             We are the Creative Best Digital Marketing Company
           </p>
@@ -27,8 +27,8 @@ function Section1() {
           </div>
         </div>
 
-        <div className="basis-[50%]">
-          <img className="py-12" src={img2} alt="" />
+        <div className="">
+          <img className="py-12 xs:w-full" src={img2} alt="" />
         </div>
       </div>
     </div>
