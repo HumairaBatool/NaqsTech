@@ -8,6 +8,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
+import Footer from "../Components/Footer";
 
 function SocialIcons() {
   return (
@@ -68,10 +69,10 @@ function SocialIcons() {
 function ContactUs() {
   return (
     <div>
-      <div className="bg-[#F48029] lg:px-28 lg:py-16  overflow-hidden">
-        <div className=" bg-white  py-2  lg:mx-20 mobile:mx-5 rounded-lg">
-          <div className=" mx-3 rounded-lg overflow-hidden grid  lg:grid-cols-2">
-            <div className="bg-[#F48029] rounded-lg container lg:w-3/4">
+      <div className="bg-[#F48029] px-12 py-16  overflow-hidden">
+        <div className=" bg-white  py-3  mx-20  rounded-lg">
+          <div className=" mx-3 rounded-lg  grid lg:grid-cols-2 sm:grid-cols-1">
+            <div className="bg-[#F48029] rounded-lg container">
               <div className="   pl-10 pr-12">
                 <p className=" text-white text-3xl font-bold pt-10 pb-8 ">
                   Contact Information
@@ -151,9 +152,9 @@ function ContactUs() {
                 </div>
               </div>
             </div>
-            <div className=" container relative lg:left-[-80px]">
+            <div className=" p-12 container w-full md:basis-[64%]">
               <form>
-                <div className="grid xl:grid-cols-2 lg:grid-cols-1 py-10">
+                <div className="grid grid-cols-2 py-10">
                   <div className="flex flex-col mb-4 pr-4">
                     <label className=" text-[#8D8D8D]" htmlFor="username">
                       First Name
@@ -177,7 +178,7 @@ function ContactUs() {
                     />
                   </div>
                 </div>
-                <div className="grid  xl:grid-cols-2 lg:grid-cols-1 ">
+                <div className="grid grid-cols-2">
                   <div className="flex flex-col mb-4 pr-4">
                     <label className=" text-[#8D8D8D]" htmlFor="username">
                       Email
@@ -211,11 +212,11 @@ function ContactUs() {
                       type="checkbox"
                       id="checkbox1"
                       name="checkbox1"
-                      className="xl:mr-2"
+                      className="mr-2"
                     />
                     <label
                       htmlFor="checkbox1"
-                      className="text-[#8D8D8D] text-[12px] xl:text-sm pl-1"
+                      className="text-[#8D8D8D] text-sm"
                     >
                       SEO
                     </label>
@@ -225,11 +226,11 @@ function ContactUs() {
                       type="checkbox"
                       id="checkbox1"
                       name="checkbox1"
-                      className="xl:mr-2"
+                      className="mr-2"
                     />
                     <label
                       htmlFor="checkbox1"
-                      className="text-[#8D8D8D] xl:text-sm leading-tight text-[12px] pl-1"
+                      className="text-[#8D8D8D] text-sm"
                     >
                       Web Development
                     </label>
@@ -239,11 +240,11 @@ function ContactUs() {
                       type="checkbox"
                       id="checkbox1"
                       name="checkbox1"
-                      className="xl:mr-2"
+                      className="mr-2"
                     />
                     <label
                       htmlFor="checkbox1"
-                      className="text-[#8D8D8D] xl:text-sm leading-tight pl-1 text-[12px]"
+                      className="text-[#8D8D8D] text-sm"
                     >
                       Graphic Design
                     </label>
@@ -253,11 +254,11 @@ function ContactUs() {
                       type="checkbox"
                       id="checkbox1"
                       name="checkbox1"
-                      className="xl:mr-2"
+                      className="mr-2"
                     />
                     <label
                       htmlFor="checkbox1"
-                      className="text-[#8D8D8D] text-[12px] xl:text-sm xl:flex-nowrap leading-tight pl-1"
+                      className="text-[#8D8D8D] text-sm"
                     >
                       E-Commerce
                     </label>
@@ -288,6 +289,7 @@ function ContactUs() {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
