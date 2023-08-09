@@ -1,5 +1,5 @@
 import React from "react";
-import LatestNews from "./Hamza-Latest-News";
+import LatestNews from "./Latest-News";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
@@ -7,7 +7,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import img1 from "../img/Rectangle 110.png";
 import img2 from "../img/Group 1000001863.png";
-import Footer from "./Footer";
 
 function AboutUs() {
   return (
@@ -180,7 +179,6 @@ function AboutUs() {
       <div>
         <LatestNews></LatestNews>
       </div>
-      <Footer></Footer>
     </div>
   );
 }

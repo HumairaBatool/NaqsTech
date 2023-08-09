@@ -14,6 +14,7 @@ import GraphicDesign from './Components/Graphic-Design';
 import ECommerce from './Components/E-Commerce';
 import WebDevelopment from './Components/WebDevelopment';
 import SEO from './Components/SEO';
+import Footer from './Components/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
@@ -31,6 +32,7 @@ root.render(
 
 
   </Routes>
+  <Footer></Footer>
 </Router>,
 
 

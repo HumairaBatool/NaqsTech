@@ -10,8 +10,7 @@ import ECommerceResponsiveCards from './E-Commerce-Responsive-Cards';
 import ECommerceCards from "./E-Commerce-Cards";
 import GetInTouch from "./FaqsGetInTouch";
 import Reviews from "./Reviews";
-import LatestNews from "./Hamza-Latest-News";
-import Footer from "./Footer";
+import LatestNews from "./Latest-News";
 function ECommerce() {
   return (
     <div className=" max-auto">
@@ -140,7 +139,6 @@ function ECommerce() {
       <GetInTouch></GetInTouch>
       <Reviews></Reviews>
       <LatestNews></LatestNews>
-      <Footer></Footer>
     </div>
   );
 }

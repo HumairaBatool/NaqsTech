@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import WebCards from "./WebCards.js";
 import OurClients from "./Home-Section2";
 import Section5 from "./FaqsGetInTouch";
-import LatestNews from "./Hamza-Latest-News";
+import LatestNews from "./Latest-News.js";
 
 import image from '../img/bannerweb.svg';
 import image2 from '../img/icon5.webp';
@@ -18,7 +18,6 @@ import star1 from '../img/5stars.webp';
 import rev1 from '../img/rev1.jpeg';
 import rev2 from '../img/rev2.jpeg';
 import rev3 from '../img/rev3.webp';
-import Footer from "./Footer.js";
 
 
 class Web extends Component {
@@ -220,7 +219,6 @@ class Web extends Component {
                 </div>                
                 {/* Latest News */}
                 <LatestNews/>
-                <Footer></Footer>
             </div>
         );
     }

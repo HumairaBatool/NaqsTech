@@ -8,7 +8,6 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-import Footer from "../Components/Footer";
 
 function SocialIcons() {
   return (
@@ -69,10 +68,10 @@ function SocialIcons() {
 function ContactUs() {
   return (
     <div>
-      <div className="bg-[#F48029] px-2 xl:px-12 py-16  overflow-hidden">
-        <div className=" bg-white  py-3  mx-20  rounded-lg">
-          <div className=" mx-3 rounded-lg overflow-hidden grid  lg:grid-cols-2 ">
-            <div className="bg-[#F48029] rounded-lg container mr-28">
+      <div className="bg-[#F48029] lg:px-28 lg:py-16  overflow-hidden">
+        <div className=" bg-white  py-2  lg:mx-20 mobile:mx-5 rounded-lg">
+          <div className=" mx-3 rounded-lg overflow-hidden grid  lg:grid-cols-2">
+            <div className="bg-[#F48029] rounded-lg container lg:w-3/4">
               <div className="   pl-10 pr-12">
                 <p className=" text-white text-3xl font-bold pt-10 pb-8 ">
                   Contact Information
@@ -152,7 +151,7 @@ function ContactUs() {
                 </div>
               </div>
             </div>
-            <div className=" p-12 container ">
+            <div className=" container relative lg:left-[-80px]">
               <form>
                 <div className="grid xl:grid-cols-2 lg:grid-cols-1 py-10">
                   <div className="flex flex-col mb-4 pr-4">
@@ -178,7 +177,7 @@ function ContactUs() {
                     />
                   </div>
                 </div>
-                <div className="grid  xl:grid-cols-2 lg:grid-cols-1">
+                <div className="grid  xl:grid-cols-2 lg:grid-cols-1 ">
                   <div className="flex flex-col mb-4 pr-4">
                     <label className=" text-[#8D8D8D]" htmlFor="username">
                       Email
@@ -289,7 +288,6 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 }
