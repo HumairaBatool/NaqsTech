@@ -84,7 +84,7 @@ function MenuBar() {
   return (
     <div className="sticky top-0 z-50">
       <SocialIcons></SocialIcons>
-      <nav className="flex items-center bg-black py-4">
+      <nav className="flex items-center bg-black py-4 hidden xs:block xs:overflow-hidden">
         <div className="pl-16">
           <img src={logo} alt=" " />
         </div>

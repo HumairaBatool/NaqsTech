@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        'mobile': '320px', // New breakpoint at 320px
+        'xs': '320px', // New breakpoint at 320px
+        'lg': '1025px', // Adjust this breakpoint as needed
+
       },
     },
   },
