@@ -5,7 +5,7 @@ import img2 from "../img/Group 1000001863.png";
 function Section1() {
   return (
     <div className="bg-[#F48029] max-auto pb-32">
-      <div className="flex max-auto font-poppins text-white px-6 grid lg:grid-cols-2 xs:grid-cols-1">
+      <div className="flex max-auto font-poppins text-white px-6  grid lg:grid-cols-2 xs:grid-cols-1">
         <div className="text-left px-12">
           <p className="pt-12 text-xl ">
             We are the Creative Best Digital Marketing Company
