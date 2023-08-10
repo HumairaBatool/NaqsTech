@@ -4,10 +4,10 @@ import img2 from "../img/Home-Banner.webp";
 
 function Section1() {
   return (
-    <div className="bg-[#F48029] max-auto pb-32">
+    <div className="bg-[#F48029] max-auto pb-28">
       <div className="flex max-auto font-poppins text-white px-6 xs:px-3 grid lg:grid-cols-2 xs:grid-cols-1">
-        <div className="text-left px-12 sm:px-2 xs:px-2">
-          <p className="pt-12 text-xl ">
+        <div className="pt-12 text-left lg:px-11 xs:px-4"  >
+          <p className="text-xl ">
             We are the Creative Best Digital Marketing Company
           </p>
           <p className="pt-8 text-4xl font-bold leading-10">
@@ -20,14 +20,14 @@ function Section1() {
             team delivers results-driven digital solutions to businesses of all
             sizes.
           </p>
-          <div className="py-12">
+          <div className="pt-12">
             <button className="py-3 px-5 rounded bg-[#363636] p-1 hover:bg-white hover:text-black text-white">
               Get Free Consultation
             </button>
           </div>
         </div>
 
-        <div className="">
+        <div className="lg:pr-12">
           <img className="py-12 xs:w-full" src={img2} alt="" />
         </div>
       </div>
