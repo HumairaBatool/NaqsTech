@@ -26,7 +26,7 @@ function Card() {
         ];
 
         return(
-            <div className=" space-x-5 flex justify-evenly align-middle grid-cols-4  px-48 -mt-16 mb-44">
+            <div className=" space-x-5 flex justify-evenly align-middle grid md:grid-cols-4 xs:grid-cols-2 px-48 xs:px-5 -mt-16 mb-44">
                 {datials.map(el=> <InnerCard image={el.image} heading={el.heading} />)}
             </div>
         );
