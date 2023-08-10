@@ -2,14 +2,14 @@ import React from "react";
 
 function FaqsGetInTouch() {
   return (
-    <div className="px-20 py-6">
+    <div className="lg:px-20 md:px-4  py-6">
       <div className="grid lg:grid-cols-2 sm:grid-cols-1">
         <div>
-          <div className="flex items-center pt-5 mr-40">
+          <div className="flex items-center pt-5 mr-40 pl-5">
             <div className="w-20 h-0.5 bg-black my-5 "></div>
             <div className="text-3xl font-extrabold pl-5 pt-1">FAQ'S</div>
           </div>
-          <div className="py-8 mx-20  ">
+          <div className="py-8 lg:mx-20 md:mx-4 ">
             <div className=" grid grid-cols-6 bg-gray-100 py-8 px-3 rounded font-bold">
               <div className="col-span-5 ">
                 What are digital marketing services?
