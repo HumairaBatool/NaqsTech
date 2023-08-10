@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "../img/Group 1000001863.png";
+import img2 from "../img/Home-Banner.webp";
 
 
 function Section1() {
