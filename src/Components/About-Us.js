@@ -31,7 +31,7 @@ function AboutUs() {
             </div>
           </div>
           <div>
-            <img className="xl:pt-20 sm:pt-12" src={img2} alt="" />
+            <img className="xl:pt-20 sm:pt-12 xs:nw-full" src={img2} alt="" />
           </div>
         </div>
       </div>
