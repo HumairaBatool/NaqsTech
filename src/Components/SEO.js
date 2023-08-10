@@ -20,9 +20,9 @@ import SEO9 from "../img/SEO9.webp";
 import SEO10 from "../img/SEO10.webp";
 
 import star1 from "../img/5stars.webp";
-import rev1 from '../img/rev1.jpeg';
-import rev2 from '../img/rev2.jpeg';
-import rev3 from '../img/rev3.webp';
+import rev1 from "../img/rev1.jpeg";
+import rev2 from "../img/rev2.jpeg";
+import rev3 from "../img/rev3.webp";
 
 function SEO() {
   const mystyle = {
@@ -32,53 +32,53 @@ function SEO() {
   return (
     <div style={mystyle}>
       <div className="h-12 bg-[#F48029]"></div>
+      <div className=" bg-[#F48029]">
+        <div className="h-[620px] grid lg:grid-cols-2 md:grid-cols-1 lg:pl-14 lg:pr-28">
+          {/* First Column */}
+          <div className="lg:h-400px lg:mt-4  text-white md:mx-7">
+            <h1 className="md:text-[50px] md:font-[600] lg:font-[700] lg:leading-tight">
+              Professional SEO Service In California
+            </h1>
+            <h1 className="mt-3 text-[20px] leading-9">
+              Regardless of your company’s size, we provide professional SEO
+              services in California to help you conquer the web and attract
+              highly targeted organic traffic. We employ state-of-the-art
+              tactics to boost your website’s performance and ensure its
+              continued viability with the help of our team of seasoned SEO
+              experts and a data-driven approach.
+            </h1>
+            <button className="md:mt-8 bg-[#363636] w-28 rounded-md h-14 align-middle hover:bg-white hover:text-black">
+              Talk Now
+            </button>
+          </div>
 
-      <div className="flex bg-[#F48029] h-[620px]">
-        {/* First Column */}
-        <div className="w-1/2 h-400px mt-7 ml-20 text-white">
-          <h1 className="text-[55px] font-[700] leading-tight">
-            Professional SEO Service In California
-          </h1>
-          <h1 className="mt-3 text-[22px] leading-9">
-            Regardless of your company’s size, we provide professional SEO
-            services in California to help you conquer the web and attract
-            highly targeted organic traffic. We employ state-of-the-art tactics
-            to boost your website’s performance and ensure its continued
-            viability with the help of our team of seasoned SEO experts and a
-            data-driven approach.
-          </h1>
-          <button className="mt-8 bg-[#363636] w-28 rounded-md h-14 align-middle hover:bg-white hover:text-black">
-            Talk Now
-          </button>
-        </div>
-
-        {/* Second Column */}
-        <div>
-          <img
-            className=" w-[580px] mr-20 pb-36 -mt-36 ml-8 h-[900px]"
-            src={image}
-            alt="Banner"
-          />
+          {/* Second Column */}
+          <div>
+            <img
+              className=" lg:mr-20 lg:pb-36 lg:-mt-36 lg:ml-8 lg:h-[900px] lg:px-0  md:px-40 md:pt-10 md:pb-32 "
+              src={image}
+              alt="Banner"
+            />
+          </div>
         </div>
       </div>
-
       {/* Card Section */}
-      <div className="grid grid-cols-3 gap-4 ml-48 mr-48 -mt-20">
+      <div className="grid grid-cols-3 gap-4 lg:mx-48 md:px-7 lg:-mt-20">
         {/* First column */}
         <div className="bg-white p-4 rounded-md shadow-lg h-52 text-center text-[20px] shadow-[#F48029]">
-          <img src={image2} class="w-20 ml-[39%] mt-8"  alt='' />
+          <img src={image2} class="w-20 ml-[39%] mt-8" alt="" />
           <h1 className="text-xl mt-4">Web Development</h1>
         </div>
 
         {/* Second column */}
         <div className="bg-white p-4 rounded-md shadow-lg h-52 text-center text-[20px] shadow-[#F48029]">
-          <img src={image3} class="w-20 ml-[39%] mt-8"  alt='' />
+          <img src={image3} class="w-20 ml-[39%] mt-8" alt="" />
           <h1 className="text-xl mt-4">Graphic Design</h1>
         </div>
 
         {/* Third column */}
         <div className="bg-white p-4 rounded-md shadow-lg h-52 text-center text-[20px] shadow-[#F48029]">
-          <img src={image4} class="w-20 ml-[39%] mt-8" alt=''  />
+          <img src={image4} class="w-20 ml-[39%] mt-8" alt="" />
           <h1 className="text-xl mt-8">E-commerce Services</h1>
         </div>
       </div>
@@ -103,7 +103,7 @@ function SEO() {
             conquer search rankings, and reign supreme in the digital sphere
             with
             <a href="#" class="text-[#c36] hover:text-[#333366] ml-2">
-               NaqsTech Digital.
+              NaqsTech Digital.
             </a>
           </h1>
         </div>
@@ -113,7 +113,7 @@ function SEO() {
       <div className="grid grid-cols-3 gap-5 ml-32 mr-32 mt-16 text-white">
         {/* First Column */}
         <div className="bg-[#363636] rounded-md h-[350px]">
-          <img src={SEO1} class="w-20 ml-[39%] mt-14" alt=''  />
+          <img src={SEO1} class="w-20 ml-[39%] mt-14" alt="" />
           <h1 className="text-[#F48029] text-[20px] font-[700] ml-[31%] mt-6">
             On-Page SEO
           </h1>
@@ -126,7 +126,7 @@ function SEO() {
 
         {/* Second Column */}
         <div className="bg-[#363636] rounded-md h-[350px]">
-          <img src={SEO2} class="w-20 ml-[39%] mt-14"  alt='' />
+          <img src={SEO2} class="w-20 ml-[39%] mt-14" alt="" />
           <h1 className="text-[#F48029] text-[20px] font-[700] ml-[31%] mt-6">
             Off-Page SEO
           </h1>
@@ -139,7 +139,7 @@ function SEO() {
 
         {/* Third Column */}
         <div className="bg-[#363636] rounded-md h-[350px]">
-          <img src={SEO3} class="w-20 ml-[39%] mt-14" alt=''  />
+          <img src={SEO3} class="w-20 ml-[39%] mt-14" alt="" />
           <h1 className="text-[#F48029] text-[20px] font-[700] ml-[21%] mt-6">
             Content Optimization
           </h1>
@@ -155,7 +155,7 @@ function SEO() {
       <div className="grid grid-cols-3 gap-5 ml-32 mr-32 mt-12 mb-10 text-white">
         {/* First Column */}
         <div className="bg-[#363636] rounded-md h-[350px]">
-          <img src={SEO4} class="w-20 ml-[39%] mt-14"  alt='' />
+          <img src={SEO4} class="w-20 ml-[39%] mt-14" alt="" />
           <h1 className="text-[#F48029] text-[20px] font-[700] ml-[24%] mt-6">
             SEO Audit Services
           </h1>
@@ -169,7 +169,7 @@ function SEO() {
 
         {/* Second Column */}
         <div className="bg-[#363636] rounded-md h-[350px]">
-          <img src={SEO5} class="w-20 ml-[39%] mt-14"  alt='' />
+          <img src={SEO5} class="w-20 ml-[39%] mt-14" alt="" />
           <h1 className="text-[#F48029] text-[20px] font-[700] ml-[25%] mt-6">
             Keyword Research
           </h1>
@@ -182,7 +182,7 @@ function SEO() {
 
         {/* Third Column */}
         <div className="bg-[#363636] rounded-md h-[350px]">
-          <img src={SEO6} class="w-20 ml-[39%] mt-14" alt=''  />
+          <img src={SEO6} class="w-20 ml-[39%] mt-14" alt="" />
           <h1 className="text-[#F48029] text-[20px] font-[700] ml-[16%] mt-6">
             Back Links & Link Building
           </h1>
@@ -345,7 +345,7 @@ function SEO() {
       </div>
       {/* Latest News */}
       <LatestNews />
-      </div>
+    </div>
   );
 }
 

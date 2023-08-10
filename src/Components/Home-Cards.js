@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import InnerCard from './InnerCard';
 import img1 from '../img/icon5.webp';
 import img2 from '../img/icon2.webp';
