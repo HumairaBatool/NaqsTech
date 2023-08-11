@@ -11,11 +11,11 @@ function Section3() {
     <div className="bg-white  max-auto pt-20">
       <div className="bg-[#F48029] max-auto">
         <div className="flex grid lg:grid-cols-7 text-left max-auto text-white">
-          <div className="col-span-4 text-left lg:self-center sm:px-10 xs:px-6">
-            <p className="lg:text-5xl md:text-4xl xss:text-3xl xs:text-2xl font-bold lg:pt-20 pb-6 ">
+          <div className="col-span-4 text-left lg:self-center sm:px-10 xs:px-6 xs:py-8">
+            <p className="lg:text-5xl md:text-4xl xss:text-3xl xs:text-2xl font-bold lg:pt-20 lg:pb-6 xs:pb-3">
               Explore the Mastery Of Our Portfolio
             </p>
-            <p className="text-2xl pt-2 ">
+            <p className="lg:text-2xl xs:text-xl pt-2 ">
               Trust our proven portfolio, we create impact and one investment at
               a time.
             </p>
@@ -26,7 +26,7 @@ function Section3() {
             </div>
           </div>
 
-          <div className="col-span-3 lg:-mb-36 xs:mb-0">
+          <div className="lg:col-span-3 xs:col-span-4 lg:-mb-36 xs:mb-0 lg:px-0 xs:px-6">
             <div className="w-full gap-4">
               <div>
                 <img
