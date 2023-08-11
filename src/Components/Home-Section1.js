@@ -10,7 +10,7 @@ function Section1() {
           <p className="text-xl ">
             We are the Creative Best Digital Marketing Company
           </p>
-          <p className="pt-8 text-4xl font-bold leading-10">
+          <p className="pt-8 lg:text-5xl md:text-4xl xss:text-3xl xs:text-lg font-bold lg:!leading-[55px] xss:!leading-[40px] xs:!leading-[30px]">
             Welcome to NaqsTech Digital Your Partner in Digital Growth
           </p>
           <br />
