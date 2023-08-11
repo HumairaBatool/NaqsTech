@@ -5,9 +5,9 @@ import HamzaSection1 from './Hamza-Section1';
 import Section2 from "./Home-Section2";
 import HamzaSection2 from './Hamza-Section2';
 import HomeReviews from './Home-Reviews';
-import FaqsGetInTouch from './FaqsGetInTouch';
+import FaqsGetInTouch from './HomeFaqsGetInTouch';
 import Section3 from "./Home-Section3";
-import HamzaLatestNews from './Latest-News';
+import LatestNews from './Latest-News';
 function Home() {
   return (
     <div>
@@ -20,7 +20,7 @@ function Home() {
       <FaqsGetInTouch></FaqsGetInTouch>
       {/*Slider Code */}
       <Section3></Section3>
-      <HamzaLatestNews></HamzaLatestNews>
+      <LatestNews></LatestNews>
     </div>
   );
 }

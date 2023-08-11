@@ -8,7 +8,7 @@ import img6 from "../img/ecommerce6.svg";
 import img7 from "../img/ecommerce7.svg";
 import ECommerceResponsiveCards from './E-Commerce-Responsive-Cards';
 import ECommerceCards from "./E-Commerce-Cards";
-import GetInTouch from "./FaqsGetInTouch";
+import GetInTouch from "./HomeFaqsGetInTouch";
 import Reviews from "./Reviews";
 import LatestNews from "./Latest-News";
 function ECommerce() {

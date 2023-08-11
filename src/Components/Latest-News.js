@@ -9,8 +9,8 @@ function NewsItem({ imageSrc, title, content }) {
   return (
     <div className="shadow-lg overflow-hidden rounded bg-white">
       <img src={imageSrc} alt="" />
-      <h3 className="p-8 text-[23px] font-[700]">{title}</h3>
-      <p className="px-8 text-[20px]">{content}</p>
+      <h3 className="md:p-8 xs:p-7 md:text-[23px] xs:text[16px] font-[700]">{title}</h3>
+      <p className="md:px-8 xs:px-7 md:pb-0 xs:pb-7 md:text-[20px] xs:text-[14px] ">{content}</p>
     </div>
   );
 }
@@ -48,10 +48,10 @@ function LatestNews() {
     <div className="pt-10">
       <div className="max-auto">
         <div className="relative">
-          <div className="pt-20 text-center text-[45px] font-[700]">
+          <div className="md:pt-20 xs:pt-2 md:pb-0 xs:pb-14 text-center md:text-[45px] xs:text-[26px] md:font-[700] xs:font-[700]">
             Latest News
           </div>
-          <div className="p-20 gap-6 grid lg:grid-cols-3 sm:grid-cols-1 auto-rows-fr">
+          <div className=" xs:p-7 md:p-20 gap-6 grid lg:grid-cols-3 xs:grid-cols-1 auto-rows-fr">
             {newsItems.map((item, index) => (
               <NewsItem
                 key={index}

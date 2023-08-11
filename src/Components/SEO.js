@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../img/1seo.svg";
-import Fifth from "./FaqsGetInTouch";
+import Fifth from "./seoFAQS";
 import LatestNews from "./Latest-News";
 import Reviews from "./Reviews";
 import image2 from "../img/icon2.webp";
