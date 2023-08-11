@@ -20,7 +20,7 @@ FaqsItem.propTypes = {
 function seoFaqsGetInTouch() {
     const faqsItems = [
         {
-          question: "What are digital marketing services?",
+          question: "What is an SEO Service?",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ function seoFaqsGetInTouch() {
           ),
         },
         {
-          question: "What is a digital marketing agency?",
+          question: "What are the types of SEO services?",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ function seoFaqsGetInTouch() {
           ),
         },
         {
-          question: "How do I start a digital marketing business?",
+          question: "What are SEO tools?",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -74,25 +74,7 @@ function seoFaqsGetInTouch() {
           ),
         },
         {
-          question: "Which agency is best for digital marketing?",
-          icon: (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="34"
-              height="34"
-              viewBox="0 0 34 34"
-              fill="none"
-              className="pl-4"
-            >
-              <path
-                d="M17 30.9211C9.99697 30.8288 4.34231 25.1741 4.25001 18.1711C4.34231 11.168 9.99697 5.51339 17 5.42108C24.003 5.51339 29.6577 11.168 29.75 18.1711C29.6577 25.1741 24.003 30.8288 17 30.9211ZM17 8.25442C11.5532 8.32613 7.15505 12.7242 7.08334 18.1711C7.15505 23.6179 11.5532 28.016 17 28.0878C22.4469 28.016 26.845 23.6179 26.9167 18.1711C26.845 12.7242 22.4469 8.32613 17 8.25442ZM18.4167 25.2544H15.5833V19.5877H9.91668V16.7544H15.5833V11.0878H18.4167V16.7544H24.0833V19.5877H18.4167V25.2544ZM28.747 9.25742L24.4843 5.00742L26.4803 3L30.7445 7.25L28.747 9.256V9.25742ZM5.25443 9.25742L3.24701 7.25L7.48426 3L9.48884 5.006L5.25443 9.256V9.25742Z"
-                fill="#363636"
-              />
-            </svg>
-          ),
-        },
-        {
-          question: "How can I get digital marketing services?",
+          question: "What are technical SEO and on-page SEO?",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
