@@ -10,9 +10,9 @@ function Section3() {
   return (
     <div className="bg-white  max-auto pt-20">
       <div className="bg-[#F48029] max-auto">
-        <div className="flex grid grid-cols-7 text-left max-auto text-white">
-          <div className="col-span-4 text-left py-20 px-16">
-            <p className="pt-20 pb-6 text-4xl font-bold">
+        <div className="flex grid lg:grid-cols-7 text-left max-auto text-white">
+          <div className="col-span-4 text-left lg:self-center sm:px-10 xs:px-6">
+            <p className="lg:text-5xl md:text-4xl xss:text-3xl xs:text-2xl font-bold lg:pt-20 pb-6 ">
               Explore the Mastery Of Our Portfolio
             </p>
             <p className="text-2xl pt-2 ">
@@ -26,32 +26,15 @@ function Section3() {
             </div>
           </div>
 
-          <div className="col-span-3">
-            <div className="w-full h-40 grid grid-cols-2 gap-4">
+          <div className="col-span-3 lg:-mb-36 xs:mb-0">
+            <div className="w-full gap-4">
               <div>
                 <img
                   src={img1}
                   alt=""
-                  className=" relative top-[-45px] pb-6 object-cover w-full h-50%"
-                />
-                <img
-                  src={img3}
-                  alt=""
-                  className=" relative top-[-45px] object-cover w-full h-50%"
-                />
-              </div>
-              <div>
-                <img
-                  src={img2}
-                  alt=""
-                  className=" pt-20 pr-20 object-cover w-full h-50%"
+                  className=" relative lg:top-[-45px] xs:top-0 lg:w-3/4 xs:w-full"
                 />
 
-                <img
-                  src={img4}
-                  alt=""
-                  className="pb-20 pr-20  pt-4 object-cover w-full h-50%"
-                />
               </div>
             </div>
           </div>

@@ -7,25 +7,25 @@ function HamzaSection1(){
     };
 
     return (
-      <div className="grid grid-cols-2 xs:grid-cols-1 lg:grid-cols-2 gap-4 -mt-10 mb-28">
+      <div className="grid grid-cols-2 xs:grid-cols-1 lg:grid-cols-2 gap-4 -mt-10 mb-28 xs:-mt-20 xs:mb-10">
         {/* First Column */}
-        <div className="ml-14">
+        <div className="lg:ml-14 xs:ml-6">
             <div className="grid lg:grid-cols-6 xs:grid-cols-2 ">
-                <div className="w-24 h-0.5 my-4 lg:ml-5 xs:ml-0 lg:mr-12 xs:mr-0 bg-[#363636]"></div>
-                <div  style={mystyle} className="line-8 font-simple text-2xl xs:text-1xl lg:text-2xl mx-8 xs:mx-0 lg:mx-8 col-span-5 mb-4 text-gray-800">
+                <div className="md-w-24 xs:w-14 h-0.5 my-4 lg:ml-5 xs:ml-0 lg:mr-12 xs:mr-0 bg-[#363636]"></div>
+                <div  style={mystyle} className="line-8 font-simple lg:text-2xl xss:text-lg xs:text-sm mx-8 xs:mx-0 lg:mx-8 col-span-5 mb-4 text-gray-800">
                 INNOVATION & EVALUATION
                 </div>
             </div>
-            <div style={mystyle} className="lg:text-6xl xs:text-4xl font-bold text-gray-800 leading-[80px] !leading-[80px] leading-[60px] xs:!leading-[40px]">
+            <div style={mystyle} className="lg:text-6xl md:text-4xl xss:text-3xl xs:text-lg font-bold text-gray-800 lg:!leading-[80px] md:!leading-[60px] xss:!leading-[40px] xs:!leading-[30px]">
                 Start your Product
             </div>
-            <div style={mystyle} className="lg:text-6xl xs:text-4xl text-gray-800 leading-[80px] !leading-[80px] leading-[60px] xs:!leading-[60px]">
+            <div style={mystyle} className="lg:text-6xl md:text-4xl xss:text-3xl xs:text-lg text-gray-800 md:!leading-[80px] md:!leading-[60px] xss:!leading-[40px] xs:!leading-[30px]">
                 idea on the right foot
             </div>
         </div>
 
         {/* Second Column */}
-        <div style={mystyle} className="text-2xl line-8 ml-14 mr-20 lg:mt-10 xs:mt-0 text-gray-800 leading-[1.5] !leading-[1.5] text-[25px] !text-[25px]">
+        <div style={mystyle} className="lg:text-2xl xss:text-base xs:text-sm line-8 lg:ml-14 xs:ml-6 lg:mr-20 xs:mr-8 lg:mt-10 xs:mt-0 text-gray-800 leading-[1.5] !leading-[1.5] lg:!text-[25px]">
           We love unlocking business ambitions. We create magic around client
           goals. Embrace the force that drives results and work with our
           creative digital marketing agency.
