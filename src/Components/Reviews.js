@@ -5,12 +5,12 @@ import rev3 from "../img/rev3.webp";
 import star1 from "../img/5stars.webp";
 function Reviews() {
   return (
-    <div className="bg-[#FAFAFA] mt-2 pb-16">
+    <div className="bg-[#FAFAFA] mt-2 pb-16 md:px-0 xs:px-7">
       {/* Reviews Section */}
-      <div className="text-[35px] font-[700] lg:p-14 md: p-10 lg:ml-[80px] md:ml-0">Reviews</div>
+      <div className="text-[35px] font-[700] lg:p-14 md:p-10  lg:ml-[80px] md:ml-0 md:py-0 xs:py-4 md:text-left xs:text-center">Reviews</div>
       <div className="grid lg:grid-cols-2 md:gird-cols-1 gap-6 lg:mx-32 md:mx-7 ">
         {/* First Review */}
-        <div className="bg-white text-[18px] text-[#737373]  rounded-md hover:shadow-2xl lg:p-8 md:p-4">
+        <div className="bg-white md:text-[18px] xs:text-[14px] text-[#737373]  rounded-md hover:shadow-2xl xs: p-8 lg:p-8 md:p-4">
           {/* Review Text */}
           <p>
             I am incredibly impressed with the SEO services provided by NaqsTech
@@ -33,7 +33,7 @@ function Reviews() {
           </div>
         </div>
         {/* 2nd Review */}
-        <div className="bg-[#F48029] text-[22px] rounded-md hover:shadow-2xl p-8 text-white">
+        <div className="bg-[#F48029] md:text-[22px] xs:text-[14px] rounded-md hover:shadow-2xl p-8 text-white">
         {/* Review Text */}
         <p>
           I recently engaged NaqsTech Digital for SEO services, and their
@@ -56,7 +56,7 @@ function Reviews() {
       </div>
   
         {/* 3rd Review */}
-        <div className="bg-white text-[18px] text-[#737373]  rounded-md hover:shadow-2xl p-8">
+        <div className="bg-white md:text-[18px] xs:text-[14px] text-[#737373]  rounded-md hover:shadow-2xl p-8">
         {/* Review Text */}
         <p>
           NaqsTech Digital's SEO portfolio speaks volumes about its expertise
@@ -79,7 +79,7 @@ function Reviews() {
         </div>
       </div>
         {/* 4th Review */}
-        <div className="bg-[#F48029] text-[22px] rounded-md hover:shadow-2xl p-8 text-white">
+        <div className="bg-[#F48029] md:text-[22px] xs:text-[14px] rounded-md hover:shadow-2xl p-8 text-white">
           {/* Review Text */}
           <p>
             Amazing SEO service Agency. Highly satisfied with their team. They

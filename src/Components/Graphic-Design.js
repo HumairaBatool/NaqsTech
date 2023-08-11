@@ -1,5 +1,5 @@
 import React from "react";
-import FaqsGetInTouch from "./FaqsGetInTouch";
+import FaqsGetInTouch from "./HomeFaqsGetInTouch";
 import Slider from "./Slider";
 import LatestNews from "./Latest-News";
 import HideShowText from "./Hidden-Text-GD";
@@ -15,7 +15,7 @@ import img9 from "../img/Our-Portfolio-1-736x1024.webp";
 function Component4() {
   return (
     <div className="bg-[#F48029] max-auto ">
-      <div className="flex grid grid-cols-7 text-left max-auto text-white">
+      <div className=" grid grid-cols-7 text-left max-auto text-white">
         <div className="col-span-4 text-left py-20 px-16">
           <p className="pr-20 pt-20 pb-6 text-5xl font-extrabold leading-normal">
             Discover our Dynamic Portfolio

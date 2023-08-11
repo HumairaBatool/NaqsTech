@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import WebCards from "./WebCards.js";
 import OurClients from "./Home-Section2";
-import Section5 from "./FaqsGetInTouch";
+import Section5 from "./HomeFaqsGetInTouch";
 import LatestNews from "./Latest-News.js";
 
 import image from '../img/bannerweb.svg';
