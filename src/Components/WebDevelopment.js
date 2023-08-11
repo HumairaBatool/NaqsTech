@@ -29,12 +29,13 @@ class Web extends Component {
             color: "#363636",
         };
         return (
-            <div style={mystyle}>
+            <div className=" max-auto">
                 <div className="h-12 bg-[#F48029]"></div> 
+                
                 <div className="flex bg-[#F48029] h-[900px] pb-40 ">
                     {/* First Column */}
                     <div className=" w-1/2  h-400px  ml-20 text-white mt-24">
-                        <h1 className="text-[40px] font-[600] leading-tight">Innovative Web Development Services in California</h1>
+                        <h1 className="text-[40px] font-[600] leading-tight">Innovative Web Development Services in New York</h1>
                         <h1 className="mt-7 text-[22px]">Website is the ultimate weapon in your technical <br></br> arsenal.</h1>
                     <button className="mt-8 bg-[#363636] w-[250px] text-[18px] rounded-md h-14 align-middle hover:bg-white hover:text-black">
                         Get Free Consultation

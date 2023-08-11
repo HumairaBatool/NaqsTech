@@ -3,10 +3,11 @@ import LatestNews from "./Latest-News";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
-  faUpwork,
 } from "@fortawesome/free-brands-svg-icons";
 import img1 from "../img/Rectangle 110.png";
 import img2 from "../img/Group 1000001863.png";
+
+import upimg from '../img/upwork.png';
 
 function AboutUs() {
   return (
@@ -48,7 +49,7 @@ function AboutUs() {
           </div>
           <div>
             <div className="flex items-center pt-6 gap-3">
-              <div className="bg-black w-20 h-20 rounded-full flex items-center justify-center hover:bg-gray-900">
+              <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center hover:bg-gray-900">
                 <a
                   href="https://www.linkedin.com/in/zain-ul-abideen-19433b18a/"
                   target="_blank"
@@ -56,13 +57,20 @@ function AboutUs() {
                 >
                   <FontAwesomeIcon
                     icon={faLinkedin}
-                    className="px-1 w-9 h-9 text-white rounded "
+                    className="px-1 w-8 h-8 text-white rounded "
                   />
                 </a>{" "}
               </div>
 
               {/* Upwork icon */}
-              <div className="bg-black w-20 h-20 rounded-full flex items-center justify-center hover:bg-gray-900"></div>
+              <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center hover:bg-gray-800">
+                <a
+                  href="https://www.upwork.com/freelancers/~01027f6a79a00fec8a"
+                  target="_blank"
+                >
+                  <img className="w-8" src={upimg}></img>
+                </a>
+              </div>
             </div>
           </div>
         </div>
