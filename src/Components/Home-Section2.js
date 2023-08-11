@@ -15,7 +15,7 @@ function Section2() {
                 <img src={img1} alt=""></img>
               </div>
               <div className="w-0.5 h-full bg-white xs:ml-9 xss:ml-16 xss:ml-24 lg:ml-16 overflow-hidden "></div>
-              <div className="overflow-hidden my-6 -ml-12 lg:ml-0 lg:my-4">
+              <div className="overflow-hidden my-6 -ml-9 lg:ml-0 lg:my-4">
                 <img  src={img2} alt=""></img>
               </div>
             </div>
@@ -25,7 +25,7 @@ function Section2() {
                 <img src={img3} alt=""></img>
               </div>
               <div className="w-0.5 h-full bg-white xs:ml-9 xss:ml-16 xss:ml-24 lg:ml-16 overflow-hidden "></div>
-              <div className="overflow-hidden my-4 -ml-12 lg:ml-0 lg:my-4">
+              <div className="overflow-hidden my-4 -ml-9 lg:ml-0 lg:my-4">
                 <img src={img4} alt=""></img>
               </div>
             </div>
