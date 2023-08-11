@@ -14,9 +14,9 @@ function FaqsItem({ question, icon }) {
 
 function Reviews() {
   return (
-    <div className="bg-[#FAFAFA] mt-2 pb-16 md:px-0 xs:px-7">
+    <div className="bg-[#FAFAFA] mt-8 pb-16 md:px-0 xs:px-7">
       {/* Reviews Section */}
-      <div className="text-[35px] font-[700] lg:p-14 md:p-10  lg:ml-[80px] md:ml-0 md:py-0 xs:py-4 md:text-left xs:text-center">
+      <div className="md:text-[35px] xs:text-[28px] text-[#363636] font-[700] lg:p-14 md:p-10  lg:ml-[80px] md:ml-0 md:py-0 xs:py-4 md:text-left xs:text-center">
         Reviews
       </div>
       <div className="grid gird-cols-1 gap-6 lg:mx-32 md:mx-7 ">

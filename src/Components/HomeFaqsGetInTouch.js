@@ -112,29 +112,29 @@ function FaqsGetInTouch() {
   ];
 
   return (
-    <div className="lg:px-20 xs:px-7 py-6">
+    <div className="lg:px-20 py-6 md:px-10">
       <div className="grid lg:grid-cols-2 sx:grid-cols-1">
         <div>
           <div className="flex items-center pt-5 mr-40 pl-5">
-            <div className="w-20 h-0.5 bg-black my-5 "></div>
-            <div className="text-3xl font-extrabold pl-5 pt-1">FAQ'S</div>
+            <div className="md:w-24 xs:w-14 h-[1px] bg-black my-5 "></div>
+            <div className="text-3xl font-extrabold pl-5 pt-1 text-[#363636]">FAQ'S</div>
           </div>
-          <div className="md:my-8 lg:ml-24 md:ml-0 lg:mr-10 xs:mr-28 md:mr-0">
+          <div className="md:my-8 lg:ml-24 md:ml-0 xss:ml-6 xs:ml-2 lg:mr-10 md:mr-0  xss:mr-6 xs:mr-2">
             {faqsItems.map((item, index) => (
               <FaqsItem key={index} question={item.question} icon={item.icon} />
             ))}
           </div>
         </div>
-        <div className="lg:pl-20  md:pr-0 xs:mr-28 md:mr-0">
-          <div className="flex items-center pt-5">
-            <div className="xs:text-[26px] md:text-[30px] font-[700] md:pl-5 xs:pl-0 md:pr-2 ">
+        <div className="lg:pl-20 xs:px-2 xss:px-6 md:px-0">
+          <div className="flex items-center pt-5 ">
+            <div className="xs:text-[25px] md:text-[30px] text-[#363636] font-[700] md:pl-5 xs:pl-0 md:pr-2 ">
               GET IN TOUCH
             </div>
-            <div className="w-20 h-0.5 bg-black my-5 "></div>
+            <div className="md:w-24 xs:w-12 h-[1px] bg-[#363636] my-5 "></div>
           </div>
           <div>
             <form className="py-1">
-              <div className="grid md:grid-cols-2 xs:grid-cols-1 md:pl-5 xs:pl-0">
+              <div className="grid md:grid-cols-2 xs:grid-cols-1 xs:pl-0">
                 <div class="flex flex-col md:pr-4 md:py-5 xs:py-1">
                   <label for="name" class="hidden">
                     Your Name

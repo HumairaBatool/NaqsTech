@@ -11,12 +11,12 @@ function HamzaSection1(){
         {/* First Column */}
         <div className="lg:ml-14 xs:ml-6">
             <div className="grid lg:grid-cols-6 xs:grid-cols-2 ">
-                <div className="md-w-24 xs:w-14 h-0.5 my-4 lg:ml-5 xs:ml-0 lg:mr-12 xs:mr-0 bg-[#363636]"></div>
+                <div className="md:w-28 xs:w-16 h-[1px] my-4 lg:ml-5 xs:ml-0 lg:mr-12 xs:mr-0 bg-[#363636]"></div>
                 <div  style={mystyle} className="line-8 font-simple lg:text-2xl xss:text-lg xs:text-sm mx-8 xs:mx-0 lg:mx-8 col-span-5 mb-4 text-gray-800">
                 INNOVATION & EVALUATION
                 </div>
             </div>
-            <div style={mystyle} className="lg:text-6xl md:text-4xl xss:text-3xl xs:text-lg font-bold text-gray-800 lg:!leading-[80px] md:!leading-[60px] xss:!leading-[40px] xs:!leading-[30px]">
+            <div style={mystyle} className="lg:text-6xl md:text-4xl xss:text-3xl xs:text-lg font-bold text-gray-800 text-[#363636] lg:!leading-[80px] md:!leading-[60px] xss:!leading-[40px] xs:!leading-[30px]">
                 Start your Product
             </div>
             <div style={mystyle} className="lg:text-6xl md:text-4xl xss:text-3xl xs:text-lg text-gray-800 md:!leading-[80px] md:!leading-[60px] xss:!leading-[40px] xs:!leading-[30px]">
