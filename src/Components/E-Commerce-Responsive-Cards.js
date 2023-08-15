@@ -1,33 +1,32 @@
 import React, { Component } from "react";
 import InnerCard from "./InnerCard";
 
-import image1 from "../img/icon5.webp";
-import image2 from "../img/icon2.webp";
-import image3 from "../img/icon3.webp";
+import img2 from "../img/icon5.webp";
+import img3 from "../img/icon2.webp";
+import img4 from "../img/icon3.webp";
 
-function ECommerceResponsiveCards() {
-  return (
-    <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 ml-48 mr-48 -mt-20">
-       {/* First column */}
-       <div className="bg-white p-4 rounded-md shadow-lg h-52 text-center text-[20px] shadow-[#F48029]">
-       <img src={image1} class="w-20 ml-[39%] mt-8"/> 
-       <h1 className="text-xl mt-4">SEO</h1>
-   </div>
+  function ECommerceResponsiveCards() {
+    const datials = [
+        {
+            image: img2,
+            heading: 'SEO'
+        },
+        {
+            image: img3,
+            heading: 'Web Development'
+        },
+        {
+            image: img4,
+            heading: 'Graphic Design'
+        },
+    ];
 
-    {/* Second column */}
-    <div className="bg-white p-4 rounded-md shadow-lg h-52 text-center text-[20px] shadow-[#F48029]">
-        <img src={image2} class="w-20 ml-[39%] mt-8"/> 
-        <h1 className="text-xl mt-4">Web Development</h1>
+    return(
+        <div className="flex justify-center"> {/* Add this container */}
+        <div className="xs:px-8 lg:px-20 relative w-full grid md:grid-cols-3 xs:grid-cols-2 lg:-mt-16 md:-mt-[68px] xs:-mt-[70px] md:pb-[20px] mx-auto"> {/* Center align and add mx-auto */}
+            {datials.map(el => <InnerCard image={el.image} heading={el.heading} />)}
+        </div>
     </div>
-
-    {/* Third column */}
-    <div className="bg-white p-4 rounded-md shadow-lg h-52 text-center text-[20px] shadow-[#F48029]">
-        <img src={image3} class="w-20 ml-[39%] mt-8"/>
-        <h1 className="text-xl mt-4">Graphic Design</h1>
-    </div>
-
-
-</div>
-  );
+    );
 }
 export default ECommerceResponsiveCards;

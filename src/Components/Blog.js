@@ -19,12 +19,12 @@ class Blog extends Component {
       <div style={mystyle}>
         <div className="h-12 bg-[#F48029]"></div>
   
-        <div className="flex bg-[#F48029]">
+        <div className="flex mx-auto bg-[#F48029] grid grid-cols-2">
           {/* First Column */}
-          <div className="w-1/2 mt-6 h-[700px] ml-20 text-white">
-            <h1 className="text-[22px]">Our Latest News</h1>
-            <h1 className="text-[40px] font-bold mt-6">Blogs</h1>
-            <p className="text-[25px] leading-10 mt-6">
+          <div className=" mt-6 h-[700px] lg:ml-20 text-white">
+            <h1 className="md:text-[22px] xs:text-[16px]">Our Latest News</h1>
+            <h1 className="font-bold mt-6  lg:text-5xl md:text-4xl xss:text-3xl xs:text-lg lg:!leading-[55px] xss:!leading-[40px] xs:!leading-[30px]">Blogs</h1>
+            <p className="md:text-[25px] xs:text-[16px] leading-10 mt-6">
               We deliver results-driven digital solutions to businesses of all sizes.
             </p>
             <button className="mt-8 bg-[#363636] text-[18px] p-2 w-60 rounded-md h-12 align-middle hover:bg-white hover:text-black">
@@ -34,7 +34,7 @@ class Blog extends Component {
 
           {/* Second Column */}
           <div>
-            <img className="flex-grow mr-20 mt-8 w-[550px] h-[520px] pb-10" src={image} alt="Banner" />
+            <img className="flex-grow  mt-8 w-[600px] h-[500px] pb-6" src={image} alt="Banner" />
           </div>
         </div>
 
