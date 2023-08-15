@@ -70,9 +70,9 @@ function ContactUs() {
   return (
     <div>
       <div className="bg-[#F48029] px-12 py-16  overflow-hidden">
-        <div className=" bg-white  py-3  mx-20  rounded-lg">
-          <div className=" mx-3 rounded-lg  grid lg:grid-cols-2 sm:grid-cols-1">
-            <div className="bg-[#F48029] rounded-lg container">
+        <div className="lg:mx-20 md:mx-7  ">
+          <div className="py-3  bg-white  rounded-lg  grid lg:grid-cols-2 md:grid-cols-1">
+            <div className="bg-[#F48029] mx-3 rounded-lg container w-[400px]">
               <div className="   pl-10 pr-12">
                 <p className=" text-white text-3xl font-bold pt-10 pb-8 ">
                   Contact Information
@@ -152,8 +152,8 @@ function ContactUs() {
                 </div>
               </div>
             </div>
-            <div className=" p-12 container w-full md:basis-[64%]">
-              <form>
+            <div className="py-3 bg-white p-12 container ">
+              <form className="w-[500px]">
                 <div className="grid grid-cols-2 py-10">
                   <div className="flex flex-col mb-4 pr-4">
                     <label className=" text-[#8D8D8D]" htmlFor="username">
