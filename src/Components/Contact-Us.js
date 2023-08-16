@@ -69,11 +69,11 @@ function SocialIcons() {
 function ContactUs() {
   return (
     <div>
-      <div className="bg-[#F48029] px-12 py-16  overflow-hidden">
-        <div className="lg:mx-20 md:mx-7  ">
-          <div className="py-3  bg-white  rounded-lg  grid lg:grid-cols-2 md:grid-cols-1">
-            <div className="bg-[#F48029] mx-3 rounded-lg container w-[400px]">
-              <div className="   pl-10 pr-12">
+      <div className="bg-[#F48029] px-12 py-16 overflow-hidden">
+        <div className="lg:mx-20 md:mx-7">
+          <div className="py-3 bg-white rounded-lg grid lg:grid-cols-2 md:grid-cols-1">
+            <div className="flex flex-col bg-[#F48029] mx-3 rounded-lg container w-[400px]">
+              <div className=" pl-10 pr-12">
                 <p className=" text-white text-3xl font-bold pt-10 pb-8 ">
                   Contact Information
                 </p>
@@ -152,8 +152,8 @@ function ContactUs() {
                 </div>
               </div>
             </div>
-            <div className="py-3 bg-white p-12 container ">
-              <form className="w-[500px]">
+            <div className="flex flex-col -ml-[100px] py-3 bg-white p-12 container  ">
+              <form className="w-[550px] ">
                 <div className="grid grid-cols-2 py-10">
                   <div className="flex flex-col mb-4 pr-4">
                     <label className=" text-[#8D8D8D]" htmlFor="username">
