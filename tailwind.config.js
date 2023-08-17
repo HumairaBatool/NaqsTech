@@ -6,6 +6,7 @@ module.exports = {
       screens: {
         'xs': '320px', // New breakpoint at 320px
         'xs2':'376px',// for Home page GET IN TOUCH
+        'xs3':'426px',
         'xss': '480px',
         'lg': '1025px', // Adjust this breakpoint as needed
         'md':'768px',
