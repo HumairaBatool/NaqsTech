@@ -160,7 +160,7 @@ function FaqsGetInTouch() {
                   />
                 </div>
               </div>
-              <div className="grid md:grid-cols-2 xs:grid-cols-1 md:pl-5 xs:pl-0  md:py-5 xs:py-1">
+              <div className="grid md:grid-cols-2 xs:grid-cols-1 lg:pl-0 xs:pl-0  md:py-5 xs:py-1">
                 <div class="flex flex-col md:pr-4">
                   <label for="name" class="hidden">
                     Phone Number
@@ -191,7 +191,7 @@ function FaqsGetInTouch() {
                 </div>{" "}
               </div>
 
-              <div class="flex flex-col md:py-5 xs:py-1 md:pl-5 xs:pl-0">
+              <div class="flex flex-col md:py-5 xs:py-1 lg:pl-0 xs:pl-0">
                 <label for="name" class="hidden">
                   Your Comment
                 </label>

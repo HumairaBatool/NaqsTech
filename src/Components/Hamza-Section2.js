@@ -8,7 +8,7 @@ class HamzaSection2 extends Component{
           };
         return(
             <div>
-            <div className="grid lg:grid-cols-2 xs:grid-cols-1 gap-4 lg:!mx-14 xs:!mx-5">
+            <div className="grid lg:grid-cols-2 xs:grid-cols-1 gap-4 lg:!mx-14 md:!mx-7 xs:!mx-5">
                 {/* First Column */}
                 <div>
                     <div className="grid lg:grid-cols-6 xs:grid-cols-1 md:mt-24 xs:mt-10 ">
