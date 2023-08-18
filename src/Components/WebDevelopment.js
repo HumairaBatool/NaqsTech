@@ -23,30 +23,31 @@ import rev3 from '../img/rev3.webp';
 class Web extends Component {
 
     render() {
-
-        const mystyle = {
-            fontFamily: "Poppins, sans-serif",
-            color: "#363636",
-        };
         return (
             <div className=" max-auto">
-                <div className="h-12 bg-[#F48029]"></div> 
-                
-                <div className="flex bg-[#F48029] h-[900px] pb-40 ">
-                    {/* First Column */}
-                    <div className=" w-1/2  h-400px  ml-20 text-white mt-24">
-                        <h1 className="text-[40px] font-[600] leading-tight">Innovative Web Development Services in New York</h1>
-                        <h1 className="mt-7 text-[22px]">Website is the ultimate weapon in your technical <br></br> arsenal.</h1>
-                    <button className="mt-8 bg-[#363636] w-[250px] text-[18px] rounded-md h-14 align-middle hover:bg-white hover:text-black">
-                        Get Free Consultation
-                    </button>
+                <div className="bg-[#F48029] flex h-[900px] pb-40">
+                    <div className=" max-auto grid lg:grid-cols-2 text-white sm:px-6 xl:px-20">
+                    <div className=" text-left pr-12 overflow-hidden">
+                        <p className="sm:pt-12 xl:pt-20 text-[40px] font-[500] xl:leading-relaxed leading-10">
+                            Innovative Web Development Services in New York{" "}
+                        </p>
+                        <br />
+                        <p className="text-xl pt-2 leading-loose">
+                            Website is the ultimate weapon in your technical arsenal.
+                        </p>
+                        <div className="py-12">
+                        <button className=" xl:py-3 px-5 rounded bg-[#555555] p-1 hover:bg-white hover:text-black text-white">
+                            Get Free Consultation
+                        </button>
+                        </div>
                     </div>
-        
-                    {/* Second Column */}
                     <div>
-                        <img className="mr-52 ml-8 h-[550px] w-[600px] -mt-8" src={image} alt="Banner" />
+                        <img className="xl:pt-20 sm:pt-12 xs:nw-full" src={image} alt="" />
+                    </div>
                     </div>
                 </div>
+
+                
                 
                 {/* Card Section */} 
                 <div className="grid grid-cols-3 gap-4 ml-48 mr-48 -mt-64">
@@ -138,7 +139,7 @@ class Web extends Component {
                 </div>
 
                 {/* 8th Section Reviews */}
-                <div style={mystyle} className="bg-[#FAFAFA] pb-16">
+                <div className="bg-[#FAFAFA] pb-16">
                     {/* Reviews Section */}
                     <div className="text-[35px] font-[700] p-14 ml-[80px]">
                         Reviews
