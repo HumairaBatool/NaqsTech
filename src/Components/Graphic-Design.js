@@ -4,12 +4,12 @@ import Slider from "./Slider";
 import LatestNews from "./Latest-News";
 import HideShowText from "./Hidden-Text-GD";
 import Cards from "./GraphicDesignCards";
-import Reviews from './Reviews';
+import Reviews from "./Reviews";
 import img1 from "../img/Rectangle 72.png";
 import img2 from "../img/Group 1000001863.png";
 import img7 from "../img/Rectangle 73.png";
 import img8 from "../img/Rectangle 74.png";
-//impages for component4
+//image for component4
 import img9 from "../img/Our-Portfolio-1-736x1024.webp";
 
 function Component4() {
@@ -41,45 +41,47 @@ function Component4() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }
 
-
 function GraphicDesign() {
   return (
     <div>
-      <div className="bg-[#F48029] max-auto pb-20 ">
+      <div className="mx-auto ">
         {/*First Section*/}
-        <div className="flex max-auto text-white p-20 grid grid-cols-2">
-          <div className="text-left ">
-            <p className="pt-24 text-4xl font-extrabold leading-10">
-              Top-Rated Graphic Design Services in California{" "}
-            </p>
-            <br />
-            <p className="text-2xl leading-loose">
-              Tailored To Meet Your Specific Needs
-            </p>
-            <div className="py-6">
-              <button className="py-3 px-5 rounded bg-[#363636] p-1 hover:bg-white hover:text-black text-white">
-                Let's Get Connected
-              </button>
-            </div>
+        <div className=" bg-[#F48029] max-w-full container lg:pb-[50px] xs:pb-[8rem] md:pt-[40px] xs:pt-2">
+        <div className=" grid lg:grid-cols-2 md:grid-cols-1 lg:pl-14 lg:pr-28 ">
+          {/* First Column */}
+          <div className="text-left md:pb-20 lg:pb-28 lg:mt-4 text-white xs:mx-8 ">
+            <h1 className="xs:text-[17px] xs3:text-[28px] md:text-[35px]  lg:text-[40px] xs:font-[700] lg:font-[700] lg:leading-[44px] md:leading-[49px] sm:leading-[39.2px]  xs:leading-[28px]">
+            Top-Rated Graphic Design Services in California
+            </h1>
+            <h1 className="my-3 xs:font-[400]  xs:text-[14px] md:text-[20px] md:leading-[40px] xs:leading-[25px]">
+            Tailored To Meet Your Specific Needs
+            </h1>
+            <button className="my-3 bg-[#363636]  rounded-md px-[24px] py-[12px] align-left hover:bg-white hover:text-black">
+              Let's Get Connected
+            </button>
           </div>
-          <div>
-            <img src={img2} alt="" />
+
+          {/* Second Column */}
+          <div className=" overflow-hidden lg:pt-10 lg:px-0 xs:px-10">
+            <img className="lg:mb-12 xs:w-full" src={img2} alt="" />
           </div>
         </div>
+      </div>
+
       </div>
       {/*Cards section*/}
       <div>
         <Cards />
       </div>
-      <div className="flex max-auto grid grid-cols-3 bg-white pt-20 ">
+      {/*2nd Section */}
+      <div className="flex max-auto grid lg:grid-cols-3 md:grid-cols-2 bg-white pt-20 ">
         <div className="bg-[#EDEDED] col-span-2">
-          <div className=" text-left  text-black pl-12 pr-20 ">
-            <div className="text-4xl text-center text-black font-bold pr-2">
+          <div className=" text-left  text-black ">
+            <div className=" relative container lg:px-0 md:px-[80px] xs:px-[50px] xs:text-[21px] xs:leading-[28px] xs3:text-[28px] xs3:leading-[39.2px] md:text-[32px] md:leading-[38px] text-4xl text-center text-black font-bold pr-2">
               Your Go-To Graphic Design Agency in California
             </div>
             <p className="pt-5 text-2xl leading-10">
@@ -100,8 +102,8 @@ function GraphicDesign() {
         </div>
       </div>
 
-
-<Slider></Slider>
+      <Slider></Slider>
+      {/*3rd Section */}
 
       <div className="text-center bg-[#F48029] lg:px-40 sm:px-5">
         <p className="pt-24 pb-6 text-5xl font-extrabold px-40">
@@ -118,6 +120,8 @@ function GraphicDesign() {
           </button>
         </div>
       </div>
+
+      {/*4th Section */}
       <div className="flex max-auto grid grid-cols-3 bg-white pt-20 ">
         <div className="col-span-2">
           <div className=" text-justify  text-black pl-16 pr-20 ">
@@ -139,6 +143,8 @@ function GraphicDesign() {
           <img src={img8} alt="" className="pt-5"></img>
         </div>
       </div>
+      {/*5th Section */}
+
       <div>
         <div className="text-5xl text-black font-extrabold leading-relaxed pl-40 pr-40 text-center pt-60">
           Our Creative Process of Graphic Design Company California
@@ -151,9 +157,11 @@ function GraphicDesign() {
       </div>
       <FaqsGetInTouch />
       <Reviews></Reviews>
-      <div className="pt-20"> <Component4></Component4></div>
-      <LatestNews></LatestNews>
+      <div className="pt-20">
+        <Component4></Component4>
       </div>
+      <LatestNews></LatestNews>
+    </div>
   );
 }
 

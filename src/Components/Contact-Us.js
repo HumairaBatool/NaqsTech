@@ -8,8 +8,6 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-import Footer from "../Components/Footer";
-
 function SocialIcons() {
   return (
     <div className="flex py-2 bg-[#F48029]">
@@ -68,7 +66,7 @@ function SocialIcons() {
 }
 function ContactUs() {
   return (
-    <div className="bg-[#F48029] xs:p-4  xs2:px-[30px] overflow-hidden">
+    <div className="bg-[#F48029] xs:p-4  xs2:px-[30px]  overflow-hidden">
       <div className="lg:mx-20 md:mx-7 xs:bg-white rounded-lg">
         <div className="container relative grid lg:grid-cols-2 xs:grid-cols-1  xs:mt-[50px] xs:p-[10px]">
           <div className=" bg-[#F48029] rounded-lg container relative">
