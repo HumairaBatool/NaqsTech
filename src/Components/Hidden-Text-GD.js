@@ -29,7 +29,7 @@ const HideShowText = () => {
   };
 
   return (
-    <div className="grid grid-cols-4 gap-5 mx-20 text-center mb-20 ">
+    <div className="grid md:grid-cols-4 xs:grid-cols-1 gap-5 lg:mx-20 xs:mx-[20px] text-center mb-20 ">
       <div>
         <button
           onClick={() => handleTextToggle(0)}
