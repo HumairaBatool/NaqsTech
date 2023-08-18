@@ -25,63 +25,65 @@ class Web extends Component {
     render() {
         return (
             <div className=" max-auto">
-                <div className="bg-[#F48029] flex h-[900px] pb-40">
-                    <div className=" max-auto grid lg:grid-cols-2 text-white sm:px-6 xl:px-20">
-                    <div className=" text-left pr-12 overflow-hidden">
-                        <p className="sm:pt-12 xl:pt-20 text-[40px] font-[500] xl:leading-relaxed leading-10">
-                            Innovative Web Development Services in New York{" "}
-                        </p>
-                        <br />
-                        <p className="text-xl pt-2 leading-loose">
-                            Website is the ultimate weapon in your technical arsenal.
-                        </p>
-                        <div className="py-12">
-                        <button className=" xl:py-3 px-5 rounded bg-[#555555] p-1 hover:bg-white hover:text-black text-white">
-                            Get Free Consultation
-                        </button>
+               <div className="flex bg-[#F48029] lg:h-[800px] xs:h-[700px] xss:h-[700px] md:h-[1150px] pb-10 xs:pb-40">
+                    <div className="font-poppins bg-[#F48029] max-auto pb-10 xs:pb-28 lg:mr-auto">
+                        <div className=" max-auto text-white xl:ml-28 xl:mr-32 xs:px-3 grid lg:grid-cols-2 xs:grid-cols-1">
+                            <div className=" lg:-ml-2  xs:pt-12 text-left xs:px-4">
+                                <p className="lg:pt-8 xs:pt-0 md:text-[35px] md:leading-snug xss:pt-auto text-[24px] xs:text-[17px] lg:leading-tight xs:leading-7 xss:text-[28px] xss:leading-10 lg:text-[40px] font-[500] leading-tight">
+                                    Innovative Web Development Services in New York
+                                </p>
+                                
+                                <h2 className="xs:mt-6 text-[16px] lg:text-[20px] lg:leading-relaxed xs:text-[14px] md:text-[20px]  leading-loose pt-2">
+                                    Website is the ultimate weapon in your technical arsenal.
+                                </h2>
+                                <div className="pt-3 xs:pt-7">
+                                    <button className="py-4 xs:py-4 xs:text-[14px] xss:px-8 xss:py-4 px-4 xs:px-6 rounded text-center bg-[#363636] p-0.5 xs:p-1 hover:bg-white hover:text-black text-white">
+                                        Get Free consultation
+                                    </button>
+                                </div>
+                            </div>
+                            <div className=" lg:-mr-16 xs:pr-12">
+                                <img className="py-6 xs:py-12 lg:w-[100%] lg:h-auto md:w-[100%] md:h-auto md:ml-6 lg:-ml-3 md:mr-6 xs:w-full hidden md:block" src={image} alt="" />
+                            </div>
                         </div>
                     </div>
-                    <div>
-                        <img className="xl:pt-20 sm:pt-12 xs:nw-full" src={image} alt="" />
-                    </div>
-                    </div>
                 </div>
-
                 
-                
-                {/* Card Section */} 
-                <div className="grid grid-cols-3 gap-4 ml-48 mr-48 -mt-64">
-                    {/* First column */}
-                    <div className="bg-white p-4 rounded-md shadow-lg h-52 text-center text-[20px] shadow-[#F48029]">
-                        <img src={image2} class="w-20 ml-[36%] mt-6" alt='' /> 
-                        <h1 className="text-[18px] mt-5">SEO</h1>
+               {/* Card Section */}
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:ml-60 xl:mr-60 gap-4 ml-4 mr-4 pb:-mt-14 lg:-mt-64 md:ml-6 md:mr-6 xs:mr-8 xs:ml-8 md:gap-10 xs:-mt-96 -mt-12 md:-mt-64">
+                {/* First column */}
+                    <div className="bg-white p-4 rounded-md md:h-48 xs:h-40 md:w-[12em] lg:w-[16em] lg:h-48 xs:w-32 xss:h-32 xss:w-52 shadow-lg  text-center  text-[20px] shadow-[#F48029]">
+                        <img src={image2} class="md:w-[5em] md:h-[5em] xs:w-[3em] xs:h-[3em] xs:text-[14px] xs:mt-5 mx-auto  md:mt-8" alt='' />
+                        <h1 className="lg:text-[18px] text-[18px] xs:text-[14px] md:text-[18px] mt-3 md:mt-5">SEO</h1>
                     </div>
 
                     {/* Second column */}
-                    <div className="bg-white p-4 rounded-md shadow-lg h-52 text-center text-[20px] shadow-[#F48029]">
-                        <img src={image3} class="w-20 ml-[36%] mt-6" alt='' />
-                        <h1 className="text-[18px] mt-4">Graphic Design</h1>
+                    <div className="bg-white p-4 rounded-md xs:h-40 xs:w-32 md:h-48 md:w-[12em]  lg:w-[16em] lg:h-48shadow-lg text-center xss:h-32 xss:w-52 text-[20px] shadow-[#F48029]">
+                        <img src={image3} class=" md:w-[5em] md:h-[5em] xs:w-[3em] xs:h-[3em] xs:text-[14px] xs:mt-5 mx-auto md:mt-8" alt='' />
+                        <h1 className="text-[18px] md:text-[18px] xs:text-[14px] mt-3 md:mt-4">Graphic Design</h1>
                     </div>
 
                     {/* Third column */}
-                    <div className="bg-white p-4 rounded-md shadow-lg h-52 text-center text-[20px] shadow-[#F48029]">
-                        <img src={image4} class="w-20 ml-[36%] mt-6" alt='' />
-                        <h1 className="text-[18px] mt-4">E-commerce Services</h1>
+                    <div className="bg-white p-4  rounded-md xs:h-40 xs:w-32 md:h-48 md:w-[12em] lg:w-[16em] lg:h-48 shadow-lg text-center xss:h-32 xss:w-52 text-[20px] shadow-[#F48029]">
+                        <img src={image4} class=" md:w-[5em] md:h-[5em] xs:w-[3em] xs:h-[3em] xs:text-[14px] mt-4 mx-auto md:mt-8" alt='' />
+                        <h1 className="text-[18px] md:text-[18px] xs:text-[14px] mt-3  md:mt-4">E-commerce Services</h1>
                     </div>
                 </div>
-                <h1 className="mt-28 text-[32px] font-[900] text-center	">
+
+                {/* Section 2 */}
+                <h1 className="mt-28 text-[32px] font-[900] text-center xs:text-[21px] xs:mt-12 xss:mt-32 xss:text-[2rem]">
                     How to do our 
                 </h1>
-                <p className=" text-center text-[32px] -mt-1 font-[500]">
-                    Web Design Services in California Work?
+                <p className=" text-center text-[32px] xs:text-[21px] xs:ml-4 xs:mr-4 -mt-1 font-[500] xss:text-[2rem] xss:leading-tight ">
+                    Web Design Services in New York Work?
                 </p>
-                <p className="pt-8 text-[20px] ml-56 mr-56 leading-10">
+                <p className=" text-[20px] ml-56 mr-56 leading-10 xs:text-[14px] xs:ml-8 xs:mr-8 xs:leading-7 xs:mt-8 xss:mt-6 xss:leading-7 md:text-[20px] md:leading-relaxed lg:text-[20px] lg:ml-12 lg:mr-12 xl:ml-64 xl:mr-64 xl:leading-9">
                     As a California web design & development company, we collaborate with you beginning with a consultation phase in which we do a discovery call to understand your expectations, and the scope of the project, and then together develop a plan. We work together on the User Experience (UX) and User Interface (UI), color palettes, development, and designs, all the way up to the LIVE! We then give best practice training, as well as hosting and maintenance, at the end of the project.
                 </p>
-                <p className="pt-8 text-[20px] ml-56 mr-56 leading-10">
+                <p className=" text-[20px] ml-56 mr-56 leading-10 xs:text-[14px] xs:ml-8 xs:mr-8 xs:leading-7 xs:mt-3 xss:mt-4 xss:leading-7 md:text-[20px] md:leading-relaxed lg:text-[20px] lg:ml-12 lg:mr-12 xl:ml-64 xl:mr-64 xl:leading-9">
                     We build strategies to get your tales in front of the people you want to reach by creating appealing visuals that represent your message in a way that leaves a lasting impression. We learn about your markets through extensive research and analysis, and we position your company for success. Whatever your marketing design requirements are, NaqsTech has you covered.
                 </p>
-
+                
                 {/* 3rd Section 4 Coloumns */}
                 <WebCards/>
 

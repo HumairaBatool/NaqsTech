@@ -51,9 +51,9 @@ function GraphicDesign() {
       <div className="mx-auto ">
         {/*First Section*/}
         <div className=" bg-[#F48029] max-w-full container lg:pb-[50px] xs:pb-[8rem] md:pt-[40px] xs:pt-2">
-          <div className=" grid lg:grid-cols-2 md:grid-cols-1 lg:pl-14 lg:pr-28 ">
+          <div className=" grid lg:grid-cols-2 md:grid-cols-1 lg:pl-14 lg:pr-28 items-center ">
             {/* First Column */}
-            <div className="text-left md:pb-20 lg:pb-28 lg:mt-4 text-white xs:mx-8 ">
+            <div className="text-left md:pb-20 lg:pb-28 lg:mt-4 text-white xs:mx-8 lg:pt-10">
               <h1 className="xs:text-[17px] xs3:text-[28px] md:text-[35px]  lg:text-[40px] xs:font-[700] lg:font-[700] lg:leading-[44px] md:leading-[49px] sm:leading-[39.2px]  xs:leading-[28px]">
                 Top-Rated Graphic Design Services in California
               </h1>
@@ -66,7 +66,7 @@ function GraphicDesign() {
             </div>
 
             {/* Second Column */}
-            <div className=" overflow-hidden lg:pt-10 lg:px-0 xs:px-10">
+            <div className=" overflow-hidden lg:pt-8 lg:px-0 xs:px-10">
               <img className="lg:mb-12 xs:w-full" src={img2} alt="" />
             </div>
           </div>
