@@ -5,7 +5,7 @@ const HideShowText = () => {
   const [openColumnIndex, setOpenColumnIndex] = useState(0);
 
   const handleTextToggle = (index) => {
-    // If the clicked column is the same as the currently open column, do nothing
+    // If the clicked column is the same as the currently open column
     if (openColumnIndex === index) {
       return;
     }
