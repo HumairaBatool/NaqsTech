@@ -12,7 +12,7 @@ import {
 
 function SocialIcons() {
   return (
-    <div className="flex gap-x-5  pt-4 pb-2">
+    <div className="flex gap-x-2  pt-4 pb-2">
       <div className="bg-blue-900 w-10 h-10 box rounded flex items-center justify-center hover:bg-gray-900">
         <a
           href="https://www.facebook.com/NaqsTechDigital"
@@ -85,11 +85,11 @@ function SocialIcons() {
 function Footer() {
   return (
     <div className="bg-[#333]">
-      <div className="grid lg:grid-cols-3 sm:grid-cols-1 mx-28 py-16 text-white">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-1 lg:mx-28 md:mx-7 xs:mx-5 py-16 text-white">
         {/*cOLUMN 1 */}
         <div>
           <img src={logo}></img>
-          <div className="text-2xl py-5 text-justify tracking-tighter">
+          <div className="text-lg py-5 text-justify tracking-tighter font-poppins">
             Being one of the best digital marketing agencies in New York, we’ll
             understand your business and deliver result-driven digital marketing
             services.
@@ -97,89 +97,58 @@ function Footer() {
           <div>
             <SocialIcons></SocialIcons>
           </div>
-          <div className="text-2xl py-5 text-justifytracking-tighter">
+          <div className="text-lg py-5 text-justifytracking-tighter font-poppins">
             Let’s build the next big thing together
           </div>
         </div>
         {/*cOLUMN 2 */}
-        <div className="pl-16 pt-16 ">
+        <div className="lg:pl-16 xs:pl-0 lg:pt-16 xs:pt-0">
           <div className="flex text-2xl pb-5 pt-2 font-bold">
             <div className="relative">
               <div className=" absolute top-1 left-0 w-12 h-[2px] bg-white"></div>
             </div>
-            <div className="pl-16 -mt-3 ">Services</div>
+            <div className="pl-16 -mt-3 text-lg font-poppins">Services</div>
           </div>
 
           <div className="pt-5 font-semibold pl-5">
-            <div>SEO</div>
-            <div className="pt-3">Web Development</div>
-            <div className="pt-3">Graphic Design</div>
-            <div className="pt-3">E-Commerce</div>
+            <div className="pt-3 font-poppins font-normal">SEO</div>
+            <div className="pt-3 font-poppins font-normal">Web Development</div>
+            <div className="pt-3 font-poppins font-normal">Graphic Design</div>
+            <div className="pt-3 font-poppins font-normal">E-Commerce</div>
           </div>
         </div>
 
         {/*cOLUMN 3 */}
-        <div className="pl-16 ">
+        <div className="lg:pl-16 xs:pl-0">
           <div className="container flex pt-16 ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="25"
-              height="20"
-              viewBox="0 0 18 14"
-              fill="none"
-            >
-              <path
-                d="M17.7017 0.305908H0.700195V13.9071H17.7017V0.305908ZM16.0015 3.70621L9.20094 7.95658L2.40035 3.70621V2.00606L9.20094 6.25643L16.0015 2.00606V3.70621Z"
-                fill="white"
-              />
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="40" height="40" rx="5" fill="#F48029" />
+              <path d="M19.9996 27.0037C18.7366 25.9263 17.5658 24.7452 16.4996 23.4727C14.8996 21.5617 12.9996 18.7157 12.9996 16.0037C12.9982 13.1713 14.7039 10.6171 17.3207 9.53311C19.9375 8.44912 22.9497 9.04895 24.9516 11.0527C26.2681 12.3633 27.0055 14.1461 26.9997 16.0037C26.9997 18.7157 25.0996 21.5617 23.4996 23.4727C22.4334 24.7452 21.2627 25.9263 19.9996 27.0037ZM19.9996 13.0037C18.9278 13.0037 17.9375 13.5755 17.4016 14.5037C16.8657 15.4319 16.8657 16.5755 17.4016 17.5037C17.9375 18.4319 18.9278 19.0037 19.9996 19.0037C21.6565 19.0037 22.9996 17.6606 22.9996 16.0037C22.9996 14.3469 21.6565 13.0037 19.9996 13.0037Z" fill="white" />
             </svg>
-            <p className="text-white pl-3">info@naqstechdigital.com </p>
+
+
+            <p className="text-white pl-3 font-poppins self-center">info@naqstechdigital.com </p>
           </div>
           <br></br>
-          <div className="container mx-auto">
+          <div className="container">
             <div className="flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M11.9996 21.0037C10.7366 19.9263 9.56582 18.7452 8.49963 
-              17.4727C6.89964 15.5617 4.99963 12.7157 4.99963 10.0037C4.99822 
-              7.17126 6.70388 4.6171 9.3207 3.53311C11.9375 2.44912 14.9497 3.04895
-              16.9516 5.05271C18.2681 6.36332 19.0055 8.1461 18.9997 
-              10.0037C18.9997 12.7157 17.0996 15.5617 15.4996 17.4727C14.4334 
-              18.7452 13.2627 19.9263 11.9996 21.0037ZM11.9996 7.00371C10.9278 7.00371 
-              9.93746 7.57551 9.40156 8.50371C8.86566 9.43192 8.86566 10.5755 9.40156 
-              11.5037C9.93746 12.4319 10.9278 13.0037 11.9996 13.0037C13.6565 13.0037 
-              14.9996 11.6606 14.9996 10.0037C14.9996 8.34686 13.6565 7.00371 11.9996 7.00371Z"
-                  fill="white"
-                />
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="5" fill="#F48029" />
+                <path d="M19.9996 27.0037C18.7366 25.9263 17.5658 24.7452 16.4996 23.4727C14.8996 21.5617 12.9996 18.7157 12.9996 16.0037C12.9982 13.1713 14.7039 10.6171 17.3207 9.53311C19.9375 8.44912 22.9497 9.04895 24.9516 11.0527C26.2681 12.3633 27.0055 14.1461 26.9997 16.0037C26.9997 18.7157 25.0996 21.5617 23.4996 23.4727C22.4334 24.7452 21.2627 25.9263 19.9996 27.0037ZM19.9996 13.0037C18.9278 13.0037 17.9375 13.5755 17.4016 14.5037C16.8657 15.4319 16.8657 16.5755 17.4016 17.5037C17.9375 18.4319 18.9278 19.0037 19.9996 19.0037C21.6565 19.0037 22.9996 17.6606 22.9996 16.0037C22.9996 14.3469 21.6565 13.0037 19.9996 13.0037Z" fill="white" />
               </svg>
-              <p className="text-white pl-3">160 Broadway New York, NY 10038</p>
+
+              <p className="text-white pl-3 font-poppins self-center">160 Broadway New York, NY 10038</p>
             </div>
           </div>
           <br></br>
-          <div className="container mx-auto">
+          <div className="container">
             <div className="flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="38"
-                height="38"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
-                <path
-                  d="M11.9996 21.0037C10.7366 19.9263 9.56582 18.7452 8.49963 17.4727C6.89964 15.5617 4.99963 12.7157 4.99963 10.0037C4.99822 7.17126 6.70388 4.6171 9.3207 3.53311C11.9375 2.44912 14.9497 3.04895 16.9516 5.05271C18.2681 6.36332 19.0055 8.1461 18.9997 
-    10.0037C18.9997 12.7157 17.0996 15.5617 15.4996 17.4727C14.4334 18.7452 13.2627 19.9263 11.9996 21.0037ZM11.9996 7.00371C10.9278 7.00371 9.93746 7.57551 9.40156 8.50371C8.86566 9.43192 8.86566 10.5755 9.40156 11.5037C9.93746 12.4319 10.9278 13.0037 11.9996 13.0037C13.6565 13.0037 14.9996 11.6606 14.9996 10.0037C14.9996 8.34686 13.6565 7.00371 11.9996 7.00371Z"
-                  fill="white"
-                />
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="5" fill="#F48029" />
+                <path d="M19.9996 27.0037C18.7366 25.9263 17.5658 24.7452 16.4996 23.4727C14.8996 21.5617 12.9996 18.7157 12.9996 16.0037C12.9982 13.1713 14.7039 10.6171 17.3207 9.53311C19.9375 8.44912 22.9497 9.04895 24.9516 11.0527C26.2681 12.3633 27.0055 14.1461 26.9997 16.0037C26.9997 18.7157 25.0996 21.5617 23.4996 23.4727C22.4334 24.7452 21.2627 25.9263 19.9996 27.0037ZM19.9996 13.0037C18.9278 13.0037 17.9375 13.5755 17.4016 14.5037C16.8657 15.4319 16.8657 16.5755 17.4016 17.5037C17.9375 18.4319 18.9278 19.0037 19.9996 19.0037C21.6565 19.0037 22.9996 17.6606 22.9996 16.0037C22.9996 14.3469 21.6565 13.0037 19.9996 13.0037Z" fill="white" />
               </svg>
-              <p className="text-white pl-3">
-                34 Harrow Avenue Oldham Olh4hz Greater Manchester UK
-              </p>
+
+              <p className="text-white pl-3 font-poppins self-center">160 Broadway New York, NY 10038</p>
             </div>
           </div>
         </div>

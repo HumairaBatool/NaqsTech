@@ -1,4 +1,8 @@
 /* fonts.css */
+/* src/styles/main.css */
+@import url('../fonts/poppins/Poppins-Regular.ttf'); /* Adjust the path as needed */
+@import url('../fonts/poppins/Poppins-Bold.ttf');    /* Adjust the path as needed */
+/* Import other font styles if necessary */
 
 /* Poppins Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');

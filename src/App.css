@@ -5,3 +5,7 @@
 
 
 
+/* src/styles/main.css */
+@import url('../fonts/poppins/Poppins-Regular.ttf'); /* Adjust the path as needed */
+@import url('../fonts/poppins/Poppins-Bold.ttf');    /* Adjust the path as needed */
+/* Import other font styles if necessary */

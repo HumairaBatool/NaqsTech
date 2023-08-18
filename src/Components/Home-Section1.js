@@ -5,8 +5,8 @@ import img2 from "../img/Home-Banner.webp";
 function Section1() {
   return (
     <div className="bg-[#F48029] max-auto pb-28">
-      <div className="flex max-auto font-poppins text-white px-6 xs:px-3 grid lg:grid-cols-2 xs:grid-cols-1">
-        <div className="pt-12 text-left lg:px-11 xs:px-4"  >
+      <div className="flex max-auto font-poppins text-white px-6 xs:px-7 grid lg:grid-cols-2 xs:grid-cols-1">
+        <div className="pt-12 text-left lg:px-11 xs:px-0"  >
           <p className="text-xl ">
             We are the Creative Best Digital Marketing Company
           </p>
