@@ -37,7 +37,7 @@ function MenuBar() {
             }`}
           >
             <Link
-              to="/home"
+              to="/"
               className={`font-sans text-xl ${
                 currentPage === "HOME" ? "text-[#F48029]" : "text-white"
               } hover:text-[#F48029]`}
