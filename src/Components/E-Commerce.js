@@ -49,7 +49,7 @@ function ECommerce() {
       {/*Section 2 */}
       <div className="xs:px-12 lg:px-0">
         <div className="text-center lg:mx-14 bg-black rounded  text-white sm:mx-5">
-          <div className="flex justify-center relative items-center h-full lg:px-[400px] md:px-52 xs:px-4">
+          <div className="flex justify-center relative items-center h-full lg:px-[200px] md:px-52 xs:px-4">
             <div className="pt-14  text-center ">
               Unlock your E-Commerce potential with our premier Ecommerce
               <a href="#" class="px-2 text-[#c36] hover:text-blue-800">
