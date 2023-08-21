@@ -10,14 +10,12 @@ module.exports = {
         'xs3': '425px',
         'xss': '480px',
         'xs4': '540px',
-        'xs6': '700px',
-        'xs7': '885px',
         'xs5': '600px',
-        'md':  '768px',
-        'xs8': '1002px',
-        'lg': '1024px', // Adjust this breakpoint as needed
-        'xl': '1440px',
-        
+        'xs6': '700px',
+        'md': '768px',
+        'xs7': '885px',
+        'xs8': '1002px',     
+        'lg': '1025px', // Adjust this breakpoint as needed
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
