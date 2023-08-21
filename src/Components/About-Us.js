@@ -39,8 +39,8 @@ function AboutUs() {
         </div>
       </div>
 
-       {/*1st Section */}
-      <div className=" max-auto grid md:grid-cols-3 xs:grid-cols-1  xs:px-[30px] xs:pt-[20px] md:pt-[40px] lg:pt-[50px] relative ">
+       {/*2nd Section */}
+      <div className="lg:px-20 max-auto grid md:grid-cols-3 xs:grid-cols-1 relative xs:px-[30px] xs:pt-[20px] md:pt-[40px] lg:pt-[50px] ">
         <div>
           <div className="flex xs:pt-2">
             <div className="text-[32px] leading-[38.4px] font-[500] text-black  pr-2">Our</div>
@@ -51,7 +51,7 @@ function AboutUs() {
             Zain-ul Abideen | CEO
           </div>
           <div>
-            <div className="flex items-center pt-6 gap-3">
+            <div className="flex items-center pt-[24px] gap-3">
               <div className="bg-black w-16 h-16 rounded-full flex items-center justify-center hover:bg-gray-900">
                 <a
                   href="https://www.linkedin.com/in/zain-ul-abideen-19433b18a/"
@@ -99,8 +99,8 @@ function AboutUs() {
       </div>
 
 
-       {/*1st Section */}
-      <div className="xs:pt-5 xs:px-[30px]">
+       {/*1rd Section */}
+      <div className="lg:px-20 xs:pt-5 xs:px-[30px] relative">
         <div className="xs3:flex items-center">
           <div className="xs:text-[28px] xs:leading-[43px] xs:font-[700] md:text-[35px] md:leading-[70px] ">
             GET IN TOUCH
@@ -111,7 +111,7 @@ function AboutUs() {
         <div>
           <form className="py-1">
             <div className="grid xs3:grid-cols-2 xs:grid-cols-1 lg:grid-cols-1 xs3:gap-x-4">
-              <div class="flex flex-col lg:pr-4 xs3:pt-2">
+              <div class="flex flex-col  xs3:pt-2">
                 <label for="name" class="hidden">
                   Your Name
                 </label>
@@ -137,7 +137,7 @@ function AboutUs() {
               </div>
             </div>
             <div className="grid xs3:grid-cols-2 xs:grid-cols-1 lg:grid-cols-1 xs3:gap-x-4">
-              <div class="flex flex-col lg:pr-4 xs:pt-2 ">
+              <div class="flex flex-col xs:pt-2 ">
                 <label for="name" class="hidden">
                   Phone Number
                 </label>
@@ -191,7 +191,7 @@ function AboutUs() {
         </div>
       </div>
 
-      {/*1st Section */}
+      {/*4th Section */}
       <div>
         <LatestNews></LatestNews>
       </div>
