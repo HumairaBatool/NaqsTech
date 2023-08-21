@@ -23,7 +23,7 @@ import img4 from "../img/icon3.webp";
 
     return(
         <div className="flex justify-center"> {/* Add this container */}
-        <div className="xs:px-8 lg:px-20 relative w-full grid md:grid-cols-3 xs:grid-cols-2 lg:-mt-16 md:-mt-[68px] xs:-mt-[70px] md:pb-[20px] mx-auto"> {/* Center align and add mx-auto */}
+        <div className="xs:px-4 lg:px-20 relative w-full grid md:grid-cols-3 xs:grid-cols-2 lg:-mt-16 md:-mt-[68px] xs:-mt-[70px] md:pb-[20px] xs:pb-[20px] mx-auto xs:text-[14px] xs:leading-[24px] " > {/* Center align and add mx-auto */}
             {datials.map(el => <InnerCard image={el.image} heading={el.heading} />)}
         </div>
     </div>
