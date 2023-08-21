@@ -7,7 +7,7 @@ module.exports = {
         'xs': '320px', // New breakpoint at 320px
         'xs1': '354px',
         'xs2': '376px',// for Home page GET IN TOUCH
-        'xs3': '426px',
+        'xs3': '425px',
         'xss': '480px',
         'xs4': '540px',
         'xs6': '700px',
@@ -15,7 +15,7 @@ module.exports = {
         'xs5': '600px',
         'md':  '768px',
         'xs8': '1002px',
-        'lg': '1025px', // Adjust this breakpoint as needed
+        'lg': '1024px', // Adjust this breakpoint as needed
         'xl': '1440px',
         
       },

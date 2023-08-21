@@ -40,7 +40,7 @@ function SEO() {
           {/* First Column */}
           <div className=" md:pb-20 lg:pb-28 lg:mt-4  text-white xs:mx-7 md: ">
             <h1 className="xs:text-[25px] xs:font-[700] md:text-[50px] md:font-[600] lg:font-[700] md:leading-tight xs:leading-[1.4em]">
-              Professional SEO Service In California
+              Professional SEO Service In New York
             </h1>
             <h1 className="my-3 xs:font-[400] md:font-normal xs:text-[14px] md:text-[20px] md:leading-9 xs:leading-[25px]">
               Regardless of your company’s size, we provide professional SEO
@@ -65,21 +65,21 @@ function SEO() {
    <HomeCards></HomeCards>
 
       {/* 2nd Section */}
-      <div className="grid lg:grid-cols-2 xs:grid-cols-1 lg:gap-4 lg:ml-20 lg:mr-40 lg:mt-16 md:mt-8 xs:px-7 text-center">
+      <div className="grid lg:grid-cols-2 xs:grid-cols-1 lg:gap-4 lg:ml-20  lg:mt-0 md:mt-8 xs:px-7">
         {/* First Column */}
         <div className="">
-          <h1 className="xs:mt-10 md:mt-0   lg:text-[50px] md:text-[35px] xs:text-[16x] xs:font-[900] md:font-[700]">
+          <h1 className="xs:mt-10 md:mt-0 lg:text-[50px] md:text-[35px] xs:text-[16x] xs:font-[900] md:font-[700]">
             Dominate The Digital Landscape With Professional
           </h1>
           <h2 className=" xs:text-[21px] xs:font-[500]  md:text-[30px] lg:font-[600] md:font-[600] md:my-2 xs:my-4">
-            SEO Agency in California
+            SEO Agency in New York
           </h2>
         </div>
 
         {/* Second Column */}
         <div>
-          <h1 className=" xs:text-[14px] xs:leading-[24px] text-center  md:text-[20px] leading-10 lg:ml-20 md:mt-2">
-            Our professional SEO agency in California empowers you to dominate
+          <h1 className=" xs:text-[14px] xs:leading-[24px]  md:text-[20px] lg:leading-loose leading-10  lg:ml-12 lg:mr-16 md:mt-2">
+            Our professional SEO agency in New York empowers you to dominate
             online, leaving competitors in the dust. Rise above the noise,
             conquer search rankings, and reign supreme in the digital sphere
             with
@@ -135,8 +135,8 @@ function SEO() {
       {/* 4rth Section */}
       <div className="grid lg:grid-cols-3 gap-5 lg:mx-32 lg:mt-12 xs:mt-5 lg:mb-10 xs:mx-7 text-white md:mt-5 text-center  ">
         {/* First Column */}
-        <div className="bg-[#363636] py-14 rounded-md lg:h-[350px]  flex flex-col items-center justify-center">
-          <img src={SEO4} class="w-20 " alt="" />
+        <div className="bg-[#363636] py-14 rounded-md h-[350px] lg:h-[350px] flex flex-col items-center justify-center">
+          <img src={SEO4} class="w-20 lg:mt-16" alt="" />
           <h1 className="text-[#F48029] px-5 text-[20px] font-[700]  mt-6">
             SEO Audit Services
           </h1>
@@ -150,7 +150,7 @@ function SEO() {
 
         {/* Second Column */}
         <div className="bg-[#363636] py-14 rounded-md h-[350px]  flex flex-col items-center justify-center">
-          <img src={SEO5} class="w-20 " alt="" />
+          <img src={SEO5} class="w-20" alt="" />
           <h1 className="text-[#F48029]  px-5 text-[20px] font-[700]  mt-6">
             Keyword Research
           </h1>

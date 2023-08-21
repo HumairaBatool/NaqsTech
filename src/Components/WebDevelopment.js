@@ -27,8 +27,8 @@ class Web extends Component {
             <div className=" max-auto">
                <div className="flex bg-[#F48029] lg:h-[800px] xs:h-[700px] xss:h-[700px] md:h-[1150px] pb-10 xs:pb-40">
                     <div className="font-poppins bg-[#F48029] max-auto pb-10 xs:pb-28 lg:mr-auto">
-                        <div className=" max-auto text-white xl:ml-28 xl:mr-32 xs:px-3 grid lg:grid-cols-2 xs:grid-cols-1">
-                            <div className=" lg:-ml-2  xs:pt-12 text-left xs:px-4">
+                        <div className=" max-auto text-white xl:ml-28 xl:mr-32 xs:px-3 grid lg:grid-cols-2 lg:mr-10 xs:grid-cols-1">
+                            <div className=" lg:ml-12 xs:pt-12 text-left xs:px-4">
                                 <p className="lg:pt-8 xs:pt-0 md:text-[35px] md:leading-snug xss:pt-auto text-[24px] xs:text-[17px] lg:leading-tight xs:leading-7 xss:text-[28px] xss:leading-10 lg:text-[40px] font-[500] leading-tight">
                                     Innovative Web Development Services in New York
                                 </p>
@@ -50,49 +50,51 @@ class Web extends Component {
                 </div>
                 
                {/* Card Section */}
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:ml-60 xl:mr-60 gap-4 ml-4 mr-4 pb:-mt-14 lg:-mt-64 md:ml-6 md:mr-6 xs:mr-8 xs:ml-8 md:gap-10 xs:-mt-96 -mt-12 md:-mt-64">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:ml-60 md:justify-center lg:ml-40 lg:mr-40 xl:mr-60 gap-4 ml-4 mr-4 pb:-mt-14 lg:-mt-56 md:ml-6 md:mr-6 xs:mr-8 xs:ml-8 md:gap-3  xs:-mt-96 -mt-12 md:-mt-52">
                 {/* First column */}
-                    <div className="bg-white p-4 rounded-md md:h-48 xs:h-40 md:w-[12em] lg:w-[16em] lg:h-48 xs:w-32 xss:h-32 xss:w-52 shadow-lg  text-center  text-[20px] shadow-[#F48029]">
+                    <div className="bg-white p-4 rounded-md md:h-48 xs:h-40 md:w-auto lg:w-auto lg:h-48 xs:w-full xss:h-32 xss:w-full shadow-lg  text-center  text-[20px] shadow-[#F48029]">
                         <img src={image2} class="md:w-[5em] md:h-[5em] xs:w-[3em] xs:h-[3em] xs:text-[14px] xs:mt-5 mx-auto  md:mt-8" alt='' />
                         <h1 className="lg:text-[18px] text-[18px] xs:text-[14px] md:text-[18px] mt-3 md:mt-5">SEO</h1>
                     </div>
 
                     {/* Second column */}
-                    <div className="bg-white p-4 rounded-md xs:h-40 xs:w-32 md:h-48 md:w-[12em]  lg:w-[16em] lg:h-48shadow-lg text-center xss:h-32 xss:w-52 text-[20px] shadow-[#F48029]">
+                    <div className="bg-white p-4 rounded-md xs:h-40 xs:w-full md:h-48 md:w-auto  lg:w-auto lg:h-48shadow-lg text-center xss:h-32 xss:w-full text-[20px] shadow-[#F48029]">
                         <img src={image3} class=" md:w-[5em] md:h-[5em] xs:w-[3em] xs:h-[3em] xs:text-[14px] xs:mt-5 mx-auto md:mt-8" alt='' />
                         <h1 className="text-[18px] md:text-[18px] xs:text-[14px] mt-3 md:mt-4">Graphic Design</h1>
                     </div>
 
                     {/* Third column */}
-                    <div className="bg-white p-4  rounded-md xs:h-40 xs:w-32 md:h-48 md:w-[12em] lg:w-[16em] lg:h-48 shadow-lg text-center xss:h-32 xss:w-52 text-[20px] shadow-[#F48029]">
+                    <div className="bg-white p-4  rounded-md xs:h-40 xs:w-full md:h-48 md:w-auto lg:w-auto lg:justify-end lg:h-48 shadow-lg text-center xss:h-32 xss:w-full text-[20px] shadow-[#F48029]">
                         <img src={image4} class=" md:w-[5em] md:h-[5em] xs:w-[3em] xs:h-[3em] xs:text-[14px] mt-4 mx-auto md:mt-8" alt='' />
                         <h1 className="text-[18px] md:text-[18px] xs:text-[14px] mt-3  md:mt-4">E-commerce Services</h1>
                     </div>
                 </div>
 
                 {/* Section 2 */}
-                <h1 className="mt-28 text-[32px] font-[900] text-center xs:text-[21px] xs:mt-12 xss:mt-32 xss:text-[2rem]">
-                    How to do our 
-                </h1>
-                <p className=" text-center text-[32px] xs:text-[21px] xs:ml-4 xs:mr-4 -mt-1 font-[500] xss:text-[2rem] xss:leading-tight ">
-                    Web Design Services in New York Work?
-                </p>
-                <p className=" text-[20px] ml-56 mr-56 leading-10 xs:text-[14px] xs:ml-8 xs:mr-8 xs:leading-7 xs:mt-8 xss:mt-6 xss:leading-7 md:text-[20px] md:leading-relaxed lg:text-[20px] lg:ml-12 lg:mr-12 xl:ml-64 xl:mr-64 xl:leading-9">
-                    As a California web design & development company, we collaborate with you beginning with a consultation phase in which we do a discovery call to understand your expectations, and the scope of the project, and then together develop a plan. We work together on the User Experience (UX) and User Interface (UI), color palettes, development, and designs, all the way up to the LIVE! We then give best practice training, as well as hosting and maintenance, at the end of the project.
-                </p>
-                <p className=" text-[20px] ml-56 mr-56 leading-10 xs:text-[14px] xs:ml-8 xs:mr-8 xs:leading-7 xs:mt-3 xss:mt-4 xss:leading-7 md:text-[20px] md:leading-relaxed lg:text-[20px] lg:ml-12 lg:mr-12 xl:ml-64 xl:mr-64 xl:leading-9">
-                    We build strategies to get your tales in front of the people you want to reach by creating appealing visuals that represent your message in a way that leaves a lasting impression. We learn about your markets through extensive research and analysis, and we position your company for success. Whatever your marketing design requirements are, NaqsTech has you covered.
-                </p>
-                
+                <div className="text-[#363636]">
+                    <h1 className="mt-28 text-[21px] font-[900] text-center xs:text-[21px] xs:mt-12 xss:mt-32 xss:text-[2rem]">
+                        How to do our 
+                    </h1>
+                    <p className=" text-center text-[32px] xs:text-[21px] xs:ml-7 xs:mr-7 -mt-1 font-[500] xss:text-[2rem] xss:leading-tight ">
+                        Web Design Services in New York Work?
+                    </p>
+                    <p className=" lg:font-[20px] md:text-[#363636] xl:mt-6 text-[20px] leading-10 xs:text-[14px] text-[#7A7A7A] xs:ml-8 xs:mr-8 xs:leading-7 xs:mt-6 xss:mt-6 xss:leading-7 md:text-[20px] md:leading-[35px] lg:text-[20px] xl:ml-80 xl:mr-72 xl:leading-9">
+                        As a California web design & development company, we collaborate with you beginning with a consultation phase in which we do a discovery call to understand your expectations, and the scope of the project, and then together develop a plan. We work together on the User Experience (UX) and User Interface (UI), color palettes, development, and designs, all the way up to the LIVE! We then give best practice training, as well as hosting and maintenance, at the end of the project.
+                    </p>
+                    <p className="lg:font-[20px] md:text-[#363636] text-[20px] ml-56 mr-56 leading-10 text-[#7A7A7A] xs:text-[14px] xs:ml-8 xs:mr-8 xs:leading-7 xs:mt-3 xss:mt-4 xss:leading-7 md:text-[20px] md:leading-[35px] lg:text-[20px] xl:ml-80 xl:mr-72 xl:leading-9">
+                        We build strategies to get your tales in front of the people you want to reach by creating appealing visuals that represent your message in a way that leaves a lasting impression. We learn about your markets through extensive research and analysis, and we position your company for success. Whatever your marketing design requirements are, NaqsTech has you covered.
+                    </p> 
+                </div>
+               
                 {/* 3rd Section 4 Coloumns */}
                 <WebCards/>
 
                 {/* 4th Section */}
-                <div className="grid grid-cols-2 mt-36 ml-20 mr-20 space-x-20 pb-20">
-                    <h1 className="text-[45px] mt-4">
+                <div className="grid xs:grid-col-1 md:grid-cols-2 xs3:text-[#363636] md:mt-36 xs:mt-4 md:ml-20 md:mr-20 md:space-x-20 xs:pb-12 md:pb-20">
+                    <h1 className="xs:text-[20px] xs:text-center md:text-[45px] xs3:mr-32 mt-4">
                         <span className="font-[700]">Why should you invest</span> in WordPress Development?
                     </h1>
-                    <h2 className="text-[20px] ml-6 leading-9 ">
+                    <h2 className="xs:mt-5 xs:ml-11 xs:mr-12 xs:text-[14px] xs:text-[#363636] xs:leading-[25px] xs3:ml-9 md:text-[20px] md:ml-6 md:leading-9 ">
                         Investing in WordPress development can provide several advantages to your company. First and foremost, WordPress is a popular and extensively used platform for developing websites, and having a qualified developer on board helps ensure that your website is optimized for performance, functionality, and user experience.
                     </h2>
                 </div>
