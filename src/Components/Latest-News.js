@@ -62,7 +62,7 @@ function LatestNews() {
             ))}
           </div>
         </div>
-        <div className="pb-28 pt-80 bg-[#F48029] text-center -mt-[418px]">
+        <div className="pb-28 pt-80 lg:bg-[#F48029] text-center -mt-[418px]">
           <button className="py-3 mt-32 px-6 rounded bg-[#363636] h-14 w-60 p-1 hover:bg-white hover:text-black text-white">
             Get Free Consultation
           </button>
