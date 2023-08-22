@@ -64,7 +64,7 @@ class Web extends Component {
                     </div>
 
                     {/* Second column */}
-                    <div className="bg-white p-4 rounded-md xs:h-40 xs:w-full md:h-48 md:w-auto  lg:w-auto lg:h-48shadow-lg text-center xss:h-32 xss:w-full text-[20px] shadow-[#F48029]">
+                    <div className="bg-white p-4 rounded-md xs:h-40 xs:w-full md:h-48 md:w-auto  lg:w-auto lg:h-48 shadow-lg text-center xss:h-32 xss:w-full text-[20px] shadow-[#F48029]">
                         <img src={image3} class=" md:w-[5em] md:h-[5em] xs:w-[3em] xs:h-[3em] xs:text-[14px] xs:mt-5 mx-auto md:mt-8" alt='' />
                         <h1 className="text-[18px] md:text-[18px] xs:text-[14px] mt-3 md:mt-4">Graphic Design</h1>
                     </div>
@@ -95,11 +95,11 @@ class Web extends Component {
                 <WebCards/>
 
                 {/* 4th Section */}
-                <div className="grid xs:grid-col-1 md:grid-cols-2 xs3:text-[#363636] md:mt-16 xs:mt-4 md:ml-20 md:mr-20 md:space-x-20 xs:pb-12 md:pb-20">
-                    <h1 className="xs:text-[20px] xs:text-center md:text-[45px] xs3:mr-32 mt-4">
+                <div className="grid xs:grid-col-1 lg:grid-cols-2 xs:text-[#363636] xl:ml-20 xl:mr-12 lg:gap-auto md:mt-12 xs:mt-4 xs:pb-12 md:pb-16">
+                    <h1 className="xs:text-[20px] md:mr-auto xs:text-center lg:mr-auto md:text-left md:ml-5 md:text-[35px] lg:text-[49px] xs3:mr-24">
                         <span className="font-[700]">Why should you invest</span> in WordPress Development?
                     </h1>
-                    <h2 className="xs:mt-5 xs:ml-11 xs:mr-12 xs:text-[14px] xs:text-[#363636] xs:leading-[25px] xs3:ml-9 md:text-[20px] md:ml-6 md:leading-9 ">
+                    <h2 className="xs:mt-5 xs:ml-8 xs:mr-8 xs:text-[14px] xs:text-[#363636] xs:leading-[25px] xs3:ml-9 md:text-[20px] md:mt-3 md:ml-10 lg:mr-14 md:leading-9 ">
                         Investing in WordPress development can provide several advantages to your company. First and foremost, WordPress is a popular and extensively used platform for developing websites, and having a qualified developer on board helps ensure that your website is optimized for performance, functionality, and user experience.
                     </h2>
                 </div>
@@ -111,14 +111,14 @@ class Web extends Component {
                 <Section5 />
 
                 {/* 7th Section */}
-                <div className="bg-white  max-auto pt-20">
-                    <div className="bg-[#F48029] max-auto">
+                <div className="bg-white  max-auto pt-10">
+                    <div className="bg-[#F48029] max-auto lg:h-auto ">
                         <div className="grid lg:grid-cols-7 md:grid-cols-4 text-left max-auto text-white">
-                            <div className=" col-span-4 lg:py-20 md:py-4 lg:px-16 xs:px-7 md:pl-7 lg:ml-8">
-                                <p className=" pt-10 pb-6 md:text-[56px] xs:text-[20px] ">
-                                    Our <span className="md:font-[700]"> Portfolio </span> 
+                            <div className=" col-span-4 lg:py-20 md:py-4 xs:px-7 md:pl-7 xl:p-20 ">
+                                <p className=" pt-10 pb-6 md:text-[35px] lg:text-left lg:text-[56px] xs:text-[28px] ">
+                                    Our <span className="lg:font-[700] xs:font-bold"> Portfolio </span> 
                                 </p>
-                                <p className="text-left lg:text-[25px] md:text-[20px] xs:text-[14px]  pt-1 ">
+                                <p className="text-left lg:text-[25px] md:text-[20px] md:leading-9 xs:text-[14px] xs:leading-[25px] xs:pb-8 ">
                                     Have a look at the beautiful sites we’ve built, because we take great pride in our work!
                                 </p>
                                 <button className="py-4 xs:py-4 xs:text-[14px] xss:px-8 xss:py-4 px-4 xs:px-6 rounded text-center bg-[#363636] p-0.5 xs:p-1 hover:bg-white hover:text-black text-white">
@@ -126,13 +126,13 @@ class Web extends Component {
                                 </button>
                             </div>
 
-                            <div className="col-span-3 lg:-mb-36 xs:mb-0">
+                            <div className="lg:col-span-3 xs:col-span-4 xs:mt-8 lg:px-auto xs:px-6 xs:mb-12 lg:mb-auto">
                                 <div className="w-full gap-4">
                                     <div>
                                         <img
-                                            src={portfolio}
-                                            alt=""
-                                            className=" relative lg:top-[-45px] xs:top-0 lg:w-3/4 xs:w-full"
+                                        src={portfolio}
+                                        alt=""
+                                        className=" relative xs:top-0 lg:-mt-16 xl:-mb-16 lg:w-3/3 xs:w-full"
                                         />
                                     </div>
                                 </div>
@@ -140,9 +140,6 @@ class Web extends Component {
                         </div>
                     </div>
                 </div>
-
-              
-
                 {/* 8th Section Reviews */}
                 <div className="bg-[#FAFAFA] pb-16">
                     {/* Reviews Section */}
