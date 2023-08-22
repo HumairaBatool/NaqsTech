@@ -1,38 +1,8 @@
-
-
-
-# Blog post needs to be dynamic 
-# font-styele needs to be implemented
-# In about us page upwork icon needed to upload
-# Latest news me space issue
-
-
-
-
-
-# Create a dev branch using va cmd & git cmds
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# E-commerce:
+# 1. 1st Section-There is a spacing issue of banner image
+# 2. responsive card and static cards size issue at 320px 
+# 3. padding and spacing issue in 2nd section (having blackground)
+# 4. FAQ's & GET IN TOUCH padding/margin issue at 32px
 
 # Getting Started with Create React App
 
