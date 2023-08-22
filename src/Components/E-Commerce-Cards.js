@@ -10,7 +10,7 @@ import img8 from "../img/E-Commerce Display Advertising.png";
 
 function Card({ image, title }) {
   return (
-    <div className="bg-[#F48029] rounded-[5px] xs:py-[20px] md:py-[40px] xs:px-[10px] xl:px-[0px] xs:mx-[5px] md:mx-[7px] xs:mb-[5px] xs:flex flex-col items-center content-center">
+    <div className="bg-[#F48029] rounded-[5px] xs:py-[20px] xl:py-[57px] md:py-[40px] xs:px-[10px] xl:px-[0px] xs:mx-[5px] md:mx-[7px] xs:mb-[5px] xs:flex flex-col items-center content-center">
     <img
       className="text-center xs:h-[50px] xs:w-[50px] md:mb-[15px]"
       src={image}
@@ -62,7 +62,7 @@ function ECommerceCards() {
   ];
 
   return (
-    <div className="flex justify-center items-center xs:mt-[30px] xs:mb-[50px] xs:px-[30px] lg:px-[100px] xl:px-[200px]">
+    <div className="flex justify-center items-center xs:mt-[30px] xs:mb-[50px] xs:px-[30px] xl:px-[250px] lg:pt-[20px]">
       <div className="grid w-full xs:grid-cols-2 md:grid-cols-4 xs:gap-y-1 md:gap-y-6">
         {CardsData.map((card, index) => (
           <Card key={index} title={card.title} image={card.image} />

@@ -15,7 +15,7 @@ function ECommerce() {
   return (
     <div className=" max-auto">
       {/*First Section*/}
-      <div className=" bg-[#F48029] xs:text-center md:text-left max-w-full container xs:px-[30px] xs:pb-[60px] md:pb-[30px] xs:pt-[10px] ">
+      <div className="  bg-[#F48029] xs:text-center md:text-left max-w-full container  xs:px-[30px] xl:px-[80px] lg:pt-[80px] xs:pb-[60px] md:pb-[30px] xs:pt-[10px] ">
         <div className=" grid lg:grid-cols-2 md:grid-cols-1 md:pb-[60px] ">
           {/* First Column */}
           <div className=" text-white ">
@@ -37,21 +37,21 @@ function ECommerce() {
           </div>
 
           {/* Second Column */}
-          <div className=" overflow-hidden lg:pt-20 lg:px-0 xs:px-10 flex content-center items-center">
+          <div className=" overflow-hidden  lg:px-0 xs:px-10 flex relative justify-center content-center items-center">
             <img className="hidden md:block lg:mb-12 w-full" src={img1} alt="" />
           </div>
         </div>
       </div>
 
       {/*Cards section*/}
-      <div>
+      <div >
         <ECommerceResponsiveCards></ECommerceResponsiveCards>
       </div>
       {/*Section 2 */}
-      <div className="xs:px-[30px] xs:mt-[30px] xs:text-[14px] xs:leading-[24px] md:text-[16px]  ">
-        <div className="text-center bg-black rounded  text-white xs:p-[30px] ">
-          <div className="flex justify-center relative items-center xs:mb-[14.4px]">
-            <div className="text-center h-aoto w-auto md:mx-[195.06px] relative">
+      <div className="xl:px-[60px] xs:px-[30px] xs:mt-[30px] xs:text-[14px] xs:leading-[24px] md:text-[16px]  ">
+        <div className="text-center bg-black rounded  text-white xs:p-[30px] lg:px-[100px] xl:py-[50px]">
+          <div className="flex justify-center relative items-center xs:mb-[14.4px] xl:pt-[10px]">
+            <div className="text-center h-auto w-auto md:mx-[195.06px] relative">
               Unlock your E-Commerce potential with our premier Ecommerce
               <a href="#" class="px-2 text-[#c36] hover:text-blue-800">
                 digital marketing services in California
@@ -59,7 +59,7 @@ function ECommerce() {
             </div>
           </div>
 
-          <div className="relative xs:text-[15px] xs:font-[22px] md:text-[30px] md:leading-[45px]">
+          <div className="relative xs:text-[15px] xs:font-[22px] md:text-[30px] md:leading-[45px] xl:pb-[10px]">
             Discover the missing piece to your E-commerce Puzzle
           </div>
 
@@ -73,7 +73,7 @@ function ECommerce() {
         </div>
       </div>
       {/*Section 3*/}
-      <div className=" relative grid xs:grid-cols-1 md:grid-cols-3 xs:px-[30px] xs:pt-[50px] md:pt-[30px] md:px-[30px] lg:px-[10px]">
+      <div className="xl:px-[70px] relative grid xs:grid-cols-1 md:grid-cols-3 xs:px-[30px] xs:pt-[50px] md:pt-[30px] md:px-[30px] lg:px-[10px]">
       <div className="flex justify-center xs:pb-[15px] md:p-[10px]">
         <img  src={img2} alt="" />
       </div>
@@ -99,7 +99,7 @@ function ECommerce() {
       </div>
 
       {/*Section 4 */}
-      <div className="xs:px-[30px] grid xs:grid-cols-1 lg:grid-cols-3 bg-gray-100 ">
+      <div className="xl:px-[60px] xs:px-[30px] grid xs:grid-cols-1 lg:grid-cols-3 bg-gray-100 ">
         <div className="col-span-2 lg:pt-40 xs:pb-[20px] lg:pb-[0px] lg:px-[10px]  lg:items-center lg:justify-center">
           <p className="xs:pb-[43px] md:pb-[18px] lg:pb-[20.4px]  xs:text-[19px] xs3:text-[28px] xs3:leading-[39.2px] sm:text-[28px] md:text-[35px] lg:text-[45px] xs:leading-[28px] md:leading-[49px] lg:leading-[70px] font-[900] ">
             We Specialized in High Revenue Generation
@@ -130,7 +130,7 @@ function ECommerce() {
 
       
         <ECommerceCards></ECommerceCards>
-        <div className="xs:px-[30px] ">
+        <div className="xs:px-[30px] xl:px-[200px]">
         <p className=" xs:mb-[14.4px] text-[#363636] xs:text-[20px] xs:leading-[28px] xs3:text-[28px] xs3:font-[700] xs3:leading-[39.2px] sm:text-[28px] md:text-[35px] font-[700] text-center">
           Why Choose Us as your E-commerce Marketing Agency in California?
         </p>
