@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function FaqsItem({ question, icon }) {
   return (
     <div className="xs:my-4">
-      <div className=" grid grid-cols-6 bg-gray-100 py-5 px-4 rounded font-bold">
+      <div className=" grid grid-cols-6 bg-fafa py-5 px-4 rounded font-bold">
         <div className="col-span-5 ">{question}</div>
         <div>{icon}</div>
       </div>
@@ -144,7 +144,7 @@ function FaqsGetInTouch() {
                     name="name"
                     id="name"
                     placeholder="Full Name"
-                    class="w-100 mt-2 py-3 px-3  bg-gray-100 text-black  rounded"
+                    class="w-100 mt-2 py-3 px-3  bg-fafa text-black  rounded"
                   />
                 </div>
                 <div class="flex flex-col md:py-5 xs:py-1">
@@ -156,7 +156,7 @@ function FaqsGetInTouch() {
                     name="name"
                     id="name"
                     placeholder="Email"
-                    class="w-100 mt-2 py-3 px-3  bg-gray-100 text-black  rounded"
+                    class="w-100 mt-2 py-3 px-3  bg-fafa text-black  rounded"
                   />
                 </div>
               </div>
@@ -170,7 +170,7 @@ function FaqsGetInTouch() {
                     name="name"
                     id="name"
                     placeholder="Phone Number"
-                    class="w-100 mt-2 py-3 px-3  bg-gray-100 text-black  rounded"
+                    class="w-100 mt-2 py-3 px-3  bg-fafa text-black  rounded"
                   />
                 </div>
                 <div class="flex flex-col xs:py-1 md:py-0">
@@ -179,7 +179,7 @@ function FaqsGetInTouch() {
                   </label>
                   <select
                     id="category"
-                    className="w-100 mt-2 py-3 px-3  bg-gray-100 text-black rounded"
+                    className="w-100 mt-2 py-3 px-3  bg-fafa text-black rounded"
                   >
                     <option value="General Inquiry">Select Service</option>
                     <option value="Feedback">SEO</option>
@@ -200,7 +200,7 @@ function FaqsGetInTouch() {
                   name="name"
                   id="name"
                   placeholder="Your Comment"
-                  class="w-100 mt-2 pt-5 px-3 pb-40 h bg-gray-100 text-black  rounded"
+                  class="w-100 mt-2 pt-5 px-3 pb-40 h bg-fafa text-black  rounded"
                 />
               </div>
               <div className="pt-5 md:pl-5 xs:pl-0">

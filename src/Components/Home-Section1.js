@@ -7,14 +7,14 @@ function Section1() {
     <div className="bg-[#F48029] max-auto pb-28">
       <div className="flex max-auto font-poppins text-white px-6 xs:px-7 grid lg:grid-cols-2 xs:grid-cols-1">
         <div className="pt-12 text-left lg:px-11 xs:px-0"  >
-          <p className="text-xl xs:text-sm ">
+          <p className="text-xl xs:text-sm md:text-xl ">
             We are the Creative Best Digital Marketing Company
           </p>
           <p className="xs:pt-4 md:pt-8 lg:text-5xl md:text-4xl xss:text-3xl xs2:text-[30px] xs:text-lg font-bold lg:!leading-[55px] xss:!leading-[40px] xs2:!leading-[45px] xs:!leading-[30px]">
             Welcome to NaqsTech Digital Your Partner in Digital Growth
           </p>
           <br />
-          <p className="text-xl xs:text-sm pt-2 leading-loose">
+          <p className="text-xl xs:text-sm md:text-xl pt-2 leading-loose md:leading-[40px]">
             NaqsTech Digital is a leading digital marketing agency in California
             specializing in helping businesses achieve their goals. Our expert
             team delivers results-driven digital solutions to businesses of all
