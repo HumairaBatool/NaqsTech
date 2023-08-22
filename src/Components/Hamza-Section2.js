@@ -40,12 +40,12 @@ class HamzaSection2 extends Component{
                 </div>
             </div>
             <div style={mystyle} className="lg:px-20 md:px-24 xs:px-6">
-                <p className=" text-center lg:mt-[90px] xs:mt-1 font-[700] lg:text-6xl md:text-4xl xs2:text-[30px] xs:text-lg text-[#363636] lg:!leading-[50px] md:!leading-[60px] xs2:!leading-[40px] xs:!leading-[30px] ">
+                <p className=" text-center lg:mt-[90px] xs:mt-1 font-[700] lg:text-6xl md:text-[40px] xs2:text-[30px] xs:text-lg text-[#363636] lg:!leading-[50px] md:!leading-[60px] xs2:!leading-[40px] xs:!leading-[30px] ">
                 Our Top Digital Marketing Services in New York                </p>
                 <p className=" lg:mt-[50px] xs:mt-4 text-center lg:text-2xl md:text-3xl xss:text-lg xs:text-lg text-[#363636]">
                     Planning your Success
                 </p>
-                <p className="lg:mt-[30px] xs:mt-4 text-center lg:text-2xl xss:text-lg xs:text-sm text-[#363636]">
+                <p className="lg:mt-[30px] xs:mt-4 text-center lg:text-2xl md:text-xl xss:text-lg xs:text-sm text-[#363636]">
                     Streamlined best digital marketing services for easy business integration
                 </p>
             </div>

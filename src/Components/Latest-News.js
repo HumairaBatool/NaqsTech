@@ -9,8 +9,8 @@ function NewsItem({ imageSrc, title, content }) {
   return (
     <div className="shadow-lg overflow-hidden rounded bg-white">
       <img src={imageSrc} alt="" />
-      <h3 className="md:p-8 xs:p-7 md:text-[23px] xs:text[16px] font-[700]">{title}</h3>
-      <p className="md:px-8 xs:px-7 md:pb-0 xs:pb-7 md:text-[20px] xs:text-[14px] ">{content}</p>
+      <h3 className="md:p-8 xs:p-7 lg:text-[20px] md:text-[23px] xs:text[16px] font-[700] text-[#363636] h-36">{title}</h3>
+      <p className="md:px-8 xs:px-7 md:pb-10 xs:pb-7 lg:text-[16px] md:text-[20px] xs:text-[14px] ">{content}</p>
     </div>
   );
 }
@@ -48,7 +48,7 @@ function LatestNews() {
     <div className="pt-10">
       <div className="max-auto">
         <div className="relative">
-          <div className="md:pt-20 xs:pt-2 md:pb-0 xs:pb-14 text-center md:text-[45px] xs:text-[26px] md:font-[700] xs:font-[700]">
+          <div className="md:pt-20 xs:pt-2 md:pb-0 xs:pb-14 text-center lg:text-4xl md:text-[45px] xs:text-[26px] md:font-[700] xs:font-[700] text-[#363636]">
             Latest News
           </div>
           <div className=" xs:p-7 md:p-20 gap-6 grid lg:grid-cols-3 xs:grid-cols-1 auto-rows-fr">
