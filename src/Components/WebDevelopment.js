@@ -9,10 +9,14 @@ import image2 from '../img/icon5.webp';
 import image3 from '../img/icon3.webp';
 import image4 from '../img/icon4.webp';
 
-import SEO7 from "../img/SEO7.webp";
-import SEO8 from "../img/SEO8.webp";
-import SEO9 from "../img/SEO9.webp";
-import SEO10 from "../img/SEO10.webp";
+
+// import SEO7 from "../img/SEO7.webp";
+// import SEO8 from "../img/SEO8.webp";
+// import SEO9 from "../img/SEO9.webp";
+// import SEO10 from "../img/SEO10.webp";
+
+
+import portfolio from "../img/Our-Portfolio-1-736x1024.webp";
 
 import star1 from '../img/5stars.webp';
 import rev1 from '../img/rev1.jpeg';
@@ -48,6 +52,8 @@ class Web extends Component {
                         </div>
                     </div>
                 </div>
+
+                
                 
                {/* Card Section */}
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:ml-60 md:justify-center lg:ml-40 lg:mr-40 xl:mr-60 gap-4 ml-4 mr-4 pb:-mt-14 lg:-mt-56 md:ml-6 md:mr-6 xs:mr-8 xs:ml-8 md:gap-3  xs:-mt-96 -mt-12 md:-mt-52">
@@ -69,7 +75,6 @@ class Web extends Component {
                         <h1 className="text-[18px] md:text-[18px] xs:text-[14px] mt-3  md:mt-4">E-commerce Services</h1>
                     </div>
                 </div>
-
                 {/* Section 2 */}
                 <div className="text-[#363636]">
                     <h1 className="mt-28 text-[21px] font-[900] text-center xs:text-[21px] xs:mt-12 xss:mt-32 xss:text-[2rem]">
@@ -90,7 +95,7 @@ class Web extends Component {
                 <WebCards/>
 
                 {/* 4th Section */}
-                <div className="grid xs:grid-col-1 md:grid-cols-2 xs3:text-[#363636] md:mt-36 xs:mt-4 md:ml-20 md:mr-20 md:space-x-20 xs:pb-12 md:pb-20">
+                <div className="grid xs:grid-col-1 md:grid-cols-2 xs3:text-[#363636] md:mt-16 xs:mt-4 md:ml-20 md:mr-20 md:space-x-20 xs:pb-12 md:pb-20">
                     <h1 className="xs:text-[20px] xs:text-center md:text-[45px] xs3:mr-32 mt-4">
                         <span className="font-[700]">Why should you invest</span> in WordPress Development?
                     </h1>
@@ -106,41 +111,37 @@ class Web extends Component {
                 <Section5 />
 
                 {/* 7th Section */}
-                <div className="bg-[#F48029] mt-28 h-[515px]">
-                    <div className="grid grid-cols-7 text-left max-auto text-white">
-                        <div className="col-span-4 text-left py-20 px-16 ml-8">
-                            <p className=" pt-20 pb-6 text-[65px]">
-                                Our <b> Portfolio </b>
-                            </p>
-                            <p className="text-[28px]">
-                                Have a look at the beautiful sites we’ve built, because we take great pride in our work!
-                            </p>
-                            <button className="mt-2 bg-[#363636] w-36 rounded-md h-14 align-middle hover:bg-white hover:text-black">
-                                Learn More
-                            </button>
-                        </div>
-                        <div className="col-span-3">
-                            <div className="w-full h-40 grid grid-cols-2 gap-4">
-                                <div>
-                                    <img
-                                        src={SEO7} alt="" className=" relative top-[-45px] pb-6 object-cover w-full h-50%"
-                                    />
-                                    <img
-                                        src={SEO8} alt="" className=" relative top-[-55px] object-cover w-full h-50%"
-                                    />
-                                </div>
-                                <div>
-                                    <img
-                                        src={SEO9} alt=""className=" pt-20 pr-20 object-cover w-full h-50%"
-                                    />
-                                    <img
-                                        src={SEO10}alt=""className="pb-20 pr-20  pt-4 object-cover w-full h-50%"
-                                    />
+                <div className="bg-white  max-auto pt-20">
+                    <div className="bg-[#F48029] max-auto">
+                        <div className="grid lg:grid-cols-7 md:grid-cols-4 text-left max-auto text-white">
+                            <div className=" col-span-4 lg:py-20 md:py-4 lg:px-16 xs:px-7 md:pl-7 lg:ml-8">
+                                <p className=" pt-10 pb-6 md:text-[56px] xs:text-[20px] ">
+                                    Our <span className="md:font-[700]"> Portfolio </span> 
+                                </p>
+                                <p className="text-left lg:text-[25px] md:text-[20px] xs:text-[14px]  pt-1 ">
+                                    Have a look at the beautiful sites we’ve built, because we take great pride in our work!
+                                </p>
+                                <button className="py-4 xs:py-4 xs:text-[14px] xss:px-8 xss:py-4 px-4 xs:px-6 rounded text-center bg-[#363636] p-0.5 xs:p-1 hover:bg-white hover:text-black text-white">
+                                        Learn More
+                                </button>
+                            </div>
+
+                            <div className="col-span-3 lg:-mb-36 xs:mb-0">
+                                <div className="w-full gap-4">
+                                    <div>
+                                        <img
+                                            src={portfolio}
+                                            alt=""
+                                            className=" relative lg:top-[-45px] xs:top-0 lg:w-3/4 xs:w-full"
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+              
 
                 {/* 8th Section Reviews */}
                 <div className="bg-[#FAFAFA] pb-16">
