@@ -14,9 +14,11 @@ import img9 from "../img/Our-Portfolio-1-736x1024.webp";
 
 function Component4() {
   return (
-    <div className="bg-[#F48029] max-auto  xs:px-[30px] xl:px-[80px] xs:pt-[50px] xs:pb-[50px] lg:pb-[0px]">
-      <div className=" grid lg:grid-cols-3 xs:grid-cols-1 text-white">
-        <div className=" col-span-2 xl:w-[90%] flex flex-col justify-center items-center md:items-start">
+
+    <div className="bg-white  max-auto pt-[20px] ">
+      <div className="bg-[#F48029] max-auto xs:px-[30px] lg:px-[80px] ">
+        <div className=" grid lg:grid-cols-7 text-left max-auto text-white">
+          <div className="col-span-4 text-left lg:self-center xl:w-[90%]">
           <p className="xs:pb-[20px] xs:text-center  lg:text-left xs:text-[28px] xs:font-[700] xs:leading-[39.2px] md:text-[35px] md:leading-[49px] lg:text-[45px] lg:leading-[70px] text-5xl font-[800] leading-normal">
             Discover our Dynamic Portfolio
           </p>
@@ -29,19 +31,28 @@ function Component4() {
               Learn more
             </button>
           </div>
-        </div>
+          </div>
 
-        <div>
-          <div>
-            <img
-              src={img9}
-              alt=""
-              className="relative lg:top-[-70px]  object-cover lg:auto lg:auto xs:w-full xs:h-full content-center justify-center"
-            />
+          <div className="lg:col-span-3 xs:col-span-4 lg:-mb-36 xs:mb-0 lg:px-0 xs:px-6">
+            <div className="w-full gap-4 xs:pb-[40px]">
+              <div>
+                <img
+                  src={img9}
+                  alt=""
+                  className=" relative lg:top-[-45px] xs:top-0 w-full"
+                />
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+
+
+
+
   );
 }
 
