@@ -141,14 +141,14 @@ class Web extends Component {
                     </div>
                 </div>
                 {/* 8th Section Reviews */}
-                <div className="bg-[#FAFAFA]  pb-16">
+                <div className="bg-[#FAFAFA] pb-16">
                     {/* Reviews Section */}
-                    <div className="xs:text-center xs:text-[28px] text-[#363636] text-[35px] font-[700] p-10 md:ml-[80px]">
+                    <div className="xs:text-center xs:text-[28px] text-[#363636] md:text-[35px] md:text-left md:p-12 font-[700] p-10">
                         Reviews
                     </div>
-                    <div className="grid xs:grid-cols-1 grid-cols-2 xs:flex xs:flex-col xs:justify-center xs:items-center md:gap-6 md:ml-28 md:mr-24 ">
+                    <div className=" md:ml-auto md:mr-auto xs:flex xs:flex-col lg:grid lg:grid-cols-2 lg:items-center xs:justify-center xs:items-center">
                         {/* First Review */}
-                        <div className="bg-white xs:text-[14px] xs:p-8 xs:h-auto xs:w-4/5  text-[18px] text-[#737373] rounded-md hover:shadow-2xl p-8 h-5/6">
+                        <div className="bg-white xs:text-[14px] xs:p-8 xs:h-auto lg:text-[18px] xs:w-4/5 text-[#737373] rounded-lg hover:shadow-2xl p-8 h-5/6">
                             {/* Review Text */}
                             <p>
                                 I am quite pleased with NaqsTech Digital's web design and development services. They not only designed an aesthetically great website for my company, but they also made it responsive and user-friendly. I wholeheartedly endorse their services.
@@ -166,7 +166,7 @@ class Web extends Component {
                             </div>
                         </div>
                         {/* 2nd Review */}
-                        <div className="bg-white xs:text-[14px] xs:p-8 xs:h-auto xs:w-4/5 text-[18px] text-[#737373] xs:mt-6 rounded-md hover:shadow-2xl p-8 h-6/6">
+                        <div className="bg-white xs:text-[14px] xs:p-8 xs:h-auto xs:w-4/5 lg:text-[18px] text-[#737373] xs:mt-6 lg:mt-auto rounded-lg hover:shadow-2xl p-8 h-6/6">
                             {/* Review Text */}
                             <p>
                                 NaqsTech Digital provided exceptional web design and development services that transformed our online presence. Our site looks excellent on any device because the responsive design maximizes user interaction. We appreciate their professionalism and competence.
@@ -184,7 +184,7 @@ class Web extends Component {
                             </div>
                         </div>
                         {/* 3rd Review */}
-                        <div className="bg-[#F48029] xs:text-[14px] xs:p-8 xs:h-auto xs:w-4/5 xs:mt-6 text-[18px] rounded-md hover:shadow-2xl p-8 text-white -mt-6">
+                        <div className="bg-[#F48029] xs:text-[14px] xs:p-8 xs:h-auto xs:w-4/5 xs:mt-6 lg:text-[18px] rounded-lg hover:shadow-2xl p-8 text-white -mt-6">
                             {/* Review Text */}
                             <p>
                                 NaqsTech Digital's web design and development services exceeded my expectations. Their WordPress skills and responsive design ensured a consistent user experience across all devices. I am overjoyed with the results.
@@ -202,7 +202,7 @@ class Web extends Component {
                             </div>
                         </div>
                         {/* 4th Review */}
-                        <div className="bg-[#F48029] xs:text-[14px] xs:p-8 xs:h-auto xs:w-4/5 xs:mt-6 text-[18px] rounded-md hover:shadow-2xl p-8 text-white">
+                        <div className="bg-[#F48029] xs:text-[14px] xs:p-8 xs:h-auto xs:w-4/5 xs:mt-6 lg:text-[18px] rounded-md hover:shadow-2xl p-8 text-white">
                             {/* Review Text */}
                             <p>
                                 Working with NaqsTech Digital on our website design and development was a pleasure. They made helpful suggestions to improve our website's functioning and visual appeal.
