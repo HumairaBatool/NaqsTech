@@ -50,45 +50,47 @@ function GraphicDesign() {
     <div>
       <div className="mx-auto ">
         {/*First Section*/}
-        <div className=" bg-[#F48029] max-w-full container lg:pb-[50px] xs:pb-[8rem] md:pt-[40px] xs:pt-2">
-          <div className=" grid lg:grid-cols-2 md:grid-cols-1 lg:pl-14 lg:pr-28 items-center ">
+        <div className=" bg-[#F48029] max-w-full container xs:px-[30px] xl:px-[80px] xs:pb-[70px]  xs:pt-[10px] md:pt-[55px] xl:pt-[60px]">
+          <div className=" grid lg:grid-cols-2 md:grid-cols-1 content-center items-center ">
             {/* First Column */}
-            <div className="text-left md:pb-20 lg:pb-28 lg:mt-4 text-white xs:mx-8 lg:pt-10">
-              <h1 className="xs:text-[17px] xs3:text-[28px] md:text-[35px]  lg:text-[40px] xs:font-[700] lg:font-[700] lg:leading-[44px] md:leading-[49px] sm:leading-[39.2px]  xs:leading-[28px]">
+            <div className="text-left text-white">
+              <h1 className="xs:pb-[20px] xs:text-[17px] xs3:text-[28px] md:text-[35px]  lg:text-[40px] xs:font-[700] xs3:leading-[39.2px] xs3:font-[700] lg:leading-[44px] md:leading-[49px] sm:leading-[39.2px]  xs:leading-[28px]">
                 Top-Rated Graphic Design Services in California
               </h1>
-              <h1 className="my-3 xs:font-[400]  xs:text-[14px] md:text-[20px] md:leading-[40px] xs:leading-[25px]">
+              <h1 className=" xs:pb-[10px] my-3 xs:font-[400]  xs:text-[14px] md:text-[20px] md:leading-[40px] xs:leading-[25px]">
                 Tailored To Meet Your Specific Needs
               </h1>
-              <button className="my-3 bg-[#363636]  rounded-md px-[24px] py-[12px] align-left hover:bg-white hover:text-black">
+
+              <button className=" my-3 bg-[#363636]  rounded-md px-[24px] py-[12px] align-left hover:bg-white hover:text-black">
                 Let's Get Connected
               </button>
+              <div className="xs:pb-[10px]"></div>
             </div>
 
             {/* Second Column */}
-            <div className=" overflow-hidden lg:pt-8 lg:px-0 xs:px-10">
-              <img className="lg:mb-12 xs:w-full" src={img2} alt="" />
+            <div className=" overflow-hidden md:py-[20px] lg:py-[0px] flex items-center content-center">
+              <img
+                className="hidden md:block lg:mb-12 xs:w-full"
+                src={img2}
+                alt=""
+              />
             </div>
           </div>
         </div>
       </div>
 
       {/*Cards section*/}
-
-      <div>
+      <div className="xs:pb-[50px]">
         <Cards />
       </div>
-
       {/*2nd Section */}
-
-      <div className=" max-auto  bg-white pt-20 ">
-        <div className="bg-[#EDEDED] grid lg:grid-cols-3 xs:grid-cols-1 tracking-tight md:grid-cols-1 lg:px-0 xs:px-4">
-
-          <div className="col-span-2  text-black container relative lg:px-14  xs:leading-[24px] xs:pt-[50px] lg:pt-[0px] justify-center content-center">
-            <div className=" text-center relative container lg:px-[50px] md:px-[50px] xs3:px-[30px] xs5:px-[30px] xs7:px-[100px] xs1:px-[10px] xs:px-[20px] xs:text-[21px] xs:leading-[28px] xs3:text-[28px] xs3:leading-[39.2px] md:text-[32px] md:leading-[38px] text-4xl text-black font-bold pr-2">
+      <div className=" max-auto bg-[#FAFAFA] xs:px-[30px] xl:px-[50px] xs:pt-[50px] xl:pt-[10px] ">
+        <div className=" grid lg:grid-cols-3 xs:grid-cols-1 tracking-tight md:grid-cols-1 ">
+          <div className="xl:pr-[80px] col-span-2  text-black container relative  xs:leading-[24px] justify-center content-center">
+            <div className="text-[#333] text-center relative container xs:text-[21px] xs:leading-[28px] xs3:text-[28px] xs3:leading-[39.2px] md:text-[32px] md:leading-[38px] text-4xl xs:font-[700]">
               Your Go-To Graphic Design Agency in California
             </div>
-            <p className="lg:pr-28 text-left pt-5 text-2xl leading-10 xs:text-[14px] xs:leading-[21px] md:text-[20px] md:leading-[35px] ">
+            <p className="text-[#333] xs:pb-[37px] xs:pt-[20px] text-2xl leading-10 xs:text-[14px] xs:leading-[21px] md:text-[20px] md:leading-[35px] ">
               We are specialized in crafting professionally designed visual
               assets that make a lasting impression. From eye-catching logos to
               engaging brochures, dynamic flyers, commanding billboards,
@@ -101,45 +103,47 @@ function GraphicDesign() {
             </p>
           </div>
 
-            <div className=" bg-[#EDEDED]  relative  flex justify-center content-center">
+          <div className=" bg-[#FAFAFA] relative  flex justify-center content-center">
             <img
-            src={img1}
-            alt=""
-            className="lg:py-0 xs:py-10  lg:pr-14 max-w-full max-h-full lg:absolute inset-0 m-auto"
-            style={{ width: '100%', height: 'auto', maxHeight: '100%' }}
-          />
-            </div>
+              src={img1}
+              alt=""
+              className="  lg:pl-[15px] xl:pl-[30px]  lg:absolute inset-0 m-auto xl:pb-[20px] xl:pt-[10px]"
+              style={{ width: "100%", height: "", maxHeight: "100%" }}
+            />
+          </div>
         </div>
       </div>
 
       <Slider></Slider>
       {/*3rd Section */}
 
-      <div className="text-center bg-[#F48029] lg:px-40 sm:px-5">
-        <p className="xs:pt-[50px] lg:px-[100px] xs:px-[8px] xs:text-[19px] xs:font-[700] xs:leading-[28px] xs3:text-[28px] xs3:leading-[39.2px] md:text-[40px] md:leading-[56px]  lg:pt-24 lg:pb-6 text-5xl font-extrabold">
+      <div className="text-center bg-[#F48029] xs:px-[30px] lg:pb-[60px] xs:py-[50px]">
+        <p className=" xs:text-[19px] xs:font-[700] xs:leading-[28px] xs:mb-[20px] xs3:text-[28px] xs3:leading-[39.2px] md:text-[40px] md:leading-[56px]  font-[800]">
           Shape your Visual Story
         </p>
         <br />
-        <p className="xs:text-[14px] xs:leading-[25px]  text-2xl leading-relaxed md:px-[200px] xs:px-[45px] font-normal lg:px-60">
-          Visualize your identity and captivate your target audience with
-          compelling designs.
-        </p>
-        <div className="pt-5 pb-20">
-          <button className="py-3 px-5 rounded bg-[#363636] p-1 hover:bg-white hover:text-black text-white">
+        <div className=" container xl:max-w-[40%] lg:max-w-[45%]  md:max-w-[55%] mx-auto">
+          <p className=" xs:text-[14px] md:text-[20px]  xs:leading-[25px]  xs:mb-[14.4px] md:leading-[35px]  font-[400]">
+            Visualize your identity and captivate your target audience with
+            compelling designs.
+          </p>
+        </div>
+        <div className="xs:mt-[50px] lg:mt-[20px]">
+          <button className="py-[12px] px-[24px] text-[14px] rounded bg-[#363636] hover:bg-white hover:text-black text-white">
             Let's Get Connected
           </button>
         </div>
       </div>
 
       {/*4th Section */}
-      <div className="max-auto grid lg:grid-cols-3 xs:grid-cols-1 bg-white md:pt-20 xs:pt-10">
-        <div className="col-span-2">
-          <div className="text-justify  text-black lg:pl-16 lg:pr-20 xs:px-4 lg:px-0">
-            <div className="xs:text-[17px] xs:font-[600] xs:leading-[28px] xs3:text-[28px] xs3:font-[700] xs3:leading-[39.2px] md:text-[35px] md:leading-[49px] lg:text-[40px] lg:leading-[70px] lg:text-left xs:text-center text-4xl  text-black font-extrabold leading-relaxed space-x-0 pr-2">
+      <div className="max-auto grid lg:grid-cols-3 xs:grid-cols-1 bg-white xs:px-[30px] lg:px-[60px] xs:pt-[50px]">
+        <div className="col-span-2 items-center flex ">
+          <div className="text-justify text-[#363636] ">
+            <div className=" xs:pb-[20px] xs:text-[17px] xs:font-[600] xs:leading-[28px] xs3:text-[28px] xs3:font-[700] xs3:leading-[39.2px] md:text-[35px] md:leading-[49px] lg:text-[40px] lg:leading-[70px] lg:text-left xs:text-center text-4xl font-[800] leading-[1.4rem] ">
               Choose Professional Graphic Design Services for an Unforgettable
               Impact
             </div>
-            <p className="xs:text-[14px] xs:leading-[21px] xs:pb-[37px] md:text-[20px] md:leading-[35px] md:pb-[40px]  pt-5 text-2xl leading-10">
+            <p className="xs:text-[14px] xs:leading-[21px] xs:pb-[37px] md:pb-[40px] md:text-[20px] md:leading-[35px]">
               Don’t settle for the ordinary and unlock the potential of your
               company. Choose us today and transform your brand into a visual
               masterpiece that leaves a lasting impression. With our keen eye
@@ -148,20 +152,19 @@ function GraphicDesign() {
             </p>
           </div>
         </div>
-        <div className="relative lg:left-[-55px] ">
-          <img src={img7} alt="" className="xs:w-full px-4" />
-          <img src={img8} alt="" className="pt-5 xs:w-full px-4"></img>
+        <div className="">
+          <img src={img7} alt="" className="xs:w-full xs:px-[16px]  sm:px-[40px] lg:px-[20px] xs:mb-[20px]" />
+          <img src={img8} alt="" className=" xs:w-full xs:px-[16px] sm:px-[40px] lg:px-[20px] xs:mt-[20px]"></img>
         </div>
       </div>
       {/*5th Section */}
 
-      <div className="xs:py-[50px] ">
-
-        <div className="xs:text-[17px] xs:font-[600] xs:leading-[28px] text-black xs3:text-[28px] xs3:font-[700] xs3:leading-[39.2px]  md:text-[35px] md:leading-[49px]  lg:text-[40px] lg:leading-[70px]  text-4xl font-extrabold leading-relaxed lg:px-40 xs:px-[50px] text-center lg:pt-60 ">
+      <div className="xs:py-[50px] xs:px-[30px] ">
+        <div className="xs:pb-[44.4px] xs:text-[17px] xs:font-[600] xs:leading-[28px] text-black xs3:text-[28px] xs3:font-[700] xs3:leading-[39.2px]  md:text-[35px] md:leading-[49px]  lg:text-[40px] lg:leading-[70px]  text-4xl font-extrabold leading-relaxed text-center ">
           Our Creative Process of Graphic Design Company California
         </div>
 
-        <div className="px-40">
+        <div className=" xs:pb-[20px] ">
           <div className="w-full h-px bg-[#F48029] my-4 "></div>
         </div>
         <HideShowText></HideShowText>

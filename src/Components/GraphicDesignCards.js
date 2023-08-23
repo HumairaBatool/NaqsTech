@@ -22,11 +22,13 @@ import image3 from "../img/icon3.webp";
     ];
 
     return(
-        <div className="flex justify-center"> {/* Add this container */}
-        <div className="xs:px-8 lg:px-20 relative w-full grid md:grid-cols-3 xs:grid-cols-2 lg:-mt-16 md:-mt-[68px] xs:-mt-[70px] md:pb-[20px] mx-auto"> {/* Center align and add mx-auto */}
-            {datials.map(el => <InnerCard image={el.image} heading={el.heading} />)}
+        <div className=" xs:px-[10px] xs:py-[10px] xl:px-[150px]">
+        <div className="xs:relative lg:relative-none  grid md:grid-cols-3 xs:grid-cols-2 lg:-mt-16 md:-mt-[68px] xs:-mt-[70px] ">
+          {datials.map((el) => (
+            <InnerCard image={el.image} heading={el.heading} />
+          ))}
         </div>
-    </div>
+      </div>
     );
 }
 
