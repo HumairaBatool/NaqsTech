@@ -143,79 +143,79 @@ class Web extends Component {
                 {/* 8th Section Reviews */}
                 <div className="bg-[#FAFAFA] pb-16">
                     {/* Reviews Section */}
-                    <div className="text-[35px] font-[700] p-14 ml-[80px]">
+                    <div className="xs:text-center xs:text-[28px] text-[#363636] md:text-[35px] md:text-left md:p-12 font-[700] p-10">
                         Reviews
                     </div>
-                    <div className="grid grid-cols-2 gap-6 ml-28 mr-24 ">
+                    <div className=" md:ml-auto md:mr-auto xs:flex xs:flex-col lg:grid lg:grid-cols-2 lg:items-center xs:justify-center xs:items-center">
                         {/* First Review */}
-                        <div className="bg-white text-[18px] text-[#737373] rounded-md hover:shadow-2xl p-8 h-5/6">
+                        <div className="bg-white xs:text-[14px] xs:p-8 xs:h-auto lg:text-[18px] xs:w-4/5 text-[#737373] rounded-lg hover:shadow-2xl p-8 h-5/6">
                             {/* Review Text */}
                             <p>
                                 I am quite pleased with NaqsTech Digital's web design and development services. They not only designed an aesthetically great website for my company, but they also made it responsive and user-friendly. I wholeheartedly endorse their services.
                             </p>
-                            <div className="flex justify-start mt-6">
-                                <div className="w-1/20">
+                            <div className="flex justify-start xs:mt-3 mt-6">
+                                <div className="xs:w-9 w-1/20">
                                     {/* Content for the left column */}
                                     <img className="mt-4" src={rev1} alt="Reviewer 1" />
                                 </div>
-                                <div className="w-1/16 mt-5 ml-5">
+                                <div className="w-1/16 xs:ml-2 mt-5 ml-5">
                                     {/* Content for the right column */}
-                                    <h1 className="ml-1 text-[#15063F] font-[500] text-[20px]">Marina.T</h1>
-                                    <img className="w-28" src={star1} alt="5 Stars" />
+                                    <h1 className="ml-1 xs:text-[14px] text-[#15063F] font-[500] text-[20px]">Marina.T</h1>
+                                    <img className="xs:w-24 w-28" src={star1} alt="5 Stars" />
                                 </div>
                             </div>
                         </div>
                         {/* 2nd Review */}
-                        <div className="bg-white text-[18px] text-[#737373]  rounded-md hover:shadow-2xl p-8 h-6/6">
+                        <div className="bg-white xs:text-[14px] xs:p-8 xs:h-auto xs:w-4/5 lg:text-[18px] text-[#737373] xs:mt-6 lg:mt-auto rounded-lg hover:shadow-2xl p-8 h-6/6">
                             {/* Review Text */}
                             <p>
                                 NaqsTech Digital provided exceptional web design and development services that transformed our online presence. Our site looks excellent on any device because the responsive design maximizes user interaction. We appreciate their professionalism and competence.
                             </p>
-                            <div className="flex justify-start mt-6">
+                            <div className="flex justify-start xs:mt-3 mt-6">
                                 <div className="w-1/20">
                                     {/* Content for the left column */}
                                     <img className="mt-4" src={rev3} alt="Reviewer 1" />
                                 </div>
-                                <div className="w-1/16 mt-5 ml-5">
+                                <div className="w-1/16 xs:ml-2 mt-5 ml-5">
                                     {/* Content for the right column */}
-                                    <h1 className="ml-1 text-[#15063F] font-[500] text-[20px]">Veronica. J</h1>
-                                    <img className="w-28" src={star1} alt="5 Stars" />
+                                    <h1 className="ml-1 xs:text-[14px] text-[#15063F] font-[500] text-[20px]">Veronica. J</h1>
+                                    <img className="xs:w-24 w-28" src={star1} alt="5 Stars" />
                                 </div>
                             </div>
                         </div>
                         {/* 3rd Review */}
-                        <div className="bg-[#F48029] text-[18px] rounded-md hover:shadow-2xl p-8 text-white -mt-6">
+                        <div className="bg-[#F48029] xs:text-[14px] xs:p-8 xs:h-auto xs:w-4/5 xs:mt-6 lg:text-[18px] rounded-lg hover:shadow-2xl p-8 text-white -mt-6">
                             {/* Review Text */}
                             <p>
                                 NaqsTech Digital's web design and development services exceeded my expectations. Their WordPress skills and responsive design ensured a consistent user experience across all devices. I am overjoyed with the results.
                             </p>
-                            <div className="flex justify-start mt-6">
-                                <div className="w-1/20">
+                            <div className="flex justify-start xs:mt-3 mt-6">
+                                <div className="w-1/20 xs:ml-2 ">
                                     {/* Content for the left column */}
                                     <img className="mt-4" src={rev2} alt="Reviewer 2" />
                                 </div>
-                                <div className="w-1/16 mt-5 ml-5">
+                                <div className="w-1/16 xs:ml-2 mt-5 ml-5">
                                     {/* Content for the right column */}
-                                    <h1 className="ml-1 text-white font-[500] text-[20px]">William.M</h1>
-                                    <img className="w-28" src={star1} alt="5 Stars" />
+                                    <h1 className="ml-1 xs:text-[14px] text-white font-[500] text-[20px]">William.M</h1>
+                                    <img className="xs:w-24 w-28" src={star1} alt="5 Stars" />
                                 </div>
                             </div>
                         </div>
                         {/* 4th Review */}
-                        <div className="bg-[#F48029] text-[18px] rounded-md hover:shadow-2xl p-8 text-white">
+                        <div className="bg-[#F48029] xs:text-[14px] xs:p-8 xs:h-auto xs:w-4/5 xs:mt-6 lg:text-[18px] rounded-md hover:shadow-2xl p-8 text-white">
                             {/* Review Text */}
                             <p>
                                 Working with NaqsTech Digital on our website design and development was a pleasure. They made helpful suggestions to improve our website's functioning and visual appeal.
                             </p>
-                            <div className="flex justify-start mt-12">
-                                <div className="w-1/20">
+                            <div className="flex justify-start xs:mt-3 mt-12">
+                                <div className="w-1/20  xs:ml-2 ">
                                     {/* Content for the left column */}
                                     <img className="mt-4" src={rev2} alt="Reviewer 2" />
                                 </div>
-                                <div className="w-1/16 mt-5 ml-5">
+                                <div className="w-1/16 xs:ml-2 mt-5 ml-5">
                                     {/* Content for the right column */}
-                                    <h1 className="ml-1 text-white font-[500] text-[20px]">Mellesia. U</h1>
-                                    <img className="w-28" src={star1} alt="5 Stars" />
+                                    <h1 className="ml-1 xs:text-[14px] text-white font-[500] text-[20px]">Mellesia. U</h1>
+                                    <img className="xs:w-24 w-28" src={star1} alt="5 Stars" />
                                 </div>
                             </div>
                         </div>   

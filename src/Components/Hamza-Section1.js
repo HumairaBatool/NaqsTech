@@ -25,7 +25,7 @@ function HamzaSection1(){
         </div>
 
         {/* Second Column */}
-        <div style={mystyle} className="lg:text-2xl xss:text-base xs:text-sm line-8 lg:ml-14 xs:ml-6 lg:mr-20 xs:mr-8 lg:mt-10 xs:mt-0 text-gray-800 leading-[1.5] !leading-[1.5] lg:!text-[25px]">
+        <div style={mystyle} className="lg:text-2xl md:text-2xl xss:text-base xs:text-sm line-8 lg:ml-14 xs:ml-6 lg:mr-20 xs:mr-8 lg:mt-10 xs:mt-0 text-gray-800 leading-[1.5] !leading-[1.5] lg:!text-[25px]">
           We love unlocking business ambitions. We create magic around client
           goals. Embrace the force that drives results and work with our
           creative digital marketing agency.

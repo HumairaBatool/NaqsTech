@@ -11,20 +11,20 @@ function Section2() {
         <div className=" col-span-2 lg:mx-6 lg:pl-20 lg:py-20">
           <div className="xs:py-10 lg:py-20">
             <div className="flex grid xs:grid-cols-3 ">
-              <div className="overflow-hidden my-6 lg:ml-0 xss:ml-16 lg:ml-0">
+              <div className="overflow-hidden my-6 lg:ml-0 md:ml-28 xss:ml-16 lg:ml-0">
                 <img src={img1} alt=""></img>
               </div>
-              <div className="w-0.5 h-full bg-white xs:ml-9 xs2:ml-14 xss:ml-16 xss:ml-24 lg:ml-16 overflow-hidden "></div>
+              <div className="w-0.5 h-full bg-white xs:ml-9 xs2:ml-14 xss:ml-16 md:ml-28  xs8:ml-36 lg:ml-10 xl:ml-16 overflow-hidden "></div>
               <div className="overflow-hidden my-6 -ml-9 lg:ml-0 lg:my-4">
                 <img  src={img2} alt=""></img>
               </div>
             </div>
             <div className="w-full h-0.5 bg-white"></div>
             <div className="flex grid xs:grid-cols-3">
-              <div className="overflow-hidden my-6 lg:ml-0 xss:ml-16 lg:ml-0">
-                <img src={img3} alt=""></img>
+              <div className="overflow-hidden my-6 lg:ml-0 md:ml-28 xss:ml-16 lg:ml-0">
+                <img className="w-100" src={img3} alt=""></img>
               </div>
-              <div className="w-0.5 h-full bg-white xs:ml-9  xs2:ml-14 xss:ml-16 xss:ml-24 lg:ml-16 overflow-hidden "></div>
+              <div className="w-0.5 h-full bg-white xs:ml-9  xs2:ml-14 xss:ml-16 md:ml-28 xs8:ml-36 lg:ml-10 xl:ml-16 overflow-hidden "></div>
               <div className="overflow-hidden my-4 -ml-9 lg:ml-0 lg:my-4">
                 <img src={img4} alt=""></img>
               </div>
