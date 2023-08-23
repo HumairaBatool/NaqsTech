@@ -14,18 +14,18 @@ import img9 from "../img/Our-Portfolio-1-736x1024.webp";
 
 function Component4() {
   return (
-    <div className="bg-[#F48029] max-auto ">
-      <div className=" grid lg:grid-cols-3 xs:grid-cols-1 max-auto text-white">
-        <div className="col-span-2 text-left lg:py-20 xs:py-2 lg:px-16 xs:px-[10px]">
-          <p className="xs:pt-[30px] xs:text-center  lg:text-left xs:px-[10px] xs3:px-[30px] xs:text-[28px] xs:font-[700] xs:leading-[39.2px] md:text-[35px] md:leading-[49px] lg:text-[45px] lg:leading-[70px] lg:pr-20 lg:pt-20 lg:pb-6 text-5xl font-extrabold leading-normal">
+    <div className="bg-[#F48029] max-auto  xs:px-[30px] xl:px-[80px] xs:pt-[50px] xs:pb-[50px] lg:pb-[0px]">
+      <div className=" grid lg:grid-cols-3 xs:grid-cols-1 text-white">
+        <div className=" col-span-2 xl:w-[90%] flex flex-col justify-center items-center md:items-start">
+          <p className="xs:pb-[20px] xs:text-center  lg:text-left xs:text-[28px] xs:font-[700] xs:leading-[39.2px] md:text-[35px] md:leading-[49px] lg:text-[45px] lg:leading-[70px] text-5xl font-[800] leading-normal">
             Discover our Dynamic Portfolio
           </p>
-          <p className="xs:text-center  lg:text-left xs:px-[30px] xs:text-[14px] xs:leading-[25px] md:text-[20px] md:leading-[35px] lg:text-[25px] text-2xl pt-5 ">
+          <p className="xs:pb-[20px]  xs:text-center md:text-left  xs:text-[14px] xs:leading-[25px] md:text-[20px] md:leading-[35px] lg:text-[25px] text-2xl ">
             Trust our proven portfolio, we create impact and one investment at a
             time.
           </p>
-          <div className="py-5 relative xs:justify-center xs:flex xs:content-center lg:flex-none">
-            <button className="py-3 px-7 rounded bg-[#363636] p-1 hover:bg-white hover:text-black text-white">
+          <div className="xs:pb-[25px] relative flex justify-center md:justify-start">
+            <button className="py-[12px] px-[24px]  text-[12px] rounded bg-[#363636] p-1 hover:bg-white hover:text-black text-white">
               Learn more
             </button>
           </div>
@@ -36,7 +36,7 @@ function Component4() {
             <img
               src={img9}
               alt=""
-              className=" lg:px-0 xs:px-[20px] lg:pb-0 xs:pb-[40px] relative lg:top-[-70px]  object-cover lg:w-150% lg:h-125% xs:w-full xs:h-full content-center justify-center"
+              className="relative lg:top-[-70px]  object-cover lg:auto lg:auto xs:w-full xs:h-full content-center justify-center"
             />
           </div>
         </div>
@@ -159,8 +159,8 @@ function GraphicDesign() {
       </div>
       {/*5th Section */}
 
-      <div className="xs:py-[50px] xs:px-[30px] ">
-        <div className="xs:pb-[44.4px] xs:text-[17px] xs:font-[600] xs:leading-[28px] text-black xs3:text-[28px] xs3:font-[700] xs3:leading-[39.2px]  md:text-[35px] md:leading-[49px]  lg:text-[40px] lg:leading-[70px]  text-4xl font-extrabold leading-relaxed text-center ">
+      <div className="xs:py-[50px] xs:px-[30px] xl:px-[120px] ">
+        <div className="xl:px-[50px] xs:pb-[44.4px] xs:text-[17px] xs:font-[600] xs:leading-[28px] text-[#363636] xs3:text-[28px] xs3:font-[700] xs3:leading-[39.2px]  md:text-[35px] md:leading-[49px]  lg:text-[40px] lg:leading-[70px]  text-4xl font-extrabold leading-relaxed text-center ">
           Our Creative Process of Graphic Design Company California
         </div>
 
@@ -171,7 +171,7 @@ function GraphicDesign() {
       </div>
       <FaqsGetInTouch />
       <Reviews></Reviews>
-      <div className="pt-20">
+      <div>
         <Component4></Component4>
       </div>
       <LatestNews></LatestNews>

@@ -30,7 +30,7 @@ const HideShowText = () => {
 };
 
   return (
-    <div className="grid md:grid-cols-4 xs:grid-cols-1 md:gap-5 xs:gap-0 text-left ">
+    <div className="grid md:grid-cols-4 xs:grid-cols-1 md:gap-5 xs:gap-0 xs:text-center md:text-left ">
 
 
 
