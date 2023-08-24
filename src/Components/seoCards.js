@@ -23,6 +23,7 @@ function Card() {
         return(
             <div className="flex justify-center lg:mx-20 lg:mb-10"> {/* Add this container */}
             <div className="xs:w-full xs:max-w-full md:w-full md:max-w-full xs:ml-3 xs:mr-3 relative w-full grid md:grid-cols-3 xs:grid-cols-2 lg:-mt-16 md:-mt-[68px] xs:-mt-[100px] md:pb-[20px] mx-auto"> {/* Center align and add mx-auto */}
+
                 {datials.map(el => <InnerCard image={el.image} heading={el.heading} />)}
             </div>
         </div>

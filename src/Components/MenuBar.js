@@ -103,6 +103,21 @@ function MenuBar() {
                     </Link>
                   </li>
                   <li className="border-b">
+                  <Link
+                    to="/graphicdesign"
+                    className={`pt-4 block text-black ${
+                      currentPage === "SERVICES: GRAPHIC DESIGN"
+                        ? "text-[#F48029]"
+                        : "hover:text-[#F48029]"
+                    }`}
+                    onClick={() =>
+                      handleMenuItemClick("SERVICES: GRAPHIC DESIGN")
+                    }
+                  >
+                    GRAPHIC DESIGN
+                  </Link>
+                </li>
+                  <li className="border-b">
                     <Link
                       to="/ecommerce"
                       className={`pt-4 block text-black ${
@@ -115,21 +130,7 @@ function MenuBar() {
                       E-COMMERCE
                     </Link>
                   </li>
-                  <li className="border-b">
-                    <Link
-                      to="/graphicdesign"
-                      className={`pt-4 block text-black ${
-                        currentPage === "SERVICES: GRAPHIC DESIGN"
-                          ? "text-[#F48029]"
-                          : "hover:text-[#F48029]"
-                      }`}
-                      onClick={() =>
-                        handleMenuItemClick("SERVICES: GRAPHIC DESIGN")
-                      }
-                    >
-                      GRAPHIC DESIGN
-                    </Link>
-                  </li>
+
                 </ul>
               )}
             </div>
