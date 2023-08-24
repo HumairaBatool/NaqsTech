@@ -30,19 +30,19 @@ const HideShowText = () => {
 };
 
   return (
-    <div className="grid md:grid-cols-4 xs:grid-cols-1 md:gap-5 xs:gap-0 xs:text-center md:text-left ">
+    <div className="grid md:grid-cols-4 xs:grid-cols-1 md:gap-5 xs:gap-0 xs:text-center">
 
 
 
       <div>
         <button
           onClick={() => handleTextToggle(0)}
-          className={`cursor-pointer ${openColumnIndex === 0 ? 'font-normal text-black' : 'text-[#B0AFAF]'}`}
+          className={`cursor-pointer ${openColumnIndex === 0 ? 'font-normal text-black h-16' : 'text-[#B0AFAF] h-16'}`}
         >
           <div className="text-[#B0AFAF] text-[20px]">Research</div>
         </button>
         {columnVisibility[0] && (
-          <div className="xs:py-[20px]">
+          <div className="md:w-[440%] p-[50px]">
             <p className="xs:text-[14px] md:text-[20px]">
               We gather information about the project, including the client’s
               goals, and design requirements. We research to understand the
@@ -56,13 +56,13 @@ const HideShowText = () => {
       <div>
         <button
           onClick={() => handleTextToggle(1)}
-          className={`cursor-pointer ${openColumnIndex === 0 ? 'font-normal text-black' : 'text-[#B0AFAF]'}`}
+          className={`cursor-pointer ${openColumnIndex === 0 ? 'font-normal text-black h-16' : 'text-[#B0AFAF] h-16'}`}
         >
           <div className="text-[#B0AFAF] text-[20px]">Concept Development</div>
         </button>
         {columnVisibility[1] && (
-          <div className="xs:py-[20px]">
-            <p className="xs:text-[14px] md:text-[20px]">
+          <div className="md:w-[440%] p-[50px] md:ml-[-110%]">
+            <p className="xs:text-[14px] md:text-[20px] ">
               After gathering information, we explore various directions to
               create initial design concepts that align with the project’s goals
               and reflect the brand’s identity.
@@ -74,13 +74,13 @@ const HideShowText = () => {
       <div>
         <button
           onClick={() => handleTextToggle(2)}
-          className={`cursor-pointer ${openColumnIndex === 0 ? 'font-normal text-black' : 'text-[#B0AFAF]'}`}
+          className={`cursor-pointer ${openColumnIndex === 0 ? 'font-normal text-black h-16' : 'text-[#B0AFAF] h-16'}`}
         >
           <div className="text-[#B0AFAF] text-[20px]">Design Creation</div>
         </button>
         {columnVisibility[2] && (
-          <div className="xs:py-[20px]">
-            <p className="xs:text-[14px] md:text-[20px] ">
+          <div className="md:w-[440%] p-[50px] md:ml-[-225%]">
+            <p className="xs:text-[14px] md:text-[20px]">
               After research and concept development, we create the required
               design and send it to our client for feedback or approval.
             </p>
@@ -91,13 +91,13 @@ const HideShowText = () => {
       <div>
         <button
           onClick={() => handleTextToggle(3)}
-          className={`cursor-pointer ${openColumnIndex === 0 ? 'font-normal text-black' : 'text-[#B0AFAF]'}`}
+          className={`cursor-pointer ${openColumnIndex === 0 ? 'font-normal text-black h-16' : 'text-[#B0AFAF] h-16'}`}
         >
           <div className="text-[#B0AFAF] text-[20px]">Finalization and Delivery</div>
         </button>
         {columnVisibility[3] && (
-          <div className={`${columnVisibility[3] ? 'md:col-span-4' : 'col-span-1'}`}>
-          <p className="xs:text-[14px]  md:text-[20px] xs:py-[20px] ">
+          <div className={`${columnVisibility[3] ? 'md:col-span-4 md:w-[440%] p-[50px] md:ml-[-338%]' : 'col-span-1'}`}>
+          <p className="xs:text-[14px]  md:text-[20px]">
               Once the design is refined and approved, we prepare the design
               files in the required formats and deliver them to the client.
             </p>

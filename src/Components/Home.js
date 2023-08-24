@@ -7,7 +7,9 @@ import HamzaSection2 from './Hamza-Section2';
 import FaqsGetInTouch from './HomeFaqsGetInTouch';
 import Section3 from "./Home-Section3";
 import LatestNews from './Latest-News';
-import GDReviews from "./GD-Reviews";
+import SliderHome from "./SliderHome";
+import SliderHomeTwo from "./SliderHomeTwo"
+
 function Home() {
   return (
     <div>
@@ -18,7 +20,8 @@ function Home() {
       <HamzaSection2></HamzaSection2>
       <GDReviews></GDReviews>
       <FaqsGetInTouch></FaqsGetInTouch>
-      {/*Slider Code */}
+      <SliderHome></SliderHome>
+      <SliderHomeTwo></SliderHomeTwo>
       <Section3></Section3>
       <LatestNews></LatestNews>
     </div>

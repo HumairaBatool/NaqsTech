@@ -111,10 +111,27 @@ function Footer() {
           </div>
 
           <div className="pt-5 font-semibold pl-5">
-            <div className="pt-3 font-poppins font-normal">SEO</div>
-            <div className="pt-3 font-poppins font-normal">Web Development</div>
-            <div className="pt-3 font-poppins font-normal">Graphic Design</div>
-            <div className="pt-3 font-poppins font-normal">E-Commerce</div>
+            {/* Adding links */}
+            <div className="pt-3 font-poppins font-normal">
+              <a href="/seo" className="text-white hover:underline">
+                SEO
+              </a>
+            </div>
+            <div className="pt-3 font-poppins font-normal">
+              <a href="/webdevelopment" className="text-white hover:underline">
+                Web Development
+              </a>
+            </div>
+            <div className="pt-3 font-poppins font-normal">
+              <a href="/graphicdesign" className="text-white hover:underline">
+                Graphic Design
+              </a>
+            </div>
+            <div className="pt-3 font-poppins font-normal">
+              <a href="/ecommerce" className="text-white hover:underline">
+                E-Commerce
+              </a>
+            </div>
           </div>
         </div>
 
