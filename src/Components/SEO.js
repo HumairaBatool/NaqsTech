@@ -34,11 +34,10 @@ function SEO() {
   };
   return (
     <div style={mystyle}>
-      <div className="md:h-12 xs:h-2 bg-[#F48029]"></div>
-      <div className=" bg-[#F48029] max-w-full container lg:pb-0 xs:pb-[8rem]" >
-        <div className=" grid lg:grid-cols-2 md:grid-cols-1 lg:pl-14 lg:pr-28 ">
+      <div className=" bg-[#F48029] max-w-full container  lg:pb-0 xs:pb-[8rem]" >
+        <div className=" grid lg:grid-cols-2 md:grid-cols-1">
           {/* First Column */}
-          <div className=" md:pb-20 lg:pb-28 lg:mt-4  text-white xs:mx-7 md: ">
+          <div className=" md:pb-20 lg:pb-28 text-white lg:mt-24 xs:mx-10">
             <h1 className="xs:text-[25px] xs:font-[700] md:text-[50px] md:font-[600] lg:font-[700] md:leading-tight xs:leading-[1.4em]">
               Professional SEO Service In New York
             </h1>
@@ -50,39 +49,39 @@ function SEO() {
               continued viability with the help of our team of seasoned SEO
               experts and a data-driven approach.
             </h1>
-            <button className="my-3 bg-[#363636]  rounded-md px-[24px] py-[12px] align-middle hover:bg-white hover:text-black">
+            <button className="my-3 bg-[#363636] rounded-md px-[24px] py-[14px] xs:text-[14px] md:text-[16px] align-middle hover:bg-white hover:text-black">
               Talk Now
             </button>
           </div>
 
           {/* Second Column */}
-          <div className="lg:pr-12 overflow-hidden">
-          <img className="lg:mb-12 xs:w-full" src={image} alt="" />
-        </div>
+          <div className="lg:pr-12 overflow-hidden md:flex md:justify-center ">
+            <img className="xs:w-full lg:w-[1150px] md:w-auto hidden md:block" src={image} alt="" />
+          </div>
         </div>
       </div>
       {/* Card Section */}
-   <HomeCards></HomeCards>
+     <HomeCards></HomeCards>
 
       {/* 2nd Section */}
-      <div className="grid lg:grid-cols-2 xs:grid-cols-1 lg:gap-4 lg:ml-20  lg:mt-0 md:mt-8 xs:px-7">
+      <div className="grid lg:grid-cols-2 xs:grid-cols-1 lg:gap-4 lg:mt-0 md:mt-8 xs:px-7 xs:text-center">
         {/* First Column */}
         <div className="">
-          <h1 className="xs:mt-10 md:mt-0 lg:text-[50px] md:text-[35px] xs:text-[16x] xs:font-[900] md:font-[700]">
+          <h1 className="xs:mt-10 md:mt-0 lg:text-[50px] md:text-[35px]  lg:text-left xs:text-[16px] xs:font-[900] md:font-[700]">
             Dominate The Digital Landscape With Professional
           </h1>
-          <h2 className=" xs:text-[21px] xs:font-[500]  md:text-[30px] lg:font-[600] md:font-[600] md:my-2 xs:my-4">
+          <h2 className=" xs:text-[21px] xs:font-[500] lg:text-left md:text-[30px] lg:font-[600] md:font-[600] md:my-2 xs:my-4">
             SEO Agency in New York
           </h2>
         </div>
 
         {/* Second Column */}
         <div>
-          <h1 className=" xs:text-[14px] xs:leading-[24px]  md:text-[20px] lg:leading-loose leading-10  lg:ml-12 lg:mr-16 md:mt-2">
-            Our professional SEO agency in New York empowers you to dominate
-            online, leaving competitors in the dust. Rise above the noise,
-            conquer search rankings, and reign supreme in the digital sphere
-            with
+          <h1 className=" xs:text-[14px] xs:leading-[24px] lg:text-left md:text-[20px] lg:leading-loose leading-10 lg:ml-16 md:mt-2">
+              Our professional SEO agency in New York empowers you to dominate
+              online, leaving competitors in the dust. Rise above the noise,
+              conquer search rankings, and reign supreme in the digital sphere
+              with
             <a href="#" class="text-[#c36] hover:text-[#333366] ml-2">
               NaqsTech Digital.
             </a>
@@ -91,14 +90,14 @@ function SEO() {
       </div>
 
       {/* 3rd Section */}
-      <div className="grid lg:grid-cols-3 gap-5 lg:mx-32 lg:mt-16 text-white xs:mx-7 xs:mt-10 text-center items-center justify-center ">
+      <div className="grid lg:grid-cols-3 gap-5 lg:mt-16 text-white xs:mx-7 xs:mt-10 text-center items-center justify-center ">
         {/* First Column */}
-        <div className="bg-[#363636] rounded-md lg:h-[350px] py-14 md:h-[300px] flex flex-col items-center justify-center">
-          <img src={SEO1} className="w-20 " alt="" />
+        <div className="bg-[#363636] rounded-md lg:h-[350px] xs:h-[350px] xs:w-[260px] xs1:w-auto py-10 md:h-[300px] flex flex-col items-center justify-center">
+          <img src={SEO1} className="xs:w-16 md:w-20 " alt="" />
           <h1 className="text-[#F48029] px-5 text-[20px] font-[700] mt-6">
             On-Page SEO
           </h1>
-          <p className="text-[14px] mx-6 mt-4">
+          <p className="text-[14px] font-[400] xs:text-center xs:mx-4 md:mx-6 mt-4">
             Our On-Page SEO service is designed to enhance your web pages'
             structure, content, and overall performance, driving organic traffic
             and boosting your online presence.
@@ -106,12 +105,12 @@ function SEO() {
         </div>
 
         {/* Second Column */}
-        <div className="bg-[#363636] py-14 rounded-md lg:h-[350px] md:h-[300px] flex flex-col items-center justify-center">
-          <img src={SEO2} class="w-20  " alt="" />
-          <h1 className="text-[#F48029]  px-5 text-[20px] font-[700]  mt-6">
+        <div className="bg-[#363636] py-10 rounded-md xs:h-[350px] xs:w-[260px] xs1:w-auto lg:h-[350px] md:h-[300px] flex flex-col items-center justify-center">
+          <img src={SEO2} class="xs:w-16 md:w-20" alt="" />
+          <h1 className="text-[#F48029]  px-5 text-[20px] font-[700] mt-6">
             Off-Page SEO
           </h1>
-          <p className="text-[14px]  mx-6 mt-4">
+          <p className="text-[14px] xs:mx-4 mx-6 mt-4">
             Our Off-Page SEO service focuses on building high-quality backlinks,
             fostering brand awareness, and establishing your website as a
             trusted source within your industry.
@@ -119,12 +118,12 @@ function SEO() {
         </div>
 
         {/* Third Column */}
-        <div className="bg-[#363636] py-14 rounded-md lg:h-[350px] md:h-[300px] flex flex-col items-center justify-center">
-          <img src={SEO3} class="w-20 " alt="" />
+        <div className="bg-[#363636] py-10 rounded-md xs:h-[350px] xs:w-[260px] xs1:w-auto lg:h-[350px] md:h-[300px] flex flex-col items-center justify-center">
+          <img src={SEO3} class="xs:w-16 md:w-20" alt="" />
           <h1 className="text-[#F48029]  px-5 text-[20px] font-[700]  mt-6">
             Content Optimization
           </h1>
-          <p className="text-[14px]  mx-6 mt-4">
+          <p className="text-[14px] xs:mx-4  mx-6 mt-4">
             Our Content Optimization SEO service focuses on refining your
             website's content to align with search engine algorithms and user
             expectations, resulting in enhanced visibility.
@@ -133,14 +132,15 @@ function SEO() {
       </div>
 
       {/* 4rth Section */}
-      <div className="grid lg:grid-cols-3 gap-5 lg:mx-32 lg:mt-12 xs:mt-5 lg:mb-10 xs:mx-7 text-white md:mt-5 text-center  ">
+      <div className="grid lg:grid-cols-3 gap-5 lg:mt-8 xs:mt-5 lg:mb-10 xs:mx-7 text-white items-center justify-center md:mt-5 text-center  ">
+      
         {/* First Column */}
-        <div className="bg-[#363636] py-14 rounded-md h-[350px] lg:h-[350px] flex flex-col items-center justify-center">
-          <img src={SEO4} class="w-20 lg:mt-16" alt="" />
+        <div className="bg-[#363636] py-14 rounded-md xs:h-[350px] xs:w-[260px] xs1:w-auto h-[350px] lg:h-[350px] flex flex-col items-center justify-center">
+          <img src={SEO4} class="xs:w-16 md:w-20 lg:mt-16" alt="" />
           <h1 className="text-[#F48029] px-5 text-[20px] font-[700]  mt-6">
             SEO Audit Services
           </h1>
-          <p className="text-[14px]  mx-6 mt-4 md:mb-10">
+          <p className="text-[14px] xs:mx-4 mx-6 mt-4 md:mb-10">
             Our SEO Audit Service is designed to analyze and evaluate your
             website's performance, identify areas for improvement, and provide
             actionable recommendations to enhance your organic search
@@ -149,12 +149,12 @@ function SEO() {
         </div>
 
         {/* Second Column */}
-        <div className="bg-[#363636] py-14 rounded-md h-[350px]  flex flex-col items-center justify-center">
-          <img src={SEO5} class="w-20" alt="" />
-          <h1 className="text-[#F48029]  px-5 text-[20px] font-[700]  mt-6">
+        <div className="bg-[#363636] py-14 rounded-md xs:h-[350px] xs:w-[260px] xs1:w-auto lg:h-[350px]  flex flex-col items-center justify-center">
+          <img src={SEO5} class="xs:w-16 md:w-20" alt="" />
+          <h1 className="text-[#F48029] px-5 text-[20px] font-[700] mt-6">
             Keyword Research
           </h1>
-          <p className="text-[14px]  mx-6 mt-4">
+          <p className="text-[14px] xs:mx-4 mx-6 mt-4">
             Our Keyword Research Service is designed to identify your industry's
             most relevant and high-value keywords, ensuring that your website
             ranks higher in google and attracts qualified organic traffic.
@@ -162,12 +162,12 @@ function SEO() {
         </div>
 
         {/* Third Column */}
-        <div className="bg-[#363636] py-14 rounded-md h-[350px] flex flex-col items-center justify-center">
-          <img src={SEO6} class="w-20 " alt="" />
-          <h1 className="text-[#F48029] px-5 text-[20px] font-[700]  mt-6">
+        <div className="bg-[#363636] py-14 rounded-md xs:h-[350px] xs:w-[260px] xs1:w-auto lg:h-[350px] flex flex-col items-center justify-center">
+          <img src={SEO6} class="xs:w-16 md:w-20" alt="" />
+          <h1 className="text-[#F48029]  px-5 text-[20px] font-[700] mt-6">
             Back Links & Link Building
           </h1>
-          <p className="text-[14px]  mx-6 mt-4">
+          <p className="text-[14px] xs:mx-4 mx-6 mt-4">
             Our Backlinks & Link Building Service focuses on acquiring
             authoritative and relevant backlinks that drive traffic to your
             website and display your brand as a trusted source in your industry.
@@ -176,14 +176,14 @@ function SEO() {
       </div>
 
       {/* 5th Section */}
-      <div className="bg-white  max-auto pt-20">
+      <div className="bg-white max-auto pt-16">
         <div className="bg-[#F48029] max-auto">
           <div className="grid lg:grid-cols-7 md:grid-cols-4 text-left max-auto text-white">
-            <div className=" col-span-4 lg:py-20 md:py-4 lg:px-16 xs:px-7 md:pl-7 lg:ml-8">
-              <p className="text-center pt-10 pb-6 md:text-[35px] xs:text-[20px] font-[700]">
+            <div className=" col-span-4 md:py-4 xs:px-7 md:pl-7 lg:self-center">
+              <p className="text-center lg:text-left xs:pt-8 lg:pt-0 pb-6 md:text-[35px] xs:text-[20px] font-[700]">
                 What Sets Us Apart From Others?
               </p>
-              <p className="text-left lg:text-[25px] md:text-[20px] xs:text-[14px]  pt-1 ">
+              <p className="text-left lg:text-[25px] md:text-[20px] lg:leading-tight xs:text-[14px] ">
                 We believe in the value of customized solutions. Therefore, we
                 do not rely on hunches or assumptions. Unlike cookie-cutter
                 techniques, we take the time to study your company, industry,
@@ -192,16 +192,16 @@ function SEO() {
               </p>
             </div>
 
-            <div className="col-span-3 lg:-mb-36 xs:mb-0">
-              <div className="w-full gap-4">
-                <div>
-                  <img
-                    src={portfolio}
-                    alt=""
-                    className=" relative lg:top-[-45px] xs:top-0 lg:w-3/4 xs:w-full"
-                  />
+            <div className="lg:col-span-3 xs:col-span-4 xs:mt-8 lg:px-auto lg:-mb-8 xs:px-6 xs:mb-12">
+                <div className="w-full gap-4">
+                    <div>
+                        <img
+                        src={portfolio}
+                        alt=""
+                        className=" relative xs:top-0 lg:-mt-16 xl:-mb-16 lg:w-3/3 xs:w-full"
+                        />
+                    </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>
