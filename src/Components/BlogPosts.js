@@ -10,12 +10,12 @@ import image6 from '../img/digitalmarketing.webp';
 
 function BlogItem({ imageSrc, title, content }) {
   return (
-    <div className="shadow-lg overflow-hidden rounded bg-white">
+    <div className="shadow-lg overflow-hidden rounded bg-white pb-8">
     <div className="relative">
       <img src={imageSrc} alt="" class="hover:scale-110 w-full h-full transition duration-500 cursor-pointer object-cover"/>
       </div>
-      <h3 className="md:p-8 xs:p-7 md:text-[23px] xs:text[16px] font-[700]">{title}</h3>
-      <p className="md:px-8 xs:px-7 md:pb-0 xs:pb-7 md:text-[20px] xs:text-[14px] ">{content}</p>
+      <h3 className="md:p-8 xs:p-7 text-[20px] font-[700] leading-[30px] xl:h-36 lg:h-52 md:h-28 xs2:h-32 xs:h-48">{title}</h3>
+      <p className="md:px-8 xs:px-7 md:pb-0 xs:pb-7 text-[16px] text-[#7A7A7A]">{content}</p>
     </div>
   );
 }
@@ -70,11 +70,11 @@ function BlogPosts() {
     <div>
       <div className="max-auto">
         <div className="relative">
-        <div className="md:pt-20 xs:pt-8 md:pb-0 xs:pb-8 text-center md:text-[45px] xs:text-[26px] md:font-[700] xs:font-[700]">
+        <div className="md:pt-20 xs:pt-8 md:pb-0 xs:pb-8 text-center md:text-[50px] xs:text-[28px] md:font-[700] xs:font-[700] text-[#363636">
         Our Blog posts
       </div>
 
-          <div className=" xs:p-7 md:p-20 gap-6 grid lg:grid-cols-3 xs:grid-cols-1 auto-rows-fr">
+          <div className=" xs:p-7 lg:px-28 md:px-8 gap-6 grid lg:grid-cols-3 xs:grid-cols-1 auto-rows-fr">
             {blogItems.map((item, index) => (
               <BlogItem
                 key={index}
