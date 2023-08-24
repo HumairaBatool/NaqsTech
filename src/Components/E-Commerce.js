@@ -18,7 +18,7 @@ function ECommerce() {
       <div className="  bg-[#F48029] xs:text-center md:text-left max-w-full container  xs:px-[30px] xl:px-[80px] lg:pt-[80px] xs:pb-[60px] md:pb-[30px] xs:pt-[10px] ">
         <div className=" grid lg:grid-cols-2 md:grid-cols-1 md:pb-[60px] ">
           {/* First Column */}
-          <div className=" text-white ">
+          <div className=" text-white xl:self-center">
             <h1 className="xs:text-[20px] xs3:text-[28px] xs3:px- xs3:leading-[39.2px] xs:font-[700] md:text-[40px] md:font-[700] lg:font-[700] md:leading-[48px] xs:leading-[28px]">
               Leading E-Commerce Marketing Services in California
             </h1>
