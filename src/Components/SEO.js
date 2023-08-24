@@ -35,7 +35,7 @@ function SEO() {
   return (
     <div style={mystyle}>
       <div className=" bg-[#F48029] max-w-full container  lg:pb-0 xs:pb-[8rem]" >
-        <div className=" grid lg:grid-cols-2 md:grid-cols-1">
+        <div className=" grid lg:grid-cols-2 md:grid-cols-1 lg:mx-10">
           {/* First Column */}
           <div className=" md:pb-20 lg:pb-28 text-white lg:mt-24 xs:mx-10">
             <h1 className="xs:text-[25px] xs:font-[700] md:text-[50px] md:font-[600] lg:font-[700] md:leading-tight xs:leading-[1.4em]">
@@ -64,7 +64,7 @@ function SEO() {
      <HomeCards></HomeCards>
 
       {/* 2nd Section */}
-      <div className="grid lg:grid-cols-2 xs:grid-cols-1 lg:gap-4 lg:mt-0 md:mt-8 xs:px-7 xs:text-center">
+      <div className="grid lg:grid-cols-2 xs:grid-cols-1 lg:gap-4 lg:mt-0 md:mt-8 xs:px-7 xs:px-0 lg:mx-20 xs:text-center">
         {/* First Column */}
         <div className="">
           <h1 className="xs:mt-10 md:mt-0 lg:text-[50px] md:text-[35px]  lg:text-left xs:text-[16px] xs:font-[900] md:font-[700]">
@@ -90,7 +90,7 @@ function SEO() {
       </div>
 
       {/* 3rd Section */}
-      <div className="grid lg:grid-cols-3 gap-5 lg:mt-16 text-white xs:mx-7 xs:mt-10 text-center items-center justify-center ">
+      <div className="grid lg:grid-cols-3 gap-5 lg:mt-16 text-white xs:mx-7 lg:mx-40 xs:mt-10 text-center items-center justify-center ">
         {/* First Column */}
         <div className="bg-[#363636] rounded-md lg:h-[350px] xs:h-[350px] xs:w-[260px] xs1:w-auto py-10 md:h-[300px] flex flex-col items-center justify-center">
           <img src={SEO1} className="xs:w-16 md:w-20 " alt="" />
@@ -132,7 +132,7 @@ function SEO() {
       </div>
 
       {/* 4rth Section */}
-      <div className="grid lg:grid-cols-3 gap-5 lg:mt-8 xs:mt-5 lg:mb-10 xs:mx-7 text-white items-center justify-center md:mt-5 text-center  ">
+      <div className="grid lg:grid-cols-3 gap-5 lg:mt-8 xs:mt-5 lg:mb-10 xs:mx-7 lg:mx-40  text-white items-center justify-center md:mt-5 text-center  ">
       
         {/* First Column */}
         <div className="bg-[#363636] py-14 rounded-md xs:h-[350px] xs:w-[260px] xs1:w-auto h-[350px] lg:h-[350px] flex flex-col items-center justify-center">
@@ -177,7 +177,7 @@ function SEO() {
 
       {/* 5th Section */}
       <div className="bg-white max-auto pt-16">
-        <div className="bg-[#F48029] max-auto">
+        <div className="bg-[#F48029] max-auto lg:px-20">
           <div className="grid lg:grid-cols-7 md:grid-cols-4 text-left max-auto text-white">
             <div className=" col-span-4 md:py-4 xs:px-7 md:pl-7 lg:self-center">
               <p className="text-center lg:text-left xs:pt-8 lg:pt-0 pb-6 md:text-[35px] xs:text-[20px] font-[700]">

@@ -31,9 +31,10 @@ class Web extends Component {
             <div className=" max-auto">
                <div className="flex bg-[#F48029] lg:h-[800px] xs:h-[700px] xss:h-[700px] md:h-[1150px] pb-10 xs:pb-40">
                     <div className="font-poppins bg-[#F48029] max-auto pb-10 xs:pb-28 lg:mr-auto">
-                        <div className=" max-auto text-white xl:ml-28 xl:mr-32 xs:px-3 grid lg:grid-cols-2 lg:mr-10 xs:grid-cols-1">
-                            <div className=" lg:ml-12 xs:pt-12 text-left xs:px-4">
-                                <p className="lg:pt-8 xs:pt-0 md:text-[35px] md:leading-snug xss:pt-auto text-[24px] xs:text-[17px] lg:leading-tight xs:leading-7 xss:text-[28px] xss:leading-10 lg:text-[40px] font-[500] leading-tight">
+                        <div className=" max-auto text-white xs:px-3 lg:px-0 lg:mx-20 lg:mt-20 grid lg:grid-cols-2 xs:grid-cols-1">
+                            <div className="xs:pt-12 text-left xs:px-4 lg:pt-0 self-center
+">
+                                <p className="lg:pt-0 xs:pt-0 md:text-[35px] md:leading-snug xss:pt-auto text-[24px] xs:text-[17px] lg:leading-tight xs:leading-7 xss:text-[28px] xss:leading-10 lg:text-[40px] font-[500] leading-tight">
                                     Innovative Web Development Services in New York
                                 </p>
                                 
@@ -47,7 +48,7 @@ class Web extends Component {
                                 </div>
                             </div>
                             <div className=" lg:-mr-16 xs:pr-12">
-                                <img className="py-6 xs:py-12 lg:w-[100%] lg:h-auto md:w-[100%] md:h-auto md:ml-6 lg:-ml-3 md:mr-6 xs:w-full hidden md:block" src={image} alt="" />
+                                <img className="py-6 xs:py-12 lg:py-0 lg:w-[100%] lg:h-auto md:w-[100%] md:h-auto md:ml-6 lg:-ml-3 md:mr-6 xs:w-full hidden md:block" src={image} alt="" />
                             </div>
                         </div>
                     </div>
@@ -83,10 +84,10 @@ class Web extends Component {
                     <p className=" text-center text-[32px] xs:text-[21px] xs:ml-7 xs:mr-7 -mt-1 font-[500] xss:text-[2rem] xss:leading-tight ">
                         Web Design Services in New York Work?
                     </p>
-                    <p className=" lg:font-[20px] md:text-[#363636] xl:mt-6 text-[20px] leading-10 xs:text-[14px] text-[#7A7A7A] xs:ml-8 xs:mr-8 xs:leading-7 xs:mt-6 xss:mt-6 xss:leading-7 md:text-[20px] md:leading-[35px] lg:text-[20px] xl:ml-80 xl:mr-72 xl:leading-9">
+                    <p className=" lg:font-[20px] md:text-[#363636] xl:mt-6 text-[20px] leading-10 xs:text-[14px] text-[#7A7A7A] xs:ml-8 xs:mr-8 xs:leading-7 xs:mt-6 xss:mt-6 xss:leading-7 md:text-[20px] md:leading-[35px] lg:text-[20px] xl:ml-72 xl:mr-60 xl:leading-9">
                         As a California web design & development company, we collaborate with you beginning with a consultation phase in which we do a discovery call to understand your expectations, and the scope of the project, and then together develop a plan. We work together on the User Experience (UX) and User Interface (UI), color palettes, development, and designs, all the way up to the LIVE! We then give best practice training, as well as hosting and maintenance, at the end of the project.
                     </p>
-                    <p className="lg:font-[20px] md:text-[#363636] text-[20px] ml-56 mr-56 leading-10 text-[#7A7A7A] xs:text-[14px] xs:ml-8 xs:mr-8 xs:leading-7 xs:mt-3 xss:mt-4 xss:leading-7 md:text-[20px] md:leading-[35px] lg:text-[20px] xl:ml-80 xl:mr-72 xl:leading-9">
+                    <p className="lg:font-[20px] md:text-[#363636] text-[20px] ml-56 mr-56 leading-10 text-[#7A7A7A] xs:text-[14px] xs:ml-8 xs:mr-8 xs:leading-7 xs:mt-3 xss:mt-4 xss:leading-7 md:text-[20px] md:leading-[35px] lg:text-[20px] xl:ml-72 xl:mr-60 xl:leading-9">
                         We build strategies to get your tales in front of the people you want to reach by creating appealing visuals that represent your message in a way that leaves a lasting impression. We learn about your markets through extensive research and analysis, and we position your company for success. Whatever your marketing design requirements are, NaqsTech has you covered.
                     </p> 
                 </div>
