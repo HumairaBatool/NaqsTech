@@ -9,8 +9,8 @@ import img7 from "../img/ecommerce7.svg";
 import ECommerceResponsiveCards from "./E-Commerce-Responsive-Cards";
 import ECommerceCards from "./E-Commerce-Cards";
 import GetInTouch from "./HomeFaqsGetInTouch";
-import Reviews from "./Reviews";
 import LatestNews from "./Latest-News";
+import ECReviews from "./EC-Reviews";
 function ECommerce() {
   return (
     <div className=" max-auto">
@@ -31,20 +31,25 @@ function ECommerce() {
               explosive growth.
             </h1>
             <div className="text-middle mb-[20px]">
-            <button className="my-3 bg-[#363636]  rounded-md px-[24px] py-[12px] align-middle hover:bg-white hover:text-black">
-              Get Free Consultation
-            </button></div>
+              <button className="my-3 bg-[#363636]  rounded-md px-[24px] py-[12px] align-middle hover:bg-white hover:text-black">
+                Get Free Consultation
+              </button>
+            </div>
           </div>
 
           {/* Second Column */}
           <div className=" overflow-hidden  lg:px-0 xs:px-10 flex relative justify-center content-center items-center">
-            <img className="hidden md:block lg:mb-12 w-full" src={img1} alt="" />
+            <img
+              className="hidden md:block lg:mb-12 w-full"
+              src={img1}
+              alt=""
+            />
           </div>
         </div>
       </div>
 
       {/*Cards section*/}
-      <div >
+      <div>
         <ECommerceResponsiveCards></ECommerceResponsiveCards>
       </div>
       {/*Section 2 */}
@@ -64,32 +69,30 @@ function ECommerce() {
           </div>
 
           <div className="relative flex justify-center items-center xs:mt-[20px] ">
-          <button className="bg-white hover:bg-[#F48029] text-black hover:text-white rounded xs:px-[24px] xs:py-[12px] ">
-            Let's Talk
-          </button>
-        </div>
-        
-          
+            <button className="bg-white hover:bg-[#F48029] text-black hover:text-white rounded xs:px-[24px] xs:py-[12px] ">
+              Let's Talk
+            </button>
+          </div>
         </div>
       </div>
       {/*Section 3*/}
       <div className="xl:px-[70px] relative grid xs:grid-cols-1 md:grid-cols-3 xs:px-[30px] xs:pt-[50px] md:pt-[30px] md:px-[30px] lg:px-[10px]">
-      <div className="flex justify-center xs:pb-[15px] md:p-[10px]">
-        <img  src={img2} alt="" />
+        <div className="flex justify-center xs:pb-[15px] md:p-[10px]">
+          <img src={img2} alt="" />
+        </div>
+        <div className="items-center ">
+          <div className="flex md:px-[10px] md:pt-[10px] md:p-[10px] ">
+            <img src={img3} alt="" />
+          </div>
+          <div className="flex  md:pt-[10px]  md:px-[10px] md:p-[10px]">
+            <img src={img4} alt="" />
+          </div>
+        </div>
+        <div className="flex justify-center md:p-[10px]">
+          <img src={img5} alt="" />
+        </div>
       </div>
-      <div className="items-center ">
-        <div className="flex md:px-[10px] md:pt-[10px] md:p-[10px] ">
-        <img  src={img3} alt="" />
-      </div>
-      <div className="flex  md:pt-[10px]  md:px-[10px] md:p-[10px]">
-      <img  src={img4} alt="" />
-    </div>
-      </div>
-      <div className="flex justify-center md:p-[10px]">
-        <img src={img5} alt="" />
-      </div>
-    </div>
-    
+
       <div>
         <div className=" flex justify-center xs:px-[50px] xs:pt-[50px] xs:pb-[50px]  md:pt-[10px] lg:pt-[50px]">
           <button className="  w-[200px] h-[55px] rounded bg-[#F48029] p-1 hover:bg-[#363636]  text-white">
@@ -128,9 +131,8 @@ function ECommerce() {
       </div>
       {/*Section 5 */}
 
-      
-        <ECommerceCards></ECommerceCards>
-        <div className="xs:px-[30px] xl:px-[200px]">
+      <ECommerceCards></ECommerceCards>
+      <div className="xs:px-[30px] xl:px-[200px]">
         <p className=" xs:mb-[14.4px] text-[#363636] xs:text-[20px] xs:leading-[28px] xs3:text-[28px] xs3:font-[700] xs3:leading-[39.2px] sm:text-[28px] md:text-[35px] font-[700] text-center">
           Why Choose Us as your E-commerce Marketing Agency in California?
         </p>
@@ -147,7 +149,7 @@ function ECommerce() {
 
       {/*Remaining Sections*/}
       <GetInTouch></GetInTouch>
-      <Reviews></Reviews>
+      <ECReviews></ECReviews>
       <LatestNews></LatestNews>
     </div>
   );
