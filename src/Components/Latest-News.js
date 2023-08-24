@@ -9,8 +9,8 @@ function NewsItem({ imageSrc, title, content }) {
   return (
     <div className="shadow-lg overflow-hidden rounded bg-white">
       <img src={imageSrc} alt="" />
-      <h3 className="md:p-8 xs:p-7 lg:text-[20px] md:text-[23px] xs:text[16px] font-[700] text-[#363636] h-36">{title}</h3>
-      <p className="md:px-8 xs:px-7 md:pb-10 xs:pb-7 lg:text-[16px] md:text-[20px] xs:text-[14px] ">{content}</p>
+      <h3 className=" md:p-8 xs:p-7 lg:text-[20px] md:text-[23px] xs:text[16px] font-[700] text-[#363636] h-36">{title}</h3>
+      <p className="lg:pt-[20px] md:px-8 xs:px-7 md:pb-10 xs:pb-7 lg:text-[16px] md:text-[20px] xs:text-[14px] ">{content}</p>
     </div>
   );
 }
@@ -51,7 +51,7 @@ function LatestNews() {
           <div className="md:pt-20 xs:pt-2 md:pb-0 xs:pb-14 text-center lg:text-4xl md:text-[45px] xs:text-[26px] md:font-[700] xs:font-[700] text-[#363636]">
             Latest News
           </div>
-          <div className=" xs:p-7 md:p-20 gap-6 grid lg:grid-cols-3 xs:grid-cols-1 auto-rows-fr">
+          <div className=" xs:p-7 md:p-[50px] gap-6 grid lg:grid-cols-3 xs:grid-cols-1 auto-rows-fr">
             {newsItems.map((item, index) => (
               <NewsItem
                 key={index}
@@ -62,7 +62,7 @@ function LatestNews() {
             ))}
           </div>
         </div>
-        <div className="pb-28 pt-80 lg:bg-[#F48029] text-center -mt-[418px]">
+        <div className="lg:pb-28 xs:pb-[60px] lg:pt-80 xs:pt-[1200px] xs:-mt-[1290px] xs2:pt-[1200px] xs2:-mt-[1280px]  xs3:pt-[1250px] xs3:-mt-[1330px]  xss:pt-[1260px] xss:-mt-[1350px] xs4:pt-[1320px] xs4:-mt-[1420px] sm:pt-[1440px] sm:-mt-[1520px]  xs6:pt-[1500px] xs6:-mt-[1580px] md:pt-[1800px] md:-mt-[1760px]  md1:pt-[1810px] md1:-mt-[1890px] xs7-1:pt-[1890px] xs7-1:-mt-[1970px] bg-[#F48029] text-center lg:-mt-[418px] ">
           <button className="py-3 mt-32 px-6 rounded bg-[#363636] h-14 w-60 p-1 hover:bg-white hover:text-black text-white">
             Get Free Consultation
           </button>
