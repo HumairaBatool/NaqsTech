@@ -18,7 +18,7 @@ function SocialIcons() {
       >
         <FontAwesomeIcon
           icon={faFacebook}
-          className="pr-1 w-6 h-6 text-white"
+          className="pr-2 w-6 h-6 text-white"
         />
       </a>
       <a
@@ -28,7 +28,7 @@ function SocialIcons() {
       >
         <FontAwesomeIcon
           icon={faLinkedin}
-          className="pr-1 w-6 h-6 text-white"
+          className="pr-2 w-6 h-6 text-white"
         />
       </a>
       <a
@@ -38,7 +38,7 @@ function SocialIcons() {
       >
         <FontAwesomeIcon
           icon={faInstagram}
-          className="pr-1  w-6 h-6 text-white"
+          className="pr-2  w-6 h-6 text-white"
         />
       </a>
       <a
@@ -48,7 +48,7 @@ function SocialIcons() {
       >
         <FontAwesomeIcon
           icon={faPinterest}
-          className="pr-1  w-6 h-6 text-white"
+          className="pr-2  w-6 h-6 text-white"
         />
       </a>
       <a
@@ -66,23 +66,23 @@ function SocialIcons() {
 }
 function ContactUs() {
   return (
-    <div className="bg-[#F48029] xs:p-4  xs2:px-[30px]  overflow-hidden">
-      <div className="lg:mx-20 md:mx-7 xs:bg-white rounded-lg">
-        <div className="container relative grid lg:grid-cols-2 xs:grid-cols-1  xs:mt-[50px] xs:p-[10px]">
-          <div className=" bg-[#F48029] rounded-lg container relative">
-            <div className=" xs:leading-[24px] xs:px-[13px] xs:pt-[20px] xs:pb-[40px] ">
-              <p className=" text-white xs:text-[20px] lg:text-3xl xs:font-[600] lg:font-bold  ">
+    <div className="bg-[#F48029] xs:px-[13px] xs2:px-[30px] lg:px-[122px] overflow-hidden xs:pb-[50px] lg:pb-[80px]">
+      <div className="xs:mt-[30px] lg:mt-[50px] xs:bg-white rounded-lg xs:pr-[20px] md1:pr-[20px] xs7:pr-[20px]">
+        <div className="container relative grid lg:grid-cols-3 xs:grid-cols-1">
+          <div className=" lg:w-[120%] lg1:w-[110%] xs:my-[10px]  xs:ml-[10px] xs:mr-[10px] xs:px-[13px] xs2:px-[10px] md:px-[40px] xs:pt-[20px] md:pt-[40px] md:pb-[40px] xs:pb-[40px] xs2:pb-[20px]  bg-[#F48029] md:rounded-lg container relative">
+            <div className=" xs:leading-[24px] ">
+              <p className=" text-white xs:text-[20px] md:text-[28px] xs:font-[600] xs:leading-[42px] xs:mb-[20px] md:pb-[6px] md:mb-[20px] ">
                 Contact Information
               </p>
-              <p className="text-white xs:text-[13px]  xs3:text-[26px] text-3xl xs:font-[500] xs:pt-[20px]">
+              <p className="text-white xs:text-[13px] xs3:text-[26px] md:text-[32px] xs3:leading-[38px] xs:font-[500] xs:leading-[25px] xs:mb-[20px]">
                 Say something to start a live chat!
               </p>
-              <div className="container flex  xs:pt-[10px]">
+              <div className="container flex text-left xs:pb-[10px]  ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="25"
-                  height="20"
-                  viewBox="0 0 18 14"
+                  width="24"
+                  height="24"
+className="flex  items-center"
                   fill="none"
                 >
                   <path
@@ -90,17 +90,17 @@ function ContactUs() {
                     fill="white"
                   />
                 </svg>
-                <p className="text-white pl-3 xs:leading-[20.8px]">
+                <p className="text-white  xs:pl-[10px] xs:leading-[20.8px]">
                   info@naqstechdigital.com{" "}
                 </p>
               </div>
-              <div className="container mx-auto xs:pt-[10px]">
-                <div className="flex">
+              <div className="container mx-auto xs:mt-[10px]  xs:pb-[10px]">
+                <div className="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
-                    viewBox="0 0 24 24"
+
                     fill="none"
                   >
                     <path
@@ -116,18 +116,18 @@ function ContactUs() {
                       fill="white"
                     />
                   </svg>
-                  <p className="text-white pl-3 xs:leading-[20.8px]">
+                  <p className="text-white xs:leading-[20.8px]  xs:pl-[10px]">
                     160 Broadway New York, NY 10038
                   </p>
                 </div>
               </div>
-              <div className="container mx-auto xs:pt-[10px]">
-                <div className="flex">
+              <div className="container mx-auto xs:pb-[10px] xs:mb-20px] md:mb-[50px]">
+                <div className="flex items-center">
+                <div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="38"
-                    height="38"
-                    viewBox="0 0 24 24"
+                    width="30"
+                    height="30"
                     fill="none"
                   >
                     <path
@@ -135,27 +135,27 @@ function ContactUs() {
               10.0037C18.9997 12.7157 17.0996 15.5617 15.4996 17.4727C14.4334 18.7452 13.2627 19.9263 11.9996 21.0037ZM11.9996 7.00371C10.9278 7.00371 9.93746 7.57551 9.40156 8.50371C8.86566 9.43192 8.86566 10.5755 9.40156 11.5037C9.93746 12.4319 10.9278 13.0037 11.9996 13.0037C13.6565 13.0037 14.9996 11.6606 14.9996 10.0037C14.9996 8.34686 13.6565 7.00371 11.9996 7.00371Z"
                       fill="white"
                     />
-                  </svg>
-                  <p className="text-white pl-3">
+                  </svg></div>
+                  <p className="text-white xs:pl-[6px] ">
                     34 Harrow Avenue Oldham Olh4hz Greater Manchester UK
                   </p>
                 </div>
               </div>
-              <div className="xs:mt-[50px] lg:mt-[400px]">
+              <div className="flex justify-center xs:pb-[20px] md:pb-[0px]  md:justify-start">
                 <SocialIcons></SocialIcons>
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col  py-3 xs:p-3 lg:p-12 container relative ">
+          <div className="lg:ml-[100px] lg1:ml-[80px] lg1:w-[80%] lg:w-[70%] col-span-2  flex flex-col container relative md:mx-[10px] xs:px-[13px] xs2:px-[20px] xs:pt-[20px] xs2:pt-[25px] md:pt-[50px] xs:pb-[40px] xs2:pb-[30px] xs:text-[12px]">
             <form>
-              <div className="grid lg:grid-cols-2 xs:grid-cols-1 xs:py-5 lg:py-10">
+              <div className="grid md:grid-cols-2 lg1:grid-cols-2 lg:grid-cols-1 xs:grid-cols-1 md:mb-[30px]">
                 <div className="flex flex-col mb-4 pr-4">
                   <label className=" text-[#8D8D8D]" htmlFor="username">
                     First Name
                   </label>
                   <input
-                    className=" border-gray-500 border-b p-1 bg-transparent focus:outline-none"
+                    className=" border-gray-500 border-b py-[10px] bg-transparent focus:outline-none"
                     type="text"
                     id="FirstName"
                     name="FirstName"
@@ -166,20 +166,20 @@ function ContactUs() {
                     Last Name
                   </label>
                   <input
-                    className="border-gray-500 border-b p-1 bg-transparent focus:outline-none"
+                    className="border-gray-500 border-b py-[10px] bg-transparent focus:outline-none"
                     type="text"
                     id="FirstName"
                     name="FirstName"
                   />
                 </div>
               </div>
-              <div className="grid  lg:grid-cols-2 xs:grid-cols-1">
+              <div className="grid  md:grid-cols-2 lg1:grid-cols-2  lg:grid-cols-1  xs:grid-cols-1 md:mb-[30px]">
                 <div className="flex flex-col mb-4 pr-4">
                   <label className=" text-[#8D8D8D]" htmlFor="username">
                     Email
                   </label>
                   <input
-                    className=" border-gray-500 border-b p-1 bg-transparent focus:outline-none"
+                    className=" border-gray-500 border-b py-[10px] bg-transparent focus:outline-none"
                     type="text"
                     id="FirstName"
                     name="FirstName"
@@ -190,7 +190,7 @@ function ContactUs() {
                     Phone Number
                   </label>
                   <input
-                    className="border-gray-500 border-b p-1 bg-transparent focus:outline-none"
+                    className="border-gray-500 border-b py-[10px] bg-transparent focus:outline-none"
                     type="text"
                     id="FirstName"
                     name="FirstName"
@@ -198,18 +198,18 @@ function ContactUs() {
                   />
                 </div>
               </div>
-              <div className="font-bold">
+              <div className="font-bold md:mb-[30px]">
                 <p>Select Subject?</p>
               </div>
-              <div className="relative grid lg:grid-cols-4 xs:grid-cols-2 py-2 ">
+              <div className="relative grid md:grid-cols-4 flex gap-[70px] xs:grid-cols-2 py-2 xs:text-[12px] md:mb-[30px]">
                 <div className="flex items-center mb-4 px-2">
                   <input
                     type="checkbox"
                     id="checkbox1"
                     name="checkbox1"
-                    className="mr-2"
+                    className="xs:mr-2 "
                   />
-                  <label htmlFor="checkbox1" className="text-[#8D8D8D] text-sm">
+                  <label htmlFor="checkbox1" className="text-[#8D8D8D]">
                     SEO
                   </label>
                 </div>
@@ -220,7 +220,7 @@ function ContactUs() {
                     name="checkbox1"
                     className="mr-2"
                   />
-                  <label htmlFor="checkbox1" className="text-[#8D8D8D] text-sm">
+                  <label htmlFor="checkbox1" className="text-[#8D8D8D] ">
                     Web Development
                   </label>
                 </div>
@@ -231,7 +231,7 @@ function ContactUs() {
                     name="checkbox1"
                     className="mr-2"
                   />
-                  <label htmlFor="checkbox1" className="text-[#8D8D8D] text-sm">
+                  <label htmlFor="checkbox1" className="text-[#8D8D8D]">
                     Graphic Design
                   </label>
                 </div>
@@ -242,18 +242,18 @@ function ContactUs() {
                     name="checkbox1"
                     className="mr-2"
                   />
-                  <label htmlFor="checkbox1" className="text-[#8D8D8D] text-sm">
+                  <label htmlFor="checkbox1" className="text-[#8D8D8D]">
                     E-Commerce
                   </label>
                 </div>
               </div>
 
-              <div className="flex flex-col mb-4 pr-4 py-10">
+              <div className="flex flex-col xs:pb-[26px] md:pb-[60px]">
                 <label className=" text-[#8D8D8D]" htmlFor="username">
                   Message
                 </label>
                 <input
-                  className="border-gray-500 border-b p-1 bg-transparent focus:outline-none"
+                  className="border-gray-500 text-black border-b p-1 bg-transparent focus:outline-none"
                   type="text"
                   id="FirstName"
                   name="FirstName"
@@ -261,16 +261,17 @@ function ContactUs() {
                 />
               </div>
 
-              <div className="text-right">
-                <button className="bg-black  text-white px-12 py-4 mt-4 rounded">
-                  Send Message
-                </button>
-              </div>
+              <div className="xs:flex xs:justify-center md:justify-end">
+              <button className="bg-black md:text-[15px] text-white xs:w-full md:w-[212px] xs:py-[10px] md:py-[15px] rounded">
+                Send Message
+              </button>
+            </div>
+            
             </form>
           </div>
         </div>
       </div>
-      </div>
+    </div>
   );
 }
 export default ContactUs;
