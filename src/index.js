@@ -15,12 +15,13 @@ import ECommerce from './Components/E-Commerce';
 import WebDevelopment from './Components/WebDevelopment';
 import SEO from './Components/SEO';
 import Footer from './Components/Footer';
+import TopHeader from './Components/Top-Header';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className='w-full xs:max-w-full xs:overflow-hidden'>
   <Router>
   
-
+  <TopHeader></TopHeader>
   <MenuBar />
   <Routes>
     <Route path="/" element={<Home />} />

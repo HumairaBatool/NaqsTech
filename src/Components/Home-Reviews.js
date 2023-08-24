@@ -2,15 +2,6 @@ import React from "react";
 import rev1 from "../img/rev1.jpeg";
 import rev2 from "../img/rev2.jpeg";
 import star1 from "../img/5stars.webp";
-function FaqsItem({ question, icon }) {
-  return (
-    <div className="xs:my-4">
-    <div className=" grid grid-cols-6 bg-gray-100 py-8 px-4 rounded font-bold">
-      <div className="col-span-5 ">{question}</div>
-      <div>{icon}</div>
-    </div></div>
-  );
-}
 
 function Reviews() {
   return (
