@@ -12,7 +12,7 @@ import {
 
 function SocialIcons() {
   return (
-    <div className="flex gap-x-2  pt-4 pb-2">
+    <div className="flex gap-x-2 justify-center pt-4 pb-2">
       <div className="bg-blue-900 w-10 h-10 box rounded flex items-center justify-center hover:bg-gray-900">
         <a
           href="https://www.facebook.com/NaqsTechDigital"
@@ -89,15 +89,15 @@ function Footer() {
         {/*cOLUMN 1 */}
         <div>
           <img src={logo}></img>
-          <div className="text-lg py-5 text-justify tracking-tighter font-poppins">
-            Being one of the best digital marketing agencies in New York, we’ll
-            understand your business and deliver result-driven digital marketing
-            services.
+          <div className="text-lg py-5 ">
+              Being one of the best digital marketing agencies in New York, we’ll
+              understand your business and deliver result-driven digital marketing
+              services.
           </div>
           <div>
             <SocialIcons></SocialIcons>
           </div>
-          <div className="text-lg py-5 text-justifytracking-tighter font-poppins">
+          <div className="text-lg py-5">
             Let’s build the next big thing together
           </div>
         </div>
