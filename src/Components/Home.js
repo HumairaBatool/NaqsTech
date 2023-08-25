@@ -8,7 +8,8 @@ import FaqsGetInTouch from './HomeFaqsGetInTouch';
 import Section3 from "./Home-Section3";
 import LatestNews from './Latest-News';
 import SliderHome from "./SliderHome";
-import SliderHomeTwo from "./SliderHomeTwo"
+import SliderHomeTwo from "./SliderHomeTwo";
+import GDReviews from "./GD-Reviews";
 
 function Home() {
   return (
